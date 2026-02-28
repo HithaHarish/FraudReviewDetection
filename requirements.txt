@@ -1,9 +1,10 @@
+streamlit>=1.32.0
 numpy
 pandas
 scikit-learn
-streamlit
 nltk
 spacy
 openpyxl
 matplotlib
 seaborn
+altair==4.2.2

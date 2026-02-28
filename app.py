@@ -26,6 +26,20 @@ st.set_page_config(
 def main():
 
     # ---------------------------
+    # SESSION STATE INIT (required for Streamlit Cloud)
+    # ---------------------------
+    if "model_saved" not in st.session_state:
+        st.session_state.model_saved = False
+    if "training_df" not in st.session_state:
+        st.session_state.training_df = None
+    if "accuracy" not in st.session_state:
+        st.session_state.accuracy = 0.0
+    if "roc_auc" not in st.session_state:
+        st.session_state.roc_auc = 0.0
+    if "preprocessed" not in st.session_state:
+        st.session_state.preprocessed = None
+
+    # ---------------------------
     # UI SECTIONS
     # ---------------------------
     load_styles()
@@ -134,144 +148,147 @@ def main():
     # ======================================================
     # FRAUD RISK INSPECTION (NO RETRAINING)
     # ======================================================
-    if "training_df" in st.session_state:
+    training_df = st.session_state.get("training_df")
+    saved = st.session_state.get("model_saved", False)
 
-        training_df = st.session_state.training_df
-        saved = st.session_state.model_saved
-        reviews_df = st.session_state.reviews_df
-        users_df = st.session_state.users_df
-        products_df = st.session_state.products_df
-        orders_df = st.session_state.orders_df
-        platforms_df = st.session_state.platforms_df
+    if training_df is not None and saved:
+        reviews_df = st.session_state.get("reviews_df")
+        users_df = st.session_state.get("users_df")
+        products_df = st.session_state.get("products_df")
+        orders_df = st.session_state.get("orders_df")
+        platforms_df = st.session_state.get("platforms_df")
 
-        model = saved["model"]
-        feature_list = saved["features"]
+        if reviews_df is None or users_df is None or products_df is None:
+            st.warning("Session data missing. Please re-upload files and click Preprocess Data.")
+        else:
+            model = saved["model"]
+            feature_list = saved["features"]
 
-        st.markdown("""
+            st.markdown("""
         <div class="section-heading">Fraud Risk Inspection</div>
         <div class="section-underline"></div>
         """, unsafe_allow_html=True)
 
-        review_ids = training_df["review_id"].unique()
+            review_ids = training_df["review_id"].unique()
 
-        selected_review_id = st.selectbox(
-            "Select Review",
-            review_ids,
-            key="review_selector"
-        )
+            selected_review_id = st.selectbox(
+                "Select Review",
+                review_ids,
+                key="review_selector"
+            )
 
-        selected_row = training_df[
-            training_df["review_id"] == selected_review_id
-        ]
+            selected_row = training_df[
+                training_df["review_id"] == selected_review_id
+            ]
 
-        if not selected_row.empty:
+            if not selected_row.empty:
 
-            selected_row = selected_row.copy()
+                selected_row = selected_row.copy()
 
-            customer_id = selected_row["customer_id"].values[0]
-            product_id = selected_row["product_id"].values[0]
+                customer_id = selected_row["customer_id"].values[0]
+                product_id = selected_row["product_id"].values[0]
 
-            def _col(df, *candidates):
-                for c in candidates:
-                    if c in df.columns:
-                        return c
-                return None
+                def _col(df, *candidates):
+                    for c in candidates:
+                        if c in df.columns:
+                            return c
+                    return None
 
-            def _val(row, *candidates, default="-"):
-                if row is None:
+                def _val(row, *candidates, default="-"):
+                    if row is None:
+                        return default
+                    for c in candidates:
+                        if c in row.index:
+                            v = row[c]
+                            return "-" if pd.isna(v) else str(v)
                     return default
-                for c in candidates:
-                    if c in row.index:
-                        v = row[c]
-                        return "-" if pd.isna(v) else str(v)
-                return default
 
-            rid_col = _col(reviews_df, "review_id", "Review_ID") or "review_id"
-            product_col = _col(products_df, "product_id", "Product_ID") or "product_id"
-            customer_col = _col(users_df, "customer_id", "Customer_ID") or "customer_id"
-            review_row = reviews_df[reviews_df[rid_col] == selected_review_id]
-            review_row = review_row.iloc[0] if not review_row.empty else None
+                rid_col = _col(reviews_df, "review_id", "Review_ID") or "review_id"
+                product_col = _col(products_df, "product_id", "Product_ID") or "product_id"
+                customer_col = _col(users_df, "customer_id", "Customer_ID") or "customer_id"
+                review_row = reviews_df[reviews_df[rid_col] == selected_review_id]
+                review_row = review_row.iloc[0] if not review_row.empty else None
 
-            product_row = products_df[products_df[product_col] == product_id]
-            product_row = product_row.iloc[0] if not product_row.empty else None
+                product_row = products_df[products_df[product_col] == product_id]
+                product_row = product_row.iloc[0] if not product_row.empty else None
 
-            user_row = users_df[users_df[customer_col] == customer_id]
-            user_row = user_row.iloc[0] if not user_row.empty else None
+                user_row = users_df[users_df[customer_col] == customer_id]
+                user_row = user_row.iloc[0] if not user_row.empty else None
 
-            platform_name = ""
-            if review_row is not None:
-                pid_col = _col(reviews_df, "platform_id", "Platform_ID")
-                if pid_col:
-                    pid = review_row[pid_col]
-                    plat_id_col = _col(platforms_df, "platform_id", "Platform_ID")
-                    plat_name_col = _col(platforms_df, "platform_name", "Platform_Name")
-                    if plat_id_col and plat_name_col:
-                        plat = platforms_df[platforms_df[plat_id_col].astype(str) == str(pid)]
-                        if not plat.empty:
-                            platform_name = plat.iloc[0][plat_name_col]
+                platform_name = ""
+                if review_row is not None:
+                    pid_col = _col(reviews_df, "platform_id", "Platform_ID")
+                    if pid_col:
+                        pid = review_row[pid_col]
+                        plat_id_col = _col(platforms_df, "platform_id", "Platform_ID")
+                        plat_name_col = _col(platforms_df, "platform_name", "Platform_Name")
+                        if plat_id_col and plat_name_col:
+                            plat = platforms_df[platforms_df[plat_id_col].astype(str) == str(pid)]
+                            if not plat.empty:
+                                platform_name = plat.iloc[0][plat_name_col]
 
-            col3, col4 = st.columns([3, 1])
-            with col3:
-                original_review = _val(review_row, "review_text", "Review_Text", default="")
-                st.text_area("Review Text", original_review, height=150)
+                col3, col4 = st.columns([3, 1])
+                with col3:
+                    original_review = _val(review_row, "review_text", "Review_Text", default="")
+                    st.text_area("Review Text", original_review, height=150)
 
-            prediction, risk_score = predict_review(
-                model,
-                feature_list,
-                selected_row
-            )
+                prediction, risk_score = predict_review(
+                    model,
+                    feature_list,
+                    selected_row
+                )
 
-            with col4:
-                st.metric("Fraud Risk Score", f"{risk_score * 100:.2f}%")
+                with col4:
+                    st.metric("Fraud Risk Score", f"{risk_score * 100:.2f}%")
 
-            st.markdown(
-                "<div class='dataset-heading'>Review Details</div>",
-                unsafe_allow_html=True
-            )
-            r1, r2 = st.columns(2)
-            with r1:
-                st.text_input("Rating", value=_val(review_row, "rating", "Rating"), disabled=True, key="ri_rating")
-                st.text_input("Verified Purchase", value=_val(review_row, "verified_purchase", "Verified_Purchase"), disabled=True, key="ri_verified")
-            with r2:
-                st.text_input("Platform", value=platform_name or _val(review_row, "platform_id", "Platform_ID"), disabled=True, key="ri_platform")
-                st.text_input("Refunded", value=_val(review_row, "refunded_product", "Refunded_Product"), disabled=True, key="ri_refunded")
+                st.markdown(
+                    "<div class='dataset-heading'>Review Details</div>",
+                    unsafe_allow_html=True
+                )
+                r1, r2 = st.columns(2)
+                with r1:
+                    st.text_input("Rating", value=_val(review_row, "rating", "Rating"), disabled=True, key="ri_rating")
+                    st.text_input("Verified Purchase", value=_val(review_row, "verified_purchase", "Verified_Purchase"), disabled=True, key="ri_verified")
+                with r2:
+                    st.text_input("Platform", value=platform_name or _val(review_row, "platform_id", "Platform_ID"), disabled=True, key="ri_platform")
+                    st.text_input("Refunded", value=_val(review_row, "refunded_product", "Refunded_Product"), disabled=True, key="ri_refunded")
 
-            st.markdown(
-                "<div class='dataset-heading'>Product Details</div>",
-                unsafe_allow_html=True
-            )
-            p1, p2 = st.columns(2)
-            with p1:
-                st.text_input("Name", value=_val(product_row, "name", "Name", "product_name"), disabled=True, key="pi_name")
-                st.text_input("Brand", value=_val(product_row, "brand", "Brand"), disabled=True, key="pi_brand")
-            with p2:
-                st.text_input("Category", value=_val(product_row, "category", "Category"), disabled=True, key="pi_category")
+                st.markdown(
+                    "<div class='dataset-heading'>Product Details</div>",
+                    unsafe_allow_html=True
+                )
+                p1, p2 = st.columns(2)
+                with p1:
+                    st.text_input("Name", value=_val(product_row, "name", "Name", "product_name"), disabled=True, key="pi_name")
+                    st.text_input("Brand", value=_val(product_row, "brand", "Brand"), disabled=True, key="pi_brand")
+                with p2:
+                    st.text_input("Category", value=_val(product_row, "category", "Category"), disabled=True, key="pi_category")
 
-            st.markdown(
-                "<div class='dataset-heading'>Customer Details</div>",
-                unsafe_allow_html=True
-            )
-            st.text_input("Account Created", value=_val(user_row, "account_created", "Account_Created"), disabled=True, key="ui_account_created")
+                st.markdown(
+                    "<div class='dataset-heading'>Customer Details</div>",
+                    unsafe_allow_html=True
+                )
+                st.text_input("Account Created", value=_val(user_row, "account_created", "Account_Created"), disabled=True, key="ui_account_created")
 
-            st.divider()
+                st.divider()
 
-            # ======================================================
-            # DYNAMIC SUMMARY (generated from feature values & importance)
-            # ======================================================
-            st.markdown("""
-            <div class="section-heading">Summary</div>
-            <div class="section-underline"></div>
-            """, unsafe_allow_html=True)
+                # ======================================================
+                # DYNAMIC SUMMARY (generated from feature values & importance)
+                # ======================================================
+                st.markdown("""
+                <div class="section-heading">Summary</div>
+                <div class="section-underline"></div>
+                """, unsafe_allow_html=True)
 
-            feature_importance = model.feature_importances_
-            summary_text = generate_fraud_summary(
-                selected_row,
-                feature_list,
-                feature_importance,
-                risk_score,
-                prediction,
-            )
-            st.markdown(summary_text)
+                feature_importance = model.feature_importances_
+                summary_text = generate_fraud_summary(
+                    selected_row,
+                    feature_list,
+                    feature_importance,
+                    risk_score,
+                    prediction,
+                )
+                st.markdown(summary_text)
 
 
 if __name__ == "__main__":

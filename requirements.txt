@@ -10,3 +10,5 @@ seaborn
 altair==4.2.2
 vaderSentiment
 sentence-transformers
+torch
+xgboost

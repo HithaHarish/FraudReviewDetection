@@ -1,43 +1,34 @@
 import xgboost as xgb
 import joblib
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import (
-    roc_auc_score,
-    accuracy_score
-)
 
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import roc_auc_score, accuracy_score
 
 def train_xgboost_model(training_df):
+    # -------------------------------------------------
+    # Remove non-feature columns
+    # -------------------------------------------------
 
-    # -----------------------------------------
-    # Remove leakage features safely
-    # -----------------------------------------
-    leakage_features = [
-        "sentiment_intensity",
-        "rating_sentiment_mismatch",
-        "product_relevance_score"
+    drop_columns = [
+        "review_id",
+        "customer_id",
+        "product_id",
+        "review_text",
+        "review_timestamp",
+        "account_created",
+        "label"
     ]
 
-    existing_leakage = [
-        col for col in leakage_features
-        if col in training_df.columns
-    ]
+    existing_cols = [c for c in drop_columns if c in training_df.columns]
 
-    X = training_df.drop(
-        columns=[
-            "review_id",
-            "customer_id",
-            "product_id",
-            "label"
-        ] + existing_leakage,
-        errors="ignore"
-    )
+    X = training_df.drop(columns=existing_cols, errors="ignore")
 
     y = training_df["label"]
 
-    # -----------------------------------------
+    # -------------------------------------------------
     # Train-Test Split
-    # -----------------------------------------
+    # -------------------------------------------------
+
     X_train, X_test, y_train, y_test = train_test_split(
         X,
         y,
@@ -46,17 +37,19 @@ def train_xgboost_model(training_df):
         stratify=y
     )
 
-    # -----------------------------------------
-    # Handle Imbalance
-    # -----------------------------------------
+    # -------------------------------------------------
+    # Handle Class Imbalance
+    # -------------------------------------------------
+
     fraud_count = sum(y)
     non_fraud_count = len(y) - fraud_count
 
     scale_pos_weight = non_fraud_count / (fraud_count + 1)
 
-    # -----------------------------------------
-    # Model
-    # -----------------------------------------
+    # -------------------------------------------------
+    # XGBoost Model
+    # -------------------------------------------------
+
     model = xgb.XGBClassifier(
         n_estimators=300,
         max_depth=6,
@@ -69,21 +62,27 @@ def train_xgboost_model(training_df):
 
     model.fit(X_train, y_train)
 
-    # -----------------------------------------
+    # -------------------------------------------------
     # Evaluation
-    # -----------------------------------------
+    # -------------------------------------------------
+
     y_pred = model.predict(X_test)
     y_prob = model.predict_proba(X_test)[:, 1]
 
     accuracy = accuracy_score(y_test, y_pred)
     roc_auc = roc_auc_score(y_test, y_prob)
 
-    # -----------------------------------------
-    # Save Model + Feature List
-    # -----------------------------------------
-    joblib.dump({
-        "model": model,
-        "features": X.columns.tolist()
-    }, "services/models/xgb_fraud_model.pkl")
+    # -------------------------------------------------
+    # Save Model
+    # -------------------------------------------------
+
+    joblib.dump(
+        {
+            "model": model,
+            "features": X.columns.tolist()
+        },
+        "services/models/xgb_fraud_model.pkl"
+    )
 
     return model, accuracy, roc_auc
+

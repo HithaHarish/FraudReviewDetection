@@ -1,4 +1,5 @@
 streamlit>=1.32.0
+python-dotenv
 numpy
 pandas
 scikit-learn
@@ -12,3 +13,5 @@ vaderSentiment
 sentence-transformers
 torch
 xgboost
+shap
+openai

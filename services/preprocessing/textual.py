@@ -8,20 +8,17 @@ from sklearn.metrics.pairwise import cosine_similarity
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 from sentence_transformers import SentenceTransformer
 
-
 def textual_training_dataset(reviews_df, products_df):
-
     df = reviews_df.copy()
-    df["review_text"] = df["review_text"].fillna("")
+    df["review_text"] = df["review_text"].fillna("").astype(str)
 
     # -------------------------------------------------
-    # 1️⃣ Basic Structural Features
+    # 1️⃣ BASIC STRUCTURAL FEATURES
     # -------------------------------------------------
 
-    df["length"] = df["review_text"].apply(lambda x: len(str(x).split()))
+    df["review_length"] = df["review_text"].apply(lambda x: len(x.split()))
 
     def capital_ratio(text):
-        text = str(text)
         if len(text) == 0:
             return 0
         return sum(c.isupper() for c in text) / len(text)
@@ -29,20 +26,48 @@ def textual_training_dataset(reviews_df, products_df):
     df["capital_ratio"] = df["review_text"].apply(capital_ratio)
 
     def punctuation_density(text):
-        text = str(text)
         return len(re.findall(r"[!?,.;:]", text)) / (len(text) + 1)
 
     df["punctuation_density"] = df["review_text"].apply(punctuation_density)
 
+    # -------------------------------------------------
+    # 2️⃣ ADDITIONAL FRAUD TEXT FEATURES (NEW)
+    # -------------------------------------------------
+
+    # ALL CAPS detection
+    df["all_caps_flag"] = (df["capital_ratio"] > 0.6).astype(int)
+
+    # Generic short review detection
+    df["generic_short_review"] = (df["review_length"] <= 3).astype(int)
+
+    # Promotional phrase detection
+    promo_phrases = [
+        "must buy",
+        "highly recommend",
+        "best product",
+        "life changing",
+        "perfect product",
+        "amazing product",
+        "worth every penny",
+        "buy this",
+        "excellent product"
+    ]
+
+    def promo_phrase_flag(text):
+        text = text.lower()
+        return int(any(p in text for p in promo_phrases))
+
+    df["promo_phrase_flag"] = df["review_text"].apply(promo_phrase_flag)
+
     # Structural indicator score
     df["structural_score"] = (
-        df["capital_ratio"] * 0.4 +
-        df["punctuation_density"] * 0.4 +
-        (df["length"] < 5).astype(int) * 0.2
+        df["capital_ratio"] * 0.3 +
+        df["punctuation_density"] * 0.3 +
+        df["generic_short_review"] * 0.4
     )
 
     # -------------------------------------------------
-    # 2️⃣ Sentiment Score (VADER)
+    # 3️⃣ SENTIMENT SCORE (VADER)
     # -------------------------------------------------
 
     analyzer = SentimentIntensityAnalyzer()
@@ -59,11 +84,11 @@ def textual_training_dataset(reviews_df, products_df):
     )
 
     # -------------------------------------------------
-    # 3️⃣ Repetition Score (Lexical Diversity)
+    # 4️⃣ REPETITION SCORE
     # -------------------------------------------------
 
     def repetition_score(text):
-        words = str(text).lower().split()
+        words = text.lower().split()
         if len(words) == 0:
             return 0
         return 1 - (len(set(words)) / len(words))
@@ -71,7 +96,7 @@ def textual_training_dataset(reviews_df, products_df):
     df["repetition_score"] = df["review_text"].apply(repetition_score)
 
     # -------------------------------------------------
-    # 4️⃣ TF-IDF (For Promotional Detection + ML Input)
+    # 5️⃣ TF-IDF PROMOTIONAL INTENSITY
     # -------------------------------------------------
 
     vectorizer = TfidfVectorizer(
@@ -81,17 +106,13 @@ def textual_training_dataset(reviews_df, products_df):
     )
 
     tfidf_matrix = vectorizer.fit_transform(df["review_text"])
-    tfidf_df = pd.DataFrame(
-        tfidf_matrix.toarray(),
-        columns=vectorizer.get_feature_names_out()
+
+    df["promotional_intensity"] = (
+        tfidf_matrix.max(axis=1).toarray().flatten()
     )
 
-    # Promotional score:
-    # Detect unusually high TF-IDF weight concentration
-    df["promotional_score"] = tfidf_matrix.max(axis=1).toarray().flatten()
-
     # -------------------------------------------------
-    # 5️⃣ Product Detail Score (Semantic Similarity)
+    # 6️⃣ PRODUCT RELEVANCE (SEMANTIC SIMILARITY)
     # -------------------------------------------------
 
     model = SentenceTransformer("all-MiniLM-L6-v2")
@@ -112,10 +133,11 @@ def textual_training_dataset(reviews_df, products_df):
     product_embeddings = model.encode(product_text.tolist())
 
     similarities = cosine_similarity(review_embeddings, product_embeddings)
-    df["product_detail_score"] = similarities.diagonal()
+
+    df["product_relevance_score"] = similarities.diagonal()
 
     # -------------------------------------------------
-    # 6️⃣ Rating–Sentiment Mismatch
+    # 7️⃣ RATING SENTIMENT MISMATCH
     # -------------------------------------------------
 
     def mismatch(row):
@@ -131,21 +153,24 @@ def textual_training_dataset(reviews_df, products_df):
     df["rating_sentiment_mismatch"] = df.apply(mismatch, axis=1)
 
     # -------------------------------------------------
-    # 7️⃣ Create Label (For Training)
+    # 8️⃣ IMPROVED PSEUDO LABEL
     # -------------------------------------------------
-    # For now, pseudo-label:
-    # High exaggeration + low product similarity + mismatch
 
     df["label"] = (
         (
             (df["sentiment_intensity"] > 0.8) &
-            (df["product_detail_score"] < 0.3)
-        ) |
+            (df["product_relevance_score"] < 0.35)
+        )
+        |
+        (df["promo_phrase_flag"] == 1)
+        |
+        (df["all_caps_flag"] == 1)
+        |
         (df["rating_sentiment_mismatch"] == 1)
     ).astype(int)
 
     # -------------------------------------------------
-    # Final Feature Set
+    # FINAL FEATURE SET
     # -------------------------------------------------
 
     final_df = df[
@@ -153,23 +178,19 @@ def textual_training_dataset(reviews_df, products_df):
             "review_id",
             "sentiment_score",
             "sentiment_intensity",
-            "product_detail_score",
-            "length",
+            "product_relevance_score",
+            "review_length",
             "capital_ratio",
             "punctuation_density",
             "structural_score",
             "repetition_score",
-            "promotional_score",
+            "promotional_intensity",
+            "promo_phrase_flag",
+            "all_caps_flag",
+            "generic_short_review",
             "rating_sentiment_mismatch",
             "label"
         ]
     ].copy()
-
-    # Rename columns professionally
-    final_df = final_df.rename(columns={
-        "product_detail_score": "product_relevance_score",
-        "length": "review_length",
-        "promotional_score": "promotional_intensity"
-    })
 
     return final_df, vectorizer

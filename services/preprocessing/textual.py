@@ -152,6 +152,7 @@ def textual_training_dataset(reviews_df, products_df):
 
     df["rating_sentiment_mismatch"] = df.apply(mismatch, axis=1)
 
+<<<<<<< HEAD
     # -------------------------------------------------
     # 8️⃣ IMPROVED PSEUDO LABEL
     # -------------------------------------------------
@@ -168,6 +169,22 @@ def textual_training_dataset(reviews_df, products_df):
         |
         (df["rating_sentiment_mismatch"] == 1)
     ).astype(int)
+=======
+    if "is_fraud" in df.columns:
+        df["label"] = df["is_fraud"].astype(int)
+    elif "is_fraud" in reviews_df.columns:
+        df["label"] = reviews_df["is_fraud"].astype(int)
+    else:
+        # Fallback pseudo-label:
+        # High exaggeration + low product similarity + mismatch
+        df["label"] = (
+            (
+                (df["sentiment_intensity"] > 0.8) &
+                (df["product_detail_score"] < 0.3)
+            ) |
+            (df["rating_sentiment_mismatch"] == 1)
+        ).astype(int)
+>>>>>>> 393cadb (Updated - changes needed in model training)
 
     # -------------------------------------------------
     # FINAL FEATURE SET

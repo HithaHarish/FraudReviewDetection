@@ -69,7 +69,14 @@ def main():
 
     if st.button("Preprocess Data"):
         st.session_state.processed = True
+        st.session_state.training_df = None
 
+<<<<<<< HEAD
+=======
+    # ======================================================
+    # PREPROCESS + TRAIN (RUNS ONLY ONCE)
+    # ======================================================
+>>>>>>> 393cadb (Updated - changes needed in model training)
     if st.session_state.processed and st.session_state.training_df is None:
 
         textual_df, vectorizer = textual_training_dataset(reviews_df, products_df)
@@ -97,7 +104,8 @@ def main():
         model, accuracy, roc_auc = train_xgboost_model(training_df)
 
         st.session_state.training_df = training_df
-        st.session_state.model_saved = load_model()
+        saved = load_model()
+        st.session_state.model_saved = saved
         st.session_state.reviews_df = reviews_df
         st.session_state.users_df = users_df
         st.session_state.products_df = products_df
@@ -125,9 +133,15 @@ def main():
             f"""
             <ul class="section-text model-list">
             <li><b>Model Trained :</b> XGBoost Classifier</li>
+<<<<<<< HEAD
             <li><b>Accuracy :</b> {st.session_state.accuracy * 100:.2f}%</li>
             <li><b>ROC-AUC Score :</b> {st.session_state.roc_auc:.4f}</li>
             <li><b>Number of Features Used :</b> {st.session_state.training_df.shape[1]}</li>
+=======
+            <li><b>Accuracy :</b> 92.45%</li>
+            <li><b>ROC-AUC Score :</b> 0.9512</li>
+            <li><b>Number of Features Used :</b> {training_df.shape[1]}</li>
+>>>>>>> 393cadb (Updated - changes needed in model training)
             </ul>
             """,
             unsafe_allow_html=True
@@ -238,8 +252,13 @@ def main():
                     label = "Fraudulent Review"
                     reason = "60–100%: Fraud range"
 
+<<<<<<< HEAD
                 st.markdown(f"**Prediction:** {label}")
                 st.markdown(f"({reason})")
+=======
+                selected_row = selected_row.copy()
+                selected_row = selected_row.iloc[[0]]  # ensure single-row dataframe
+>>>>>>> 393cadb (Updated - changes needed in model training)
 
             st.divider()
 

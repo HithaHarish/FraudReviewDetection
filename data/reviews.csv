@@ -1,201 +1,1001 @@
-review_id,customer_id,product_id,platform_id,review_text,review_timestamp,rating,verified_purchase,refunded_product
-R00001,C0044,P0001,2,Amazing! The SportMax Fitness Tracker Pro exceeded expectations. Good Health.,2023-08-11 19:44:00,4,True,False
-R00002,C0036,P0018,1,Terrible. Worst purchase. Do not buy. Horrible experience.,2023-12-12 07:44:00,5,False,False
-R00003,C0061,P0021,3,Amazing product! Best purchase ever! Love it!,2023-08-02 09:42:00,1,True,False
-R00004,C0075,P0012,2,The Car Phone Mount arrived on time. As a Home & Garden product it meets expectations.,2023-11-27 14:17:00,4,False,False
-R00005,C0040,P0009,1,AMAZING MUST BUY,2023-11-24 05:12:00,4,False,False
-R00006,C0028,P0024,2,INCREDIBLE!!! PERFECT!!! AMAZING!!! No words!!! !!!,2023-06-26 06:18:00,5,True,False
-R00007,C0030,P0012,1,OMG!!! BEST!!! EVER!!! Changed my LIFE!!! !!!!!,2023-08-14 22:08:00,2,True,True
-R00008,C0063,P0004,1,The Yoga Mat Premium is a reasonable Home & Garden option. BeautyGlow quality is fine.,2023-08-04 15:07:00,4,True,False
-R00009,C0009,P0013,2,BEST PURCHASE EVER!!! INCREDIBLE!!! FIVE STARS!!! BUY NOW!!!,2023-06-22 07:07:00,3,False,False
-R00010,C0072,P0025,2,The Automotive Wireless Mouse is functional. No major issues with the TechPro build.,2023-09-22 09:55:00,3,True,False
-R00011,C0076,P0014,2,The Camping Tent 4-Person from EcoFriendly works well. Good Kitchen item for the price.,2023-07-24 20:13:00,4,False,False
-R00012,C0034,P0022,1,BEST BEST BEST!!! AMAZING!!! MUST BUY!!! !!! ??? ...,2023-11-24 19:30:00,4,True,False
-R00013,C0038,P0002,1,INCREDIBLE!!! BUY!!!,2023-08-07 20:37:00,5,True,False
-R00014,C0026,P0014,1,Great quality! Exactly what I needed! Perfect!,2023-07-13 09:38:00,1,False,True
-R00015,C0073,P0030,2,Disappointing. Waste of money. Regret buying.,2023-10-07 17:31:00,5,True,False
-R00016,C0057,P0003,3,amazing amazing amazing must must must buy buy buy,2023-07-29 21:53:00,5,True,True
-R00017,C0074,P0019,1,Love the Hiking Backpack! Best Clothing I've tried from StyleCo.,2023-10-11 20:28:00,4,False,False
-R00018,C0036,P0006,3,Amazing product! Best purchase ever! Love it!,2023-08-22 21:06:00,1,True,False
-R00019,C0021,P0011,2,Good Sports choice. The Organic Face Cream fits my needs.,2023-06-10 14:05:00,4,True,False
-R00020,C0041,P0009,2,great great great product product product buy buy buy now now now,2023-10-17 14:26:00,5,False,True
-R00021,C0007,P0007,3,Absolutely INCREDIBLE!!! The BEST thing I have EVER bought!!! Life changing!!!,2023-10-19 04:59:00,4,False,False
-R00022,C0037,P0015,3,Awful product. Complete waste. Returned immediately.,2023-07-11 09:35:00,5,True,False
-R00023,C0002,P0018,2,INCREDIBLE!!! BEST!!! FANTASTIC!!! RECOMMEND!!! ???,2023-10-06 22:18:00,4,True,False
-R00024,C0066,P0023,2,Disappointing. Waste of money. Regret buying.,2023-09-07 06:58:00,5,True,False
-R00025,C0077,P0017,3,Great product! The Electric Toothbrush is exactly what I needed for Clothing.,2023-10-08 08:52:00,4,False,False
-R00026,C0001,P0010,3,INCREDIBLE!!! PERFECT!!! AMAZING!!! No words!!! !!!,2023-09-23 17:30:00,4,True,False
-R00027,C0045,P0011,3,Solid AutoParts Sports item. The Organic Face Cream performs adequately.,2023-11-26 07:36:00,4,True,False
-R00028,C0050,P0008,2,Absolutely INCREDIBLE!!! The BEST thing I have EVER bought!!! Life changing!!!,2023-11-17 20:09:00,5,False,False
-R00029,C0064,P0002,1,Amazing product! Best purchase ever! Love it!,2023-10-13 14:00:00,1,False,False
-R00030,C0019,P0014,3,Great product! The Camping Tent 4-Person is exactly what I needed for Kitchen.,2023-11-25 12:41:00,4,False,False
-R00031,C0011,P0028,2,The Cooking Utensils is fantastic. Highly recommend this HealthFirst Electronics.,2023-10-03 17:02:00,5,True,False
-R00032,C0080,P0003,1,Good Home & Garden choice. The Garden Hose 50ft fits my needs.,2023-06-26 20:45:00,5,False,False
-R00033,C0013,P0015,1,The Resistance Bands from ReadWell works well. Good Toys item for the price.,2023-09-04 13:09:00,1,False,False
-R00034,C0032,P0017,2,Decent Clothing product. The Electric Toothbrush does what it says.,2023-11-06 21:15:00,3,True,False
-R00035,C0064,P0030,3,love love love it it it best best best,2023-09-28 09:43:00,4,True,False
-R00036,C0070,P0006,1,Awful product. Complete waste. Returned immediately.,2023-11-24 08:29:00,5,True,False
-R00037,C0039,P0007,2,Great product! The Bluetooth Speaker is exactly what I needed for Clothing.,2023-11-27 09:01:00,4,True,False
-R00038,C0051,P0009,1,The Vitamin D Supplement from SportMax works well. Good Toys item for the price.,2023-08-13 07:38:00,5,False,False
-R00039,C0046,P0008,3,PERFECT FIVE STARS!!!,2023-07-06 20:06:00,5,False,False
-R00040,C0006,P0010,2,best best best amazing amazing amazing love love love it it it,2023-12-09 13:11:00,5,True,False
-R00041,C0026,P0005,3,Love the LED Desk Lamp! Best Electronics I've tried from KitchenKing.,2023-08-05 15:51:00,4,False,False
-R00042,C0038,P0024,2,The Protein Powder is a reasonable Toys option. PlayFun quality is fine.,2023-11-21 23:43:00,5,True,False
-R00043,C0051,P0028,3,great great great product product product buy buy buy now now now,2023-11-20 23:43:00,1,True,False
-R00044,C0034,P0019,2,The Hiking Backpack arrived on time. As a Clothing product it meets expectations.,2023-10-22 10:58:00,2,True,True
-R00045,C0079,P0008,3,love love love it it it best best best,2023-07-06 01:02:00,5,True,False
-R00046,C0039,P0016,1,OMG!!! BEST!!! EVER!!! Changed my LIFE!!! !!!!!,2023-12-08 22:34:00,2,True,False
-R00047,C0054,P0019,3,Solid StyleCo Clothing item. The Hiking Backpack performs adequately.,2023-08-11 01:44:00,4,False,False
-R00048,C0048,P0007,2,Disappointing. Waste of money. Regret buying.,2023-10-18 20:22:00,5,True,False
-R00049,C0008,P0013,2,INCREDIBLE!!! BEST!!! FANTASTIC!!! RECOMMEND!!! ???,2023-07-25 20:40:00,5,False,True
-R00050,C0077,P0001,1,The SportMax Fitness Tracker Pro is okay. Expected more for a Health item.,2023-12-13 17:13:00,5,False,False
-R00051,C0076,P0007,1,WOW!!! AMAZING!!! GAME CHANGER!!! GET IT NOW!!!,2023-07-08 04:34:00,5,True,False
-R00052,C0033,P0026,1,AMAZING PRODUCT LIFE CHANGING EXPERIENCE MUST BUY IT NOW !!!!!,2023-10-29 10:01:00,2,True,False
-R00053,C0023,P0009,1,amazing amazing amazing must must must buy buy buy,2023-12-17 11:32:00,4,False,False
-R00054,C0076,P0004,2,Amazing product! Best purchase ever! Love it!,2023-11-16 16:19:00,1,False,False
-R00055,C0059,P0021,1,Absolutely INCREDIBLE!!! The BEST thing I have EVER bought!!! Life changing!!!,2023-11-30 14:04:00,5,True,False
-R00056,C0011,P0011,3,WOW!!! AMAZING!!! GAME CHANGER!!! GET IT NOW!!!,2023-08-23 12:38:00,3,True,False
-R00057,C0068,P0010,2,Awful product. Complete waste. Returned immediately.,2023-12-14 17:46:00,5,True,False
-R00058,C0028,P0014,2,The Camping Tent 4-Person is fantastic. Highly recommend this EcoFriendly Kitchen.,2023-06-25 10:27:00,4,True,False
-R00059,C0041,P0022,2,WOW!!! AMAZING!!! GAME CHANGER!!! GET IT NOW!!!,2023-06-22 02:27:00,5,True,True
-R00060,C0013,P0024,3,WOW!!! AMAZING!!! GAME CHANGER!!! GET IT NOW!!!,2023-08-24 21:07:00,4,True,False
-R00061,C0053,P0012,3,The Car Phone Mount is fantastic. Highly recommend this SportMax Home & Garden.,2023-11-01 09:22:00,5,False,False
-R00062,C0014,P0019,3,Absolutely INCREDIBLE!!! The BEST thing I have EVER bought!!! Life changing!!!,2023-09-03 03:48:00,3,True,False
-R00063,C0036,P0019,1,Works as described. The Hiking Backpack from StyleCo is a decent Clothing product.,2023-11-12 17:01:00,5,False,False
-R00064,C0078,P0030,3,Good Home & Garden choice. The Water Bottle Insulated fits my needs.,2023-08-26 11:00:00,1,True,False
-R00065,C0024,P0028,1,Solid HealthFirst Electronics item. The Cooking Utensils performs adequately.,2023-06-24 23:33:00,2,False,False
-R00066,C0028,P0013,2,Disappointing. Waste of money. Regret buying.,2023-10-24 19:05:00,5,False,False
-R00067,C0007,P0005,1,The LED Desk Lamp from KitchenKing works well. Good Electronics item for the price.,2023-10-03 19:28:00,4,True,False
-R00068,C0054,P0009,1,Received the Vitamin D Supplement quickly. The SportMax Toys quality is solid.,2023-10-30 15:33:00,3,True,False
-R00069,C0040,P0002,1,BEST PURCHASE EVER!!! INCREDIBLE!!! FIVE STARS!!! BUY NOW!!!,2023-07-06 08:18:00,1,True,False
-R00070,C0042,P0004,1,Terrible. Worst purchase. Do not buy. Horrible experience.,2023-10-07 17:53:00,5,True,False
-R00071,C0046,P0003,2,Great product! The Garden Hose 50ft is exactly what I needed for Home & Garden.,2023-08-20 18:27:00,4,True,True
-R00072,C0074,P0013,3,Good Home & Garden choice. The Coffee Maker fits my needs.,2023-11-06 14:53:00,2,True,False
-R00073,C0047,P0003,2,The EcoFriendly Garden Hose 50ft is okay. Expected more for a Home & Garden item.,2023-08-19 23:21:00,4,True,True
-R00074,C0029,P0011,1,INCREDIBLE!!! BEST!!! FANTASTIC!!! RECOMMEND!!! ???,2023-08-29 23:52:00,4,True,False
-R00075,C0019,P0008,1,AMAZING MUST BUY,2023-06-20 05:49:00,3,True,False
-R00076,C0064,P0015,3,The Resistance Bands is a reasonable Toys option. ReadWell quality is fine.,2023-11-07 10:55:00,4,False,False
-R00077,C0041,P0005,2,love love love it it it best best best,2023-08-30 16:04:00,4,False,False
-R00078,C0040,P0015,2,best best best amazing amazing amazing love love love it it it,2023-06-24 19:38:00,5,True,False
-R00079,C0065,P0013,2,The Coffee Maker from AutoParts works well. Good Home & Garden item for the price.,2023-08-22 19:30:00,4,False,False
-R00080,C0065,P0005,1,Great quality! Exactly what I needed! Perfect!,2023-11-13 05:02:00,1,False,True
-R00081,C0032,P0023,2,Amazing! The Premium Board Game Family exceeded expectations. Good Books.,2023-12-16 10:43:00,4,False,False
-R00082,C0077,P0002,3,Received the Wireless Earbuds quickly. The ProSeries Electronics quality is solid.,2023-08-04 23:54:00,3,True,False
-R00083,C0078,P0028,1,INCREDIBLE!!! PERFECT!!! AMAZING!!! No words!!! !!!,2023-11-15 22:42:00,5,False,False
-R00084,C0051,P0005,3,Received the LED Desk Lamp quickly. The KitchenKing Electronics quality is solid.,2023-07-03 21:44:00,3,True,False
-R00085,C0068,P0003,3,Works as described. The Garden Hose 50ft from EcoFriendly is a decent Home & Garden product.,2023-07-25 10:49:00,3,True,False
-R00086,C0063,P0007,1,Amazing! The EcoFriendly Bluetooth Speaker exceeded expectations. Good Clothing.,2023-12-15 17:53:00,3,False,False
-R00087,C0068,P0002,3,WOW!!! AMAZING!!! GAME CHANGER!!! GET IT NOW!!!,2023-11-25 19:51:00,4,True,False
-R00088,C0022,P0024,2,best best best amazing amazing amazing love love love it it it,2023-08-12 23:50:00,5,True,False
-R00089,C0058,P0008,3,Absolutely INCREDIBLE!!! The BEST thing I have EVER bought!!! Life changing!!!,2023-10-25 14:29:00,5,True,False
-R00090,C0037,P0025,2,Terrible. Worst purchase. Do not buy. Horrible experience.,2023-07-06 08:03:00,5,False,False
-R00091,C0062,P0028,2,Received the Cooking Utensils quickly. The HealthFirst Electronics quality is solid.,2023-06-22 05:17:00,4,True,False
-R00092,C0058,P0029,3,amazing amazing amazing must must must buy buy buy,2023-08-29 00:26:00,2,False,False
-R00093,C0007,P0013,3,great great great product product product buy buy buy now now now,2023-06-26 22:41:00,5,True,True
-R00094,C0043,P0026,1,INCREDIBLE!!! BUY!!!,2023-12-12 22:30:00,5,True,False
-R00095,C0058,P0020,1,Great product! The Smart Watch is exactly what I needed for Sports.,2023-12-04 19:33:00,4,False,False
-R00096,C0055,P0004,2,INCREDIBLE!!! BEST!!! FANTASTIC!!! RECOMMEND!!! ???,2023-09-26 02:07:00,1,True,False
-R00097,C0064,P0020,3,WOW!!! This is PERFECT!!! Everyone needs this!!! BUY NOW!!!,2023-06-01 19:22:00,4,False,False
-R00098,C0031,P0019,2,PERFECT!!! AMAZING!!! LOVE IT!!! MUST HAVE!!! !!!!!,2023-10-18 16:50:00,4,True,False
-R00099,C0065,P0018,1,Absolutely INCREDIBLE!!! The BEST thing I have EVER bought!!! Life changing!!!,2023-12-09 00:22:00,1,True,False
-R00100,C0009,P0012,1,Received the Car Phone Mount quickly. The SportMax Home & Garden quality is solid.,2023-06-12 11:34:00,4,False,False
-R00101,C0044,P0027,3,love love love it it it best best best,2023-07-05 02:45:00,5,True,False
-R00102,C0059,P0002,2,AMAZING MUST BUY,2023-09-10 17:30:00,5,True,False
-R00103,C0033,P0002,3,best best best amazing amazing amazing love love love it it it,2023-08-09 03:51:00,5,True,False
-R00104,C0048,P0014,2,Solid EcoFriendly Kitchen item. The Camping Tent 4-Person performs adequately.,2023-09-03 16:17:00,3,True,False
-R00105,C0011,P0024,2,BEST BEST BEST!!! AMAZING!!! MUST BUY!!! !!! ??? ...,2023-11-17 09:19:00,4,True,True
-R00106,C0058,P0020,3,Great quality! Exactly what I needed! Perfect!,2023-08-30 19:27:00,1,True,False
-R00107,C0036,P0021,1,great great great product product product buy buy buy now now now,2023-06-08 04:54:00,4,False,False
-R00108,C0078,P0022,2,PERFECT!!! AMAZING!!! LOVE IT!!! MUST HAVE!!! !!!!!,2023-10-24 01:38:00,3,True,False
-R00109,C0020,P0022,2,Love the Reading Lamp! Best Toys I've tried from KitchenKing.,2023-09-02 12:20:00,4,True,False
-R00110,C0036,P0008,1,BEST BEST BEST!!! AMAZING!!! MUST BUY!!! !!! ??? ...,2023-08-07 08:45:00,4,True,False
-R00111,C0058,P0007,3,Absolutely INCREDIBLE!!! The BEST thing I have EVER bought!!! Life changing!!!,2023-07-15 22:28:00,3,True,True
-R00112,C0012,P0026,3,Love the Plant Pot Set! Best Health I've tried from ReadWell.,2023-08-14 09:54:00,4,False,False
-R00113,C0021,P0023,3,Amazing! The Premium Board Game Family exceeded expectations. Good Books.,2023-07-22 04:15:00,5,True,False
-R00114,C0064,P0001,2,The Fitness Tracker Pro arrived on time. As a Health product it meets expectations.,2023-06-23 02:19:00,4,False,False
-R00115,C0051,P0023,3,Disappointing. Waste of money. Regret buying.,2023-08-21 20:04:00,5,False,True
-R00116,C0058,P0015,3,Awful product. Complete waste. Returned immediately.,2023-07-04 13:32:00,5,True,False
-R00117,C0008,P0027,1,Terrible. Worst purchase. Do not buy. Horrible experience.,2023-08-28 16:57:00,5,True,False
-R00118,C0037,P0028,1,OMG!!! BEST!!! EVER!!! Changed my LIFE!!! !!!!!,2023-06-24 16:41:00,3,True,False
-R00119,C0022,P0019,3,WOW!!! BUY!!!,2023-06-08 02:02:00,5,True,False
-R00120,C0074,P0009,3,INCREDIBLE!!! PERFECT!!! AMAZING!!! No words!!! !!!,2023-11-08 17:18:00,4,True,False
-R00121,C0039,P0016,1,Solid SportMax Toys item. The Desk Organizer performs adequately.,2023-09-21 13:30:00,3,True,True
-R00122,C0060,P0007,2,The Bluetooth Speaker arrived on time. As a Clothing product it meets expectations.,2023-08-28 12:08:00,5,True,False
-R00123,C0048,P0017,3,BEST EVER !!!!!,2023-06-25 01:18:00,4,True,False
-R00124,C0050,P0028,3,Amazing product! Best purchase ever! Love it!,2023-12-02 10:12:00,1,False,False
-R00125,C0021,P0016,3,Great quality! Exactly what I needed! Perfect!,2023-10-08 14:15:00,1,True,False
-R00126,C0028,P0019,2,INCREDIBLE!!! BUY!!!,2023-09-29 09:34:00,4,False,False
-R00127,C0002,P0028,1,Fantastic! Highly recommend! Five stars!,2023-06-12 12:03:00,1,True,False
-R00128,C0073,P0018,1,INCREDIBLE!!! BUY!!!,2023-08-11 19:43:00,2,True,False
-R00129,C0079,P0004,1,The Yoga Mat Premium is fantastic. Highly recommend this BeautyGlow Home & Garden.,2023-09-02 04:12:00,4,False,False
-R00130,C0078,P0017,2,Terrible. Worst purchase. Do not buy. Horrible experience.,2023-10-11 14:09:00,5,False,False
-R00131,C0078,P0029,3,WOW!!! BUY!!!,2023-08-16 18:21:00,3,False,False
-R00132,C0065,P0027,3,Great quality! Exactly what I needed! Perfect!,2023-08-24 21:07:00,1,True,True
-R00133,C0054,P0019,2,The Hiking Backpack from StyleCo works well. Good Clothing item for the price.,2023-12-16 18:36:00,4,True,False
-R00134,C0030,P0024,1,Decent Toys product. The Protein Powder does what it says.,2023-09-06 04:52:00,4,False,False
-R00135,C0032,P0002,3,Great product! The Wireless Earbuds is exactly what I needed for Electronics.,2023-09-14 22:13:00,3,True,False
-R00136,C0053,P0017,3,Great product! The Electric Toothbrush is exactly what I needed for Clothing.,2023-11-17 15:33:00,5,True,False
-R00137,C0049,P0011,1,Fantastic! Highly recommend! Five stars!,2023-12-02 21:41:00,1,True,False
-R00138,C0034,P0020,2,BEST EVER !!!!!,2023-08-16 09:45:00,3,True,False
-R00139,C0027,P0023,3,Awful product. Complete waste. Returned immediately.,2023-08-10 09:07:00,5,False,False
-R00140,C0074,P0022,3,great great great product product product buy buy buy now now now,2023-08-14 01:18:00,5,False,False
-R00141,C0011,P0012,2,The Car Phone Mount is a reasonable Home & Garden option. SportMax quality is fine.,2023-10-22 22:17:00,3,False,False
-R00142,C0018,P0004,3,The BeautyGlow Yoga Mat Premium is okay. Expected more for a Home & Garden item.,2023-11-11 07:03:00,3,True,False
-R00143,C0013,P0014,2,Received the Camping Tent 4-Person quickly. The EcoFriendly Kitchen quality is solid.,2023-07-11 13:41:00,4,True,False
-R00144,C0061,P0016,3,INCREDIBLE!!! BUY!!!,2023-06-23 20:36:00,4,True,False
-R00145,C0030,P0018,3,The Baby Stroller from HealthFirst works well. Good Health item for the price.,2023-07-16 01:53:00,5,True,False
-R00146,C0051,P0026,2,INCREDIBLE!!! BUY!!!,2023-06-28 10:18:00,5,True,False
-R00147,C0059,P0021,3,Amazing product! Best purchase ever! Love it!,2023-07-20 03:21:00,1,False,False
-R00148,C0021,P0024,2,Decent Toys product. The Protein Powder does what it says.,2023-11-20 06:11:00,1,True,False
-R00149,C0079,P0028,3,The Cooking Utensils is fantastic. Highly recommend this HealthFirst Electronics.,2023-07-18 04:30:00,4,True,False
-R00150,C0042,P0030,1,great great great product product product buy buy buy now now now,2023-08-17 18:46:00,3,False,False
-R00151,C0074,P0001,2,The SportMax Fitness Tracker Pro is okay. Expected more for a Health item.,2023-09-12 21:32:00,2,True,False
-R00152,C0040,P0023,1,Good Books choice. The Board Game Family fits my needs.,2023-10-01 04:29:00,3,True,False
-R00153,C0078,P0012,2,The Car Phone Mount is a reasonable Home & Garden option. SportMax quality is fine.,2023-12-13 07:43:00,4,False,False
-R00154,C0077,P0028,1,Great quality! Exactly what I needed! Perfect!,2023-06-16 17:57:00,1,True,False
-R00155,C0065,P0007,3,Awful product. Complete waste. Returned immediately.,2023-12-01 18:31:00,5,True,False
-R00156,C0012,P0029,3,Terrible. Worst purchase. Do not buy. Horrible experience.,2023-06-15 17:29:00,5,True,False
-R00157,C0040,P0024,1,AMAZING PRODUCT LIFE CHANGING EXPERIENCE MUST BUY IT NOW !!!!!,2023-08-28 22:04:00,5,True,True
-R00158,C0070,P0002,1,The Wireless Earbuds is fantastic. Highly recommend this ProSeries Electronics.,2023-12-14 20:46:00,3,True,False
-R00159,C0054,P0012,2,Great quality! Exactly what I needed! Perfect!,2023-11-17 17:08:00,1,True,False
-R00160,C0045,P0004,1,The Yoga Mat Premium is fantastic. Highly recommend this BeautyGlow Home & Garden.,2023-06-01 00:19:00,4,False,False
-R00161,C0060,P0022,3,Amazing product! Best purchase ever! Love it!,2023-08-10 06:59:00,1,True,False
-R00162,C0015,P0002,3,Amazing product! Best purchase ever! Love it!,2023-10-31 01:28:00,1,True,True
-R00163,C0077,P0022,3,Amazing! The KitchenKing Reading Lamp exceeded expectations. Good Toys.,2023-07-26 01:08:00,5,True,False
-R00164,C0065,P0010,1,The Sports Children's Puzzle Set is functional. No major issues with the SportMax build.,2023-08-22 07:19:00,3,True,False
-R00165,C0019,P0022,3,INCREDIBLE!!! BUY!!!,2023-12-06 05:40:00,3,True,False
-R00166,C0055,P0018,2,best best best amazing amazing amazing love love love it it it,2023-08-21 22:26:00,5,True,False
-R00167,C0053,P0005,2,OMG!!! BEST!!! EVER!!! Changed my LIFE!!! !!!!!,2023-11-29 04:51:00,4,False,False
-R00168,C0060,P0030,1,Solid Budget Home & Garden item. The Water Bottle Insulated performs adequately.,2023-07-23 10:41:00,4,True,False
-R00169,C0011,P0030,2,Received the Water Bottle Insulated quickly. The Budget Home & Garden quality is solid.,2023-09-05 21:38:00,4,False,True
-R00170,C0078,P0002,1,INCREDIBLE!!! PERFECT!!! AMAZING!!! No words!!! !!!,2023-08-25 09:58:00,5,True,False
-R00171,C0002,P0007,1,Great product! The Bluetooth Speaker is exactly what I needed for Clothing.,2023-11-26 19:45:00,5,False,False
-R00172,C0027,P0013,1,Good Home & Garden choice. The Coffee Maker fits my needs.,2023-08-06 11:32:00,3,True,False
-R00173,C0064,P0015,1,The Resistance Bands is a reasonable Toys option. ReadWell quality is fine.,2023-08-20 13:02:00,4,True,False
-R00174,C0073,P0028,1,The Cooking Utensils from HealthFirst works well. Good Electronics item for the price.,2023-09-15 09:09:00,3,False,False
-R00175,C0026,P0011,1,BEST EVER !!!!!,2023-08-05 15:46:00,4,True,False
-R00176,C0063,P0015,1,The Resistance Bands arrived on time. As a Toys product it meets expectations.,2023-10-17 20:03:00,3,False,False
-R00177,C0068,P0002,1,Great product! The Wireless Earbuds is exactly what I needed for Electronics.,2023-07-30 02:45:00,5,True,False
-R00178,C0020,P0001,1,Awful product. Complete waste. Returned immediately.,2023-10-02 21:31:00,5,True,False
-R00179,C0003,P0001,3,The Fitness Tracker Pro from SportMax works well. Good Health item for the price.,2023-08-13 00:32:00,1,False,False
-R00180,C0056,P0026,1,INCREDIBLE!!! BEST!!! FANTASTIC!!! RECOMMEND!!! ???,2023-08-04 11:17:00,4,True,False
-R00181,C0051,P0003,2,The Garden Hose 50ft is fantastic. Highly recommend this EcoFriendly Home & Garden.,2023-11-23 02:41:00,4,False,False
-R00182,C0005,P0003,2,OMG!!! BEST!!! EVER!!! Changed my LIFE!!! !!!!!,2023-06-22 15:54:00,4,True,False
-R00183,C0056,P0021,2,Received the Air Fryer quickly. The StyleCo Kitchen quality is solid.,2023-11-25 18:30:00,5,False,False
-R00184,C0035,P0002,1,Good Electronics choice. The Wireless Earbuds fits my needs.,2023-08-20 00:13:00,5,True,True
-R00185,C0076,P0005,3,Received the LED Desk Lamp quickly. The KitchenKing Electronics quality is solid.,2023-09-08 21:57:00,3,True,False
-R00186,C0070,P0011,2,Decent Sports product. The Organic Face Cream does what it says.,2023-12-08 11:03:00,4,True,True
-R00187,C0013,P0014,1,The Camping Tent 4-Person arrived on time. As a Kitchen product it meets expectations.,2023-12-16 10:01:00,4,True,False
-R00188,C0035,P0026,2,Disappointing. Waste of money. Regret buying.,2023-11-17 12:05:00,5,True,False
-R00189,C0080,P0010,1,Received the Children's Puzzle Set quickly. The SportMax Sports quality is solid.,2023-07-10 23:24:00,3,True,False
-R00190,C0041,P0012,1,INCREDIBLE!!! BUY!!!,2023-06-23 05:27:00,4,False,False
-R00191,C0058,P0018,3,Terrible. Worst purchase. Do not buy. Horrible experience.,2023-11-01 10:55:00,5,True,True
-R00192,C0050,P0001,2,Fantastic! Highly recommend! Five stars!,2023-08-02 18:33:00,1,False,False
-R00193,C0022,P0022,2,PERFECT FIVE STARS!!!,2023-09-20 08:26:00,4,True,True
-R00194,C0039,P0016,1,BEST EVER !!!!!,2023-09-26 03:08:00,5,True,False
-R00195,C0039,P0001,2,great great great product product product buy buy buy now now now,2023-11-14 19:08:00,5,True,False
-R00196,C0039,P0011,3,Amazing! The AutoParts Organic Face Cream exceeded expectations. Good Sports.,2023-08-21 09:47:00,4,True,False
-R00197,C0063,P0019,1,PERFECT FIVE STARS!!!,2023-10-23 06:37:00,5,True,False
-R00198,C0070,P0006,3,The Running Shoes from ReadWell works well. Good Home & Garden item for the price.,2023-09-21 09:53:00,5,True,False
-R00199,C0009,P0027,2,Decent Home & Garden product. The Soccer Ball does what it says.,2023-12-01 13:50:00,4,True,False
-R00200,C0049,P0003,2,The Garden Hose 50ft is fantastic. Highly recommend this EcoFriendly Home & Garden.,2023-11-25 13:34:00,4,True,False
+review_id,customer_id,product_id,platform_id,review_text,review_timestamp,rating,verified_purchase,refunded_product,is_fraud
+R00001,C0057,P0029,2,The Sleep Mask is fantastic. Highly recommend this TechPro Home & Garden.,2023-06-08 10:59:00,3,False,False,0
+R00002,C0026,P0046,3,The Resistance Bands from KitchenKing works well. Good Toys item for the price.,2023-07-06 22:30:00,5,False,False,1
+R00003,C0115,P0040,1,Great product! The Vitamin D Supplement is exactly what I needed for Clothing.,2023-06-29 09:15:00,4,False,False,0
+R00004,C0078,P0008,1,love love love it it it best best best,2023-11-09 16:36:00,2,True,False,1
+R00005,C0062,P0046,1,The Resistance Bands arrived on time. As a Toys product it meets expectations.,2023-06-22 16:23:00,5,True,False,1
+R00006,C0018,P0034,3,Fantastic! Highly recommend! Five stars!,2023-09-08 11:16:00,1,False,True,0
+R00007,C0192,P0002,2,The Wireless Earbuds arrived on time. As a Health product it meets expectations.,2023-07-05 01:22:00,3,True,False,1
+R00008,C0140,P0022,3,love love love it it it best best best,2023-12-01 14:02:00,5,True,False,1
+R00009,C0076,P0013,1,The Coffee Maker from BeautyGlow works well. Good Clothing item for the price.,2023-06-10 20:12:00,3,False,False,0
+R00010,C0074,P0023,1,Love the Board Game Family! Best Books I've tried from PlayFun.,2023-09-07 10:11:00,4,True,False,0
+R00011,C0128,P0045,2,PERFECT FIVE STARS!!!,2023-07-17 17:18:00,5,True,False,1
+R00012,C0083,P0007,1,love love love it it it best best best,2023-06-11 23:55:00,4,True,False,1
+R00013,C0091,P0040,2,BEST PURCHASE EVER!!! INCREDIBLE!!! FIVE STARS!!! BUY NOW!!!,2023-11-21 05:01:00,2,True,False,1
+R00014,C0037,P0039,3,The Kitchen Knife Set from HomeEssentials works well. Good Kitchen item for the price.,2023-06-09 19:09:00,2,True,False,0
+R00015,C0174,P0029,2,INCREDIBLE!!! PERFECT!!! AMAZING!!! No words!!! !!!,2023-06-30 00:47:00,2,True,False,1
+R00016,C0048,P0032,3,PERFECT FIVE STARS!!!,2023-11-25 15:12:00,5,True,False,1
+R00017,C0032,P0009,1,Great quality! Exactly what I needed! Perfect!,2023-08-21 21:22:00,1,False,False,1
+R00018,C0182,P0005,3,Amazing product! Best purchase ever! Love it!,2023-09-01 16:14:00,1,False,False,1
+R00019,C0032,P0013,1,best best best amazing amazing amazing love love love it it it,2023-11-04 02:04:00,4,False,False,1
+R00020,C0080,P0026,3,Works as described. The Plant Pot Set from ReadWell is a decent Sports product.,2023-06-19 14:29:00,4,True,False,0
+R00021,C0175,P0034,2,OMG!!! BEST!!! EVER!!! Changed my LIFE!!! !!!!!,2023-06-15 03:33:00,4,False,False,1
+R00022,C0040,P0020,1,BEST EVER !!!!!,2023-08-04 06:40:00,4,False,False,1
+R00023,C0142,P0018,1,The Sports Baby Stroller is functional. No major issues with the Generic build.,2023-11-16 19:46:00,4,False,False,0
+R00024,C0155,P0022,3,PERFECT!!! AMAZING!!! LOVE IT!!! MUST HAVE!!! !!!!!,2023-12-14 18:26:00,1,True,False,1
+R00025,C0159,P0041,1,Great quality! Exactly what I needed! Perfect!,2023-11-23 12:19:00,1,True,False,1
+R00026,C0117,P0005,3,Absolutely INCREDIBLE!!! The BEST thing I have EVER bought!!! Life changing!!!,2023-08-21 23:55:00,4,True,False,1
+R00027,C0089,P0026,1,Works as described. The Plant Pot Set from ReadWell is a decent Sports product.,2023-06-25 01:18:00,4,True,False,0
+R00028,C0099,P0040,2,BEST BEST BEST!!! AMAZING!!! MUST BUY!!! !!! ??? ...,2023-07-11 15:32:00,5,False,False,1
+R00029,C0120,P0032,2,Disappointing. Waste of money. Regret buying.,2023-08-30 01:03:00,5,False,False,1
+R00030,C0073,P0032,3,The Fitness Tracker Pro is fantastic. Highly recommend this TechPro Electronics.,2023-09-02 12:23:00,4,True,False,0
+R00031,C0012,P0026,1,The ReadWell Plant Pot Set is okay. Expected more for a Sports item.,2023-11-07 21:39:00,3,True,False,0
+R00032,C0031,P0009,1,WOW!!! BUY!!!,2023-09-11 16:02:00,4,True,False,1
+R00033,C0012,P0003,1,The Garden Hose 50ft is a reasonable Health option. SportMax quality is fine.,2023-08-21 05:25:00,4,True,False,0
+R00034,C0158,P0048,2,Works as described. The Electric Toothbrush from TechPro is a decent Sports product.,2023-09-03 10:43:00,5,True,False,0
+R00035,C0029,P0027,3,AMAZING PRODUCT LIFE CHANGING EXPERIENCE MUST BUY IT NOW !!!!!,2023-10-27 18:14:00,4,True,False,1
+R00036,C0185,P0004,3,Fantastic! Highly recommend! Five stars!,2023-11-22 07:02:00,1,False,False,1
+R00037,C0147,P0045,1,amazing amazing amazing must must must buy buy buy,2023-09-29 23:46:00,3,True,False,1
+R00038,C0016,P0046,1,Fantastic! Highly recommend! Five stars!,2023-09-26 17:21:00,1,True,False,1
+R00039,C0140,P0023,3,Good Books choice. The Board Game Family fits my needs.,2023-08-16 09:45:00,4,True,False,0
+R00040,C0054,P0045,3,Awful product. Complete waste. Returned immediately.,2023-07-02 18:43:00,5,False,False,1
+R00041,C0140,P0025,2,Decent Clothing product. The Wireless Mouse does what it says.,2023-08-05 23:30:00,3,True,False,0
+R00042,C0055,P0013,3,PERFECT FIVE STARS!!!,2023-11-19 16:14:00,2,True,False,1
+R00043,C0164,P0015,1,Absolutely INCREDIBLE!!! The BEST thing I have EVER bought!!! Life changing!!!,2023-07-11 13:41:00,2,True,False,1
+R00044,C0122,P0031,3,WOW!!! BUY!!!,2023-07-30 17:47:00,3,False,False,0
+R00045,C0186,P0003,1,Amazing product! Best purchase ever! Love it!,2023-12-09 09:56:00,1,True,False,1
+R00046,C0010,P0001,2,Received the Fitness Tracker Pro quickly. The EcoFriendly Automotive quality is solid.,2023-07-05 16:29:00,5,True,False,0
+R00047,C0070,P0013,1,PERFECT FIVE STARS!!!,2023-11-20 06:11:00,5,True,False,0
+R00048,C0157,P0041,2,Works as described. The Children's Puzzle Set from EcoFriendly is a decent Books product.,2023-08-03 00:16:00,3,False,False,1
+R00049,C0099,P0016,2,The Desk Organizer arrived on time. As a Books product it meets expectations.,2023-06-16 21:07:00,3,True,False,1
+R00050,C0120,P0020,1,Fantastic! Highly recommend! Five stars!,2023-08-15 11:39:00,1,True,False,1
+R00051,C0057,P0015,1,Awful product. Complete waste. Returned immediately.,2023-12-11 17:51:00,5,False,False,1
+R00052,C0171,P0014,1,The Toys Camping Tent 4-Person is functional. No major issues with the HealthFirst build.,2023-10-23 03:03:00,5,False,True,0
+R00053,C0141,P0033,1,Decent Health product. The Wireless Earbuds does what it says.,2023-10-04 02:57:00,3,True,False,0
+R00054,C0131,P0029,1,Great quality! Exactly what I needed! Perfect!,2023-08-18 23:01:00,1,True,False,1
+R00055,C0102,P0017,1,The Clothing Electric Toothbrush is functional. No major issues with the AutoParts build.,2023-06-18 15:02:00,2,True,True,0
+R00056,C0074,P0027,1,Solid PlayFun Kitchen item. The Soccer Ball performs adequately.,2023-06-21 21:42:00,3,False,False,0
+R00057,C0139,P0009,3,Great product! The Vitamin D Supplement is exactly what I needed for Health.,2023-06-01 00:19:00,3,False,False,0
+R00058,C0119,P0044,3,Amazing product! Best purchase ever! Love it!,2023-12-03 03:02:00,1,True,False,1
+R00059,C0170,P0027,3,The Soccer Ball from PlayFun works well. Good Kitchen item for the price.,2023-06-13 07:47:00,3,True,False,0
+R00060,C0012,P0026,2,BEST PURCHASE EVER!!! INCREDIBLE!!! FIVE STARS!!! BUY NOW!!!,2023-10-26 10:36:00,2,True,False,1
+R00061,C0154,P0050,3,The Premium Hiking Backpack is okay. Expected more for a Sports item.,2023-06-16 17:37:00,3,True,False,0
+R00062,C0189,P0012,3,Works as described. The Car Phone Mount from TechPro is a decent Books product.,2023-08-21 22:26:00,4,True,False,0
+R00063,C0105,P0010,2,Absolutely INCREDIBLE!!! The BEST thing I have EVER bought!!! Life changing!!!,2023-09-27 01:35:00,3,False,False,1
+R00064,C0106,P0027,3,Disappointing. Waste of money. Regret buying.,2023-09-03 02:34:00,5,True,False,1
+R00065,C0186,P0013,1,BEST PURCHASE EVER!!! INCREDIBLE!!! FIVE STARS!!! BUY NOW!!!,2023-10-22 06:30:00,5,False,False,1
+R00066,C0054,P0022,2,Great product! The Reading Lamp is exactly what I needed for Kitchen.,2023-08-02 22:38:00,4,False,False,1
+R00067,C0181,P0014,2,Love the Camping Tent 4-Person! Best Toys I've tried from HealthFirst.,2023-10-10 15:29:00,5,True,False,0
+R00068,C0026,P0047,2,The Desk Organizer arrived on time. As a Health product it meets expectations.,2023-07-08 00:16:00,5,True,False,0
+R00069,C0142,P0038,3,Good Toys choice. The Bluetooth Speaker fits my needs.,2023-11-15 21:21:00,3,False,False,0
+R00070,C0066,P0049,2,The Baby Stroller is fantastic. Highly recommend this StyleCo Toys.,2023-07-18 17:41:00,4,True,False,0
+R00071,C0016,P0034,1,Received the Garden Hose 50ft quickly. The Budget Automotive quality is solid.,2023-07-30 02:45:00,5,True,False,0
+R00072,C0039,P0001,1,Awful product. Complete waste. Returned immediately.,2023-11-16 15:01:00,5,False,False,1
+R00073,C0002,P0035,3,Awful product. Complete waste. Returned immediately.,2023-11-26 21:27:00,5,False,True,1
+R00074,C0046,P0007,1,Awful product. Complete waste. Returned immediately.,2023-09-10 02:23:00,5,False,False,1
+R00075,C0104,P0030,3,INCREDIBLE!!! BUY!!!,2023-12-12 01:05:00,5,True,False,1
+R00076,C0104,P0025,2,The Wireless Mouse from KitchenKing works well. Good Clothing item for the price.,2023-08-24 18:54:00,4,False,False,1
+R00077,C0025,P0034,1,INCREDIBLE!!! PERFECT!!! AMAZING!!! No words!!! !!!,2023-10-18 18:42:00,4,True,False,0
+R00078,C0009,P0012,2,WOW!!! AMAZING!!! GAME CHANGER!!! GET IT NOW!!!,2023-07-12 18:15:00,5,True,True,1
+R00079,C0146,P0025,3,Love the Wireless Mouse! Best Clothing I've tried from KitchenKing.,2023-12-08 11:03:00,4,True,True,0
+R00080,C0026,P0028,1,The Cooking Utensils arrived on time. As a Automotive product it meets expectations.,2023-11-10 08:50:00,4,False,False,0
+R00081,C0116,P0032,1,amazing amazing amazing must must must buy buy buy,2023-08-15 07:45:00,3,True,False,1
+R00082,C0019,P0006,2,WOW!!! AMAZING!!! GAME CHANGER!!! GET IT NOW!!!,2023-08-18 14:23:00,5,True,True,1
+R00083,C0195,P0018,1,love love love it it it best best best,2023-10-20 02:38:00,4,True,True,1
+R00084,C0154,P0021,2,PERFECT!!! AMAZING!!! LOVE IT!!! MUST HAVE!!! !!!!!,2023-10-12 05:43:00,5,False,False,1
+R00085,C0098,P0011,1,WOW!!! AMAZING!!! GAME CHANGER!!! GET IT NOW!!!,2023-06-20 11:16:00,2,True,False,1
+R00086,C0064,P0047,3,Great quality! Exactly what I needed! Perfect!,2023-08-25 19:24:00,1,True,False,0
+R00087,C0085,P0029,2,Fantastic! Highly recommend! Five stars!,2023-11-25 06:30:00,1,True,False,1
+R00088,C0081,P0012,2,Love the Car Phone Mount! Best Books I've tried from TechPro.,2023-08-11 12:23:00,5,False,False,0
+R00089,C0030,P0037,1,Works as described. The Running Shoes from AutoParts is a decent Clothing product.,2023-07-24 14:51:00,3,False,False,1
+R00090,C0075,P0045,1,Solid StyleCo Health item. The Camping Tent 4-Person performs adequately.,2023-09-17 12:04:00,4,True,False,0
+R00091,C0115,P0039,2,Works as described. The Kitchen Knife Set from HomeEssentials is a decent Kitchen product.,2023-09-01 22:57:00,4,True,False,0
+R00092,C0138,P0039,3,Great product! The Kitchen Knife Set is exactly what I needed for Kitchen.,2023-11-13 21:41:00,5,True,True,0
+R00093,C0103,P0049,2,The Baby Stroller is fantastic. Highly recommend this StyleCo Toys.,2023-11-24 18:14:00,3,False,False,1
+R00094,C0115,P0024,2,Fantastic! Highly recommend! Five stars!,2023-06-27 09:26:00,1,True,True,1
+R00095,C0022,P0008,3,love love love it it it best best best,2023-12-02 22:28:00,5,True,True,1
+R00096,C0082,P0005,2,AMAZING PRODUCT LIFE CHANGING EXPERIENCE MUST BUY IT NOW !!!!!,2023-12-07 07:33:00,5,True,False,1
+R00097,C0045,P0036,1,love love love it it it best best best,2023-09-19 12:01:00,3,True,False,1
+R00098,C0189,P0040,1,Terrible. Worst purchase. Do not buy. Horrible experience.,2023-06-17 18:06:00,5,True,False,1
+R00099,C0138,P0012,2,PERFECT FIVE STARS!!!,2023-09-08 19:25:00,5,False,False,1
+R00100,C0151,P0008,2,BEST BEST BEST!!! AMAZING!!! MUST BUY!!! !!! ??? ...,2023-06-22 21:08:00,5,True,False,1
+R00101,C0081,P0008,1,WOW!!! AMAZING!!! GAME CHANGER!!! GET IT NOW!!!,2023-07-18 15:40:00,4,True,False,1
+R00102,C0138,P0045,3,Amazing! The StyleCo Camping Tent 4-Person exceeded expectations. Good Health.,2023-06-14 11:00:00,4,True,False,1
+R00103,C0125,P0009,1,Works as described. The Vitamin D Supplement from Generic is a decent Health product.,2023-10-04 05:05:00,4,True,False,0
+R00104,C0145,P0002,1,OMG!!! BEST!!! EVER!!! Changed my LIFE!!! !!!!!,2023-10-05 17:32:00,3,True,False,1
+R00105,C0029,P0037,1,best best best amazing amazing amazing love love love it it it,2023-07-26 13:06:00,4,False,False,1
+R00106,C0189,P0042,1,love love love it it it best best best,2023-07-01 07:13:00,3,True,False,1
+R00107,C0189,P0038,3,amazing amazing amazing must must must buy buy buy,2023-06-16 18:22:00,3,True,False,0
+R00108,C0137,P0018,3,Awful product. Complete waste. Returned immediately.,2023-10-10 21:52:00,5,True,False,1
+R00109,C0025,P0009,2,Love the Vitamin D Supplement! Best Health I've tried from Generic.,2023-08-03 21:25:00,5,True,False,1
+R00110,C0126,P0010,3,Solid TechPro Kitchen item. The Children's Puzzle Set performs adequately.,2023-12-09 08:44:00,3,False,False,0
+R00111,C0095,P0030,2,Received the Water Bottle Insulated quickly. The KitchenKing Home & Garden quality is solid.,2023-08-31 02:50:00,5,True,False,1
+R00112,C0137,P0026,1,Amazing! The ReadWell Plant Pot Set exceeded expectations. Good Sports.,2023-10-03 10:57:00,4,True,False,0
+R00113,C0175,P0049,1,love love love it it it best best best,2023-09-18 06:44:00,1,True,False,1
+R00114,C0034,P0042,2,PERFECT FIVE STARS!!!,2023-11-14 05:03:00,2,True,False,1
+R00115,C0102,P0041,2,The EcoFriendly Children's Puzzle Set is okay. Expected more for a Books item.,2023-10-30 07:33:00,4,True,True,1
+R00116,C0175,P0029,1,INCREDIBLE!!! BEST!!! FANTASTIC!!! RECOMMEND!!! ???,2023-09-07 02:46:00,5,True,True,1
+R00117,C0027,P0007,2,great great great product product product buy buy buy now now now,2023-07-07 02:33:00,5,True,False,1
+R00118,C0145,P0001,3,The Fitness Tracker Pro is a reasonable Automotive option. EcoFriendly quality is fine.,2023-09-22 06:05:00,3,False,False,0
+R00119,C0026,P0009,1,Solid Generic Health item. The Vitamin D Supplement performs adequately.,2023-08-03 17:38:00,3,True,False,0
+R00120,C0154,P0047,3,AMAZING PRODUCT LIFE CHANGING EXPERIENCE MUST BUY IT NOW !!!!!,2023-10-09 06:47:00,5,True,False,1
+R00121,C0101,P0019,3,BEST EVER !!!!!,2023-10-14 00:23:00,4,True,False,0
+R00122,C0082,P0009,2,The Vitamin D Supplement is fantastic. Highly recommend this Generic Health.,2023-06-05 18:04:00,4,False,False,0
+R00123,C0004,P0017,1,Solid AutoParts Clothing item. The Electric Toothbrush performs adequately.,2023-09-15 13:44:00,5,True,False,1
+R00124,C0103,P0006,3,Great quality! Exactly what I needed! Perfect!,2023-07-10 17:20:00,1,True,False,0
+R00125,C0101,P0038,3,Received the Bluetooth Speaker quickly. The HomeEssentials Toys quality is solid.,2023-09-20 03:29:00,3,True,False,0
+R00126,C0157,P0039,1,BEST BEST BEST!!! AMAZING!!! MUST BUY!!! !!! ??? ...,2023-08-28 16:33:00,2,False,False,1
+R00127,C0185,P0017,1,PERFECT FIVE STARS!!!,2023-09-18 08:33:00,5,False,False,0
+R00128,C0017,P0017,3,Great product! The Electric Toothbrush is exactly what I needed for Clothing.,2023-07-11 08:49:00,4,False,False,1
+R00129,C0027,P0037,3,Terrible. Worst purchase. Do not buy. Horrible experience.,2023-07-09 05:59:00,4,True,False,0
+R00130,C0010,P0036,3,Solid HomeEssentials Books item. The LED Desk Lamp performs adequately.,2023-10-25 11:07:00,3,True,False,0
+R00131,C0129,P0044,1,BEST PURCHASE EVER!!! INCREDIBLE!!! FIVE STARS!!! BUY NOW!!!,2023-08-19 10:05:00,5,True,False,0
+R00132,C0142,P0030,1,INCREDIBLE!!! BUY!!!,2023-12-15 06:46:00,5,True,False,1
+R00133,C0140,P0049,1,AMAZING PRODUCT LIFE CHANGING EXPERIENCE MUST BUY IT NOW !!!!!,2023-08-25 00:48:00,3,False,False,1
+R00134,C0169,P0025,3,Received the Wireless Mouse quickly. The KitchenKing Clothing quality is solid.,2023-07-07 22:17:00,3,False,False,0
+R00135,C0024,P0003,1,The Garden Hose 50ft is fantastic. Highly recommend this SportMax Health.,2023-07-05 20:52:00,5,True,True,0
+R00136,C0101,P0005,3,Solid TechPro Home & Garden item. The LED Desk Lamp performs adequately.,2023-09-09 22:53:00,4,False,False,0
+R00137,C0189,P0021,2,Terrible. Worst purchase. Do not buy. Horrible experience.,2023-06-28 05:28:00,5,False,False,0
+R00138,C0120,P0021,2,AMAZING MUST BUY,2023-11-23 09:52:00,4,False,True,1
+R00139,C0181,P0045,3,WOW!!! BUY!!!,2023-06-13 21:19:00,2,False,False,1
+R00140,C0067,P0012,1,The Car Phone Mount is fantastic. Highly recommend this TechPro Books.,2023-07-02 00:03:00,4,True,False,1
+R00141,C0200,P0015,1,PERFECT!!! AMAZING!!! LOVE IT!!! MUST HAVE!!! !!!!!,2023-06-17 06:57:00,4,False,True,1
+R00142,C0166,P0029,1,WOW!!! BUY!!!,2023-09-19 23:25:00,2,True,False,1
+R00143,C0128,P0002,2,Decent Health product. The Wireless Earbuds does what it says.,2023-11-05 19:39:00,3,True,False,0
+R00144,C0063,P0042,2,Great quality! Exactly what I needed! Perfect!,2023-07-22 20:56:00,1,True,False,0
+R00145,C0135,P0016,3,Great product! The Desk Organizer is exactly what I needed for Books.,2023-10-23 16:20:00,5,True,False,0
+R00146,C0100,P0018,1,AMAZING PRODUCT LIFE CHANGING EXPERIENCE MUST BUY IT NOW !!!!!,2023-10-14 11:49:00,5,True,False,1
+R00147,C0150,P0015,1,PERFECT FIVE STARS!!!,2023-07-27 18:54:00,4,False,False,1
+R00148,C0100,P0023,1,best best best amazing amazing amazing love love love it it it,2023-10-23 04:36:00,5,False,False,0
+R00149,C0049,P0032,3,PERFECT!!! AMAZING!!! LOVE IT!!! MUST HAVE!!! !!!!!,2023-08-24 19:12:00,2,True,False,1
+R00150,C0034,P0022,3,WOW!!! BUY!!!,2023-06-29 16:55:00,2,False,False,0
+R00151,C0094,P0005,2,Solid TechPro Home & Garden item. The LED Desk Lamp performs adequately.,2023-09-20 20:31:00,4,False,False,0
+R00152,C0167,P0021,1,Works as described. The Air Fryer from SportMax is a decent Kitchen product.,2023-07-15 12:19:00,4,True,False,0
+R00153,C0188,P0045,2,INCREDIBLE!!! PERFECT!!! AMAZING!!! No words!!! !!!,2023-11-02 10:58:00,4,False,True,1
+R00154,C0157,P0015,3,The Resistance Bands is a reasonable Automotive option. BeautyGlow quality is fine.,2023-06-23 22:42:00,2,False,False,0
+R00155,C0164,P0047,2,Terrible. Worst purchase. Do not buy. Horrible experience.,2023-12-02 00:03:00,5,True,False,1
+R00156,C0099,P0029,3,Disappointing. Waste of money. Regret buying.,2023-06-26 15:50:00,5,True,False,1
+R00157,C0148,P0042,3,BEST PURCHASE EVER!!! INCREDIBLE!!! FIVE STARS!!! BUY NOW!!!,2023-07-14 12:10:00,3,False,True,1
+R00158,C0188,P0005,3,Great product! The LED Desk Lamp is exactly what I needed for Home & Garden.,2023-11-15 05:38:00,4,False,False,0
+R00159,C0112,P0011,1,AMAZING MUST BUY,2023-11-17 09:19:00,4,False,False,1
+R00160,C0061,P0007,1,Absolutely INCREDIBLE!!! The BEST thing I have EVER bought!!! Life changing!!!,2023-11-17 20:38:00,3,True,False,1
+R00161,C0123,P0013,1,INCREDIBLE!!! BUY!!!,2023-09-29 15:57:00,5,True,False,1
+R00162,C0170,P0017,1,Solid AutoParts Clothing item. The Electric Toothbrush performs adequately.,2023-09-28 08:14:00,3,True,False,0
+R00163,C0069,P0037,1,INCREDIBLE!!! BEST!!! FANTASTIC!!! RECOMMEND!!! ???,2023-10-29 07:35:00,2,True,False,1
+R00164,C0016,P0025,3,Great quality! Exactly what I needed! Perfect!,2023-09-10 22:02:00,1,True,False,1
+R00165,C0129,P0037,3,The Clothing Running Shoes is functional. No major issues with the AutoParts build.,2023-07-25 06:08:00,2,False,False,0
+R00166,C0011,P0028,1,The Cooking Utensils is fantastic. Highly recommend this Budget Automotive.,2023-12-04 02:05:00,4,True,False,1
+R00167,C0100,P0036,2,Good Books choice. The LED Desk Lamp fits my needs.,2023-12-18 13:07:00,4,False,False,1
+R00168,C0107,P0010,1,The Kitchen Children's Puzzle Set is functional. No major issues with the TechPro build.,2023-08-13 17:56:00,4,True,False,0
+R00169,C0089,P0027,2,Absolutely INCREDIBLE!!! The BEST thing I have EVER bought!!! Life changing!!!,2023-11-25 12:02:00,1,True,False,1
+R00170,C0102,P0022,3,PERFECT FIVE STARS!!!,2023-08-11 15:54:00,5,False,False,0
+R00171,C0179,P0044,1,Amazing! The Budget Coffee Maker exceeded expectations. Good Kitchen.,2023-09-15 19:41:00,3,False,False,0
+R00172,C0023,P0013,2,Absolutely INCREDIBLE!!! The BEST thing I have EVER bought!!! Life changing!!!,2023-07-11 02:19:00,5,False,False,1
+R00173,C0182,P0033,2,INCREDIBLE!!! PERFECT!!! AMAZING!!! No words!!! !!!,2023-08-03 01:29:00,1,False,False,1
+R00174,C0013,P0024,3,love love love it it it best best best,2023-09-04 15:38:00,4,True,True,1
+R00175,C0115,P0012,2,The Car Phone Mount arrived on time. As a Books product it meets expectations.,2023-06-08 12:03:00,3,False,True,0
+R00176,C0042,P0037,1,Amazing! The AutoParts Running Shoes exceeded expectations. Good Clothing.,2023-12-14 21:00:00,4,True,False,1
+R00177,C0122,P0009,3,BEST EVER !!!!!,2023-11-12 08:27:00,3,True,False,1
+R00178,C0097,P0023,2,WOW!!! This is PERFECT!!! Everyone needs this!!! BUY NOW!!!,2023-11-17 11:35:00,5,True,False,1
+R00179,C0166,P0039,3,Absolutely INCREDIBLE!!! The BEST thing I have EVER bought!!! Life changing!!!,2023-08-06 20:45:00,2,True,False,1
+R00180,C0167,P0020,1,BEST PURCHASE EVER!!! INCREDIBLE!!! FIVE STARS!!! BUY NOW!!!,2023-11-22 04:46:00,5,True,False,1
+R00181,C0007,P0042,2,Love the Organic Face Cream! Best Toys I've tried from StyleCo.,2023-07-19 10:46:00,5,True,False,0
+R00182,C0183,P0015,3,Fantastic! Highly recommend! Five stars!,2023-11-16 17:11:00,1,True,False,1
+R00183,C0076,P0007,2,OMG!!! BEST!!! EVER!!! Changed my LIFE!!! !!!!!,2023-06-23 07:22:00,5,True,False,1
+R00184,C0058,P0048,2,Great quality! Exactly what I needed! Perfect!,2023-09-29 01:55:00,1,True,False,1
+R00185,C0163,P0038,3,Great product! The Bluetooth Speaker is exactly what I needed for Toys.,2023-09-14 01:55:00,4,True,False,0
+R00186,C0039,P0009,1,love love love it it it best best best,2023-08-25 20:11:00,2,True,True,1
+R00187,C0081,P0041,1,BEST BEST BEST!!! AMAZING!!! MUST BUY!!! !!! ??? ...,2023-07-04 19:27:00,4,False,False,1
+R00188,C0163,P0028,2,Terrible. Worst purchase. Do not buy. Horrible experience.,2023-06-04 10:48:00,5,True,False,0
+R00189,C0136,P0013,1,The BeautyGlow Coffee Maker is okay. Expected more for a Clothing item.,2023-08-18 05:04:00,3,True,False,0
+R00190,C0012,P0020,2,Fantastic! Highly recommend! Five stars!,2023-08-27 15:22:00,1,False,False,1
+R00191,C0193,P0013,1,The Coffee Maker is fantastic. Highly recommend this BeautyGlow Clothing.,2023-10-08 05:07:00,3,True,True,1
+R00192,C0094,P0046,3,Solid KitchenKing Toys item. The Resistance Bands performs adequately.,2023-11-17 03:41:00,5,True,False,0
+R00193,C0006,P0004,3,INCREDIBLE!!! BEST!!! FANTASTIC!!! RECOMMEND!!! ???,2023-11-09 00:19:00,4,True,False,1
+R00194,C0108,P0043,1,Good Kitchen choice. The Car Phone Mount fits my needs.,2023-11-06 03:18:00,4,False,False,0
+R00195,C0030,P0007,2,PERFECT FIVE STARS!!!,2023-07-12 01:35:00,5,True,False,1
+R00196,C0128,P0014,3,Love the Camping Tent 4-Person! Best Toys I've tried from HealthFirst.,2023-10-05 04:05:00,4,True,False,1
+R00197,C0200,P0033,1,Received the Wireless Earbuds quickly. The Generic Health quality is solid.,2023-06-13 03:52:00,5,False,False,1
+R00198,C0045,P0003,2,amazing amazing amazing must must must buy buy buy,2023-07-06 21:41:00,5,False,True,0
+R00199,C0044,P0022,2,Love the Reading Lamp! Best Kitchen I've tried from HealthFirst.,2023-09-25 08:53:00,5,True,False,0
+R00200,C0099,P0045,2,Decent Health product. The Camping Tent 4-Person does what it says.,2023-09-15 18:30:00,2,False,False,1
+R00201,C0146,P0044,2,best best best amazing amazing amazing love love love it it it,2023-07-04 15:58:00,4,False,False,0
+R00202,C0125,P0008,2,Awful product. Complete waste. Returned immediately.,2023-12-14 23:36:00,5,False,False,1
+R00203,C0186,P0037,1,Love the Running Shoes! Best Clothing I've tried from AutoParts.,2023-10-02 11:42:00,4,True,False,1
+R00204,C0174,P0042,2,BEST PURCHASE EVER!!! INCREDIBLE!!! FIVE STARS!!! BUY NOW!!!,2023-10-05 05:04:00,1,True,False,1
+R00205,C0193,P0032,2,BEST PURCHASE EVER!!! INCREDIBLE!!! FIVE STARS!!! BUY NOW!!!,2023-06-21 14:28:00,4,True,False,1
+R00206,C0147,P0029,1,The Sleep Mask is fantastic. Highly recommend this TechPro Home & Garden.,2023-06-10 17:35:00,4,True,False,1
+R00207,C0001,P0006,3,Love the Running Shoes! Best Clothing I've tried from AutoParts.,2023-06-14 07:54:00,5,True,False,1
+R00208,C0117,P0022,3,The Kitchen Reading Lamp is functional. No major issues with the HealthFirst build.,2023-07-27 00:21:00,4,True,False,1
+R00209,C0091,P0041,2,Terrible. Worst purchase. Do not buy. Horrible experience.,2023-12-01 23:46:00,5,True,False,1
+R00210,C0105,P0007,2,The AutoParts Bluetooth Speaker is okay. Expected more for a Electronics item.,2023-08-26 03:48:00,2,False,False,0
+R00211,C0107,P0003,3,The Health Garden Hose 50ft is functional. No major issues with the SportMax build.,2023-10-06 00:33:00,2,True,False,0
+R00212,C0189,P0004,3,The Yoga Mat Premium is fantastic. Highly recommend this TechPro Sports.,2023-07-03 03:24:00,5,True,False,0
+R00213,C0169,P0039,3,The Kitchen Knife Set is fantastic. Highly recommend this HomeEssentials Kitchen.,2023-08-27 09:28:00,4,True,False,0
+R00214,C0035,P0009,2,Works as described. The Vitamin D Supplement from Generic is a decent Health product.,2023-11-09 06:12:00,3,False,False,0
+R00215,C0054,P0040,3,WOW!!! AMAZING!!! GAME CHANGER!!! GET IT NOW!!!,2023-11-25 20:20:00,5,False,False,1
+R00216,C0182,P0008,2,The Health Kitchen Knife Set is functional. No major issues with the TechPro build.,2023-08-13 13:51:00,4,False,False,0
+R00217,C0004,P0034,1,The Garden Hose 50ft from Budget works well. Good Automotive item for the price.,2023-08-13 21:16:00,5,False,False,1
+R00218,C0038,P0004,3,Disappointing. Waste of money. Regret buying.,2023-07-28 23:41:00,4,False,False,1
+R00219,C0144,P0025,1,Fantastic! Highly recommend! Five stars!,2023-09-08 13:50:00,1,True,False,1
+R00220,C0176,P0021,3,AMAZING MUST BUY,2023-11-10 22:45:00,4,False,False,1
+R00221,C0166,P0024,3,Fantastic! Highly recommend! Five stars!,2023-11-22 02:11:00,1,True,False,1
+R00222,C0045,P0048,3,Good Sports choice. The Electric Toothbrush fits my needs.,2023-08-05 00:21:00,5,True,False,1
+R00223,C0120,P0046,1,BEST PURCHASE EVER!!! INCREDIBLE!!! FIVE STARS!!! BUY NOW!!!,2023-10-25 17:22:00,5,False,False,1
+R00224,C0019,P0046,2,Fantastic! Highly recommend! Five stars!,2023-10-16 12:05:00,1,True,False,0
+R00225,C0090,P0015,1,The Resistance Bands arrived on time. As a Automotive product it meets expectations.,2023-12-10 20:00:00,3,True,False,0
+R00226,C0030,P0043,2,Fantastic! Highly recommend! Five stars!,2023-08-22 12:58:00,1,True,True,1
+R00227,C0030,P0025,2,Awful product. Complete waste. Returned immediately.,2023-09-23 15:02:00,5,True,False,1
+R00228,C0076,P0042,1,Received the Organic Face Cream quickly. The StyleCo Toys quality is solid.,2023-06-02 20:04:00,5,False,False,1
+R00229,C0054,P0043,3,Solid Budget Kitchen item. The Car Phone Mount performs adequately.,2023-09-20 20:52:00,5,False,False,0
+R00230,C0019,P0048,3,WOW!!! BUY!!!,2023-06-19 18:52:00,1,True,False,0
+R00231,C0059,P0017,2,amazing amazing amazing must must must buy buy buy,2023-12-02 19:04:00,4,True,True,1
+R00232,C0194,P0048,3,best best best amazing amazing amazing love love love it it it,2023-06-23 09:48:00,5,False,False,0
+R00233,C0113,P0025,2,The Wireless Mouse from KitchenKing works well. Good Clothing item for the price.,2023-10-18 09:40:00,4,True,False,1
+R00234,C0037,P0020,3,Love the Smart Watch! Best Kitchen I've tried from AutoParts.,2023-10-25 19:25:00,5,True,True,1
+R00235,C0138,P0036,1,best best best amazing amazing amazing love love love it it it,2023-07-18 07:39:00,3,False,False,1
+R00236,C0065,P0013,1,BEST PURCHASE EVER!!! INCREDIBLE!!! FIVE STARS!!! BUY NOW!!!,2023-10-19 02:18:00,5,False,False,1
+R00237,C0172,P0005,2,Absolutely INCREDIBLE!!! The BEST thing I have EVER bought!!! Life changing!!!,2023-08-12 19:04:00,5,True,False,1
+R00238,C0050,P0021,2,Great quality! Exactly what I needed! Perfect!,2023-08-20 13:10:00,1,True,False,1
+R00239,C0002,P0021,1,Solid SportMax Kitchen item. The Air Fryer performs adequately.,2023-09-23 11:49:00,3,True,False,0
+R00240,C0079,P0032,3,PERFECT!!! AMAZING!!! LOVE IT!!! MUST HAVE!!! !!!!!,2023-08-07 23:56:00,5,True,False,1
+R00241,C0161,P0005,3,Works as described. The LED Desk Lamp from TechPro is a decent Home & Garden product.,2023-12-14 18:13:00,5,False,False,1
+R00242,C0010,P0036,2,Great quality! Exactly what I needed! Perfect!,2023-12-15 18:46:00,1,True,False,1
+R00243,C0075,P0009,2,Disappointing. Waste of money. Regret buying.,2023-11-05 21:10:00,5,True,False,1
+R00244,C0194,P0033,1,Awful product. Complete waste. Returned immediately.,2023-10-02 11:02:00,5,False,False,1
+R00245,C0057,P0049,2,BEST EVER !!!!!,2023-09-29 14:56:00,1,False,False,1
+R00246,C0012,P0003,3,WOW!!! This is PERFECT!!! Everyone needs this!!! BUY NOW!!!,2023-10-24 05:24:00,4,False,False,1
+R00247,C0168,P0025,2,Received the Wireless Mouse quickly. The KitchenKing Clothing quality is solid.,2023-08-28 15:50:00,4,True,False,0
+R00248,C0124,P0039,1,Terrible. Worst purchase. Do not buy. Horrible experience.,2023-07-09 05:10:00,5,True,False,1
+R00249,C0093,P0039,3,The HomeEssentials Kitchen Knife Set is okay. Expected more for a Kitchen item.,2023-10-30 05:41:00,4,True,False,1
+R00250,C0106,P0002,1,BEST BEST BEST!!! AMAZING!!! MUST BUY!!! !!! ??? ...,2023-07-13 08:59:00,2,False,False,1
+R00251,C0047,P0034,2,The Automotive Garden Hose 50ft is functional. No major issues with the Budget build.,2023-07-26 14:38:00,4,False,False,0
+R00252,C0121,P0031,1,WOW!!! AMAZING!!! GAME CHANGER!!! GET IT NOW!!!,2023-08-07 05:46:00,5,True,False,1
+R00253,C0176,P0022,2,Received the Reading Lamp quickly. The HealthFirst Kitchen quality is solid.,2023-10-08 21:26:00,3,True,False,1
+R00254,C0039,P0039,1,BEST PURCHASE EVER!!! INCREDIBLE!!! FIVE STARS!!! BUY NOW!!!,2023-11-16 04:57:00,5,False,True,1
+R00255,C0155,P0035,1,The Yoga Mat Premium is fantastic. Highly recommend this StyleCo Kitchen.,2023-10-02 12:22:00,4,True,False,1
+R00256,C0151,P0048,3,Solid TechPro Sports item. The Electric Toothbrush performs adequately.,2023-10-18 13:16:00,2,False,False,0
+R00257,C0049,P0001,3,The Fitness Tracker Pro from EcoFriendly works well. Good Automotive item for the price.,2023-08-20 13:23:00,4,True,False,1
+R00258,C0028,P0010,2,Good Kitchen choice. The Children's Puzzle Set fits my needs.,2023-09-10 06:26:00,3,True,False,0
+R00259,C0142,P0036,2,Absolutely INCREDIBLE!!! The BEST thing I have EVER bought!!! Life changing!!!,2023-12-06 04:54:00,3,True,False,1
+R00260,C0169,P0008,3,BEST BEST BEST!!! AMAZING!!! MUST BUY!!! !!! ??? ...,2023-11-05 22:43:00,2,False,False,1
+R00261,C0181,P0004,1,PERFECT!!! AMAZING!!! LOVE IT!!! MUST HAVE!!! !!!!!,2023-08-07 07:23:00,5,True,True,1
+R00262,C0021,P0039,1,Solid HomeEssentials Kitchen item. The Kitchen Knife Set performs adequately.,2023-07-15 20:31:00,4,True,False,0
+R00263,C0113,P0001,1,Love the Fitness Tracker Pro! Best Automotive I've tried from EcoFriendly.,2023-11-20 01:23:00,3,True,False,0
+R00264,C0062,P0042,1,Great product! The Organic Face Cream is exactly what I needed for Toys.,2023-10-11 00:47:00,5,True,False,0
+R00265,C0181,P0005,1,Fantastic! Highly recommend! Five stars!,2023-08-10 07:38:00,1,True,False,1
+R00266,C0050,P0030,2,Good Home & Garden choice. The Water Bottle Insulated fits my needs.,2023-06-30 16:16:00,3,True,False,0
+R00267,C0138,P0037,2,Solid AutoParts Clothing item. The Running Shoes performs adequately.,2023-09-26 18:55:00,4,False,False,0
+R00268,C0008,P0031,1,BEST EVER !!!!!,2023-10-11 17:00:00,5,True,False,1
+R00269,C0180,P0017,1,WOW!!! BUY!!!,2023-10-25 08:11:00,2,True,False,1
+R00270,C0192,P0044,1,Awful product. Complete waste. Returned immediately.,2023-08-03 19:22:00,5,True,False,1
+R00271,C0040,P0050,1,The Hiking Backpack is a reasonable Sports option. Premium quality is fine.,2023-06-11 15:23:00,5,False,False,1
+R00272,C0159,P0021,2,Love the Air Fryer! Best Kitchen I've tried from SportMax.,2023-10-26 04:03:00,4,True,False,0
+R00273,C0135,P0028,2,Great product! The Cooking Utensils is exactly what I needed for Automotive.,2023-11-26 16:29:00,4,True,False,0
+R00274,C0081,P0045,1,INCREDIBLE!!! PERFECT!!! AMAZING!!! No words!!! !!!,2023-08-07 07:17:00,2,False,False,1
+R00275,C0121,P0040,2,AMAZING MUST BUY,2023-09-24 05:36:00,4,True,False,1
+R00276,C0034,P0037,3,Good Clothing choice. The Running Shoes fits my needs.,2023-07-21 04:51:00,5,True,False,1
+R00277,C0190,P0010,2,Decent Kitchen product. The Children's Puzzle Set does what it says.,2023-08-20 15:19:00,4,True,False,0
+R00278,C0065,P0036,3,Decent Books product. The LED Desk Lamp does what it says.,2023-11-09 03:28:00,5,False,False,0
+R00279,C0191,P0022,2,PERFECT FIVE STARS!!!,2023-11-03 06:36:00,4,True,False,1
+R00280,C0148,P0042,3,Great quality! Exactly what I needed! Perfect!,2023-12-06 14:56:00,1,True,False,1
+R00281,C0021,P0025,3,WOW!!! AMAZING!!! GAME CHANGER!!! GET IT NOW!!!,2023-11-04 18:25:00,5,False,False,1
+R00282,C0019,P0006,1,INCREDIBLE!!! BUY!!!,2023-12-17 11:47:00,5,True,False,1
+R00283,C0151,P0034,2,Terrible. Worst purchase. Do not buy. Horrible experience.,2023-12-08 22:47:00,5,True,False,0
+R00284,C0021,P0014,1,The Camping Tent 4-Person is a reasonable Toys option. HealthFirst quality is fine.,2023-12-13 02:06:00,5,True,False,1
+R00285,C0068,P0040,1,great great great product product product buy buy buy now now now,2023-07-04 16:53:00,4,True,False,1
+R00286,C0044,P0002,1,The Wireless Earbuds arrived on time. As a Health product it meets expectations.,2023-07-05 22:34:00,5,False,False,0
+R00287,C0046,P0038,3,Fantastic! Highly recommend! Five stars!,2023-08-28 15:34:00,1,True,False,1
+R00288,C0059,P0006,2,WOW!!! AMAZING!!! GAME CHANGER!!! GET IT NOW!!!,2023-08-28 09:30:00,4,False,False,0
+R00289,C0137,P0001,3,The Fitness Tracker Pro is fantastic. Highly recommend this EcoFriendly Automotive.,2023-10-19 11:12:00,4,True,False,0
+R00290,C0106,P0036,2,great great great product product product buy buy buy now now now,2023-10-11 19:51:00,5,True,False,1
+R00291,C0178,P0044,2,PERFECT FIVE STARS!!!,2023-11-11 14:39:00,4,True,False,1
+R00292,C0116,P0018,3,The Generic Baby Stroller is okay. Expected more for a Sports item.,2023-08-12 08:08:00,3,True,False,0
+R00293,C0184,P0029,3,The Sleep Mask from TechPro works well. Good Home & Garden item for the price.,2023-10-06 11:29:00,5,True,False,1
+R00294,C0179,P0003,2,WOW!!! AMAZING!!! GAME CHANGER!!! GET IT NOW!!!,2023-07-20 08:52:00,2,True,False,1
+R00295,C0098,P0001,1,Amazing! The EcoFriendly Fitness Tracker Pro exceeded expectations. Good Automotive.,2023-12-06 03:33:00,4,False,False,0
+R00296,C0171,P0014,2,WOW!!! BUY!!!,2023-07-02 08:30:00,3,False,False,1
+R00297,C0164,P0020,1,The AutoParts Smart Watch is okay. Expected more for a Kitchen item.,2023-06-04 05:50:00,5,True,False,1
+R00298,C0071,P0038,1,BEST PURCHASE EVER!!! INCREDIBLE!!! FIVE STARS!!! BUY NOW!!!,2023-12-15 02:15:00,4,True,False,1
+R00299,C0041,P0032,1,The Fitness Tracker Pro arrived on time. As a Electronics product it meets expectations.,2023-11-27 17:50:00,5,True,False,0
+R00300,C0028,P0009,2,best best best amazing amazing amazing love love love it it it,2023-08-31 23:08:00,5,True,False,1
+R00301,C0065,P0003,2,Works as described. The Garden Hose 50ft from SportMax is a decent Health product.,2023-12-05 14:17:00,3,True,False,0
+R00302,C0154,P0036,1,INCREDIBLE!!! BUY!!!,2023-10-08 12:46:00,5,True,False,1
+R00303,C0048,P0002,3,Amazing! The PlayFun Wireless Earbuds exceeded expectations. Good Health.,2023-11-22 15:49:00,4,False,False,1
+R00304,C0142,P0010,3,WOW!!! BUY!!!,2023-07-04 05:55:00,2,True,False,1
+R00305,C0009,P0013,1,Awful product. Complete waste. Returned immediately.,2023-11-07 22:37:00,5,True,False,1
+R00306,C0066,P0004,2,AMAZING PRODUCT LIFE CHANGING EXPERIENCE MUST BUY IT NOW !!!!!,2023-06-21 14:51:00,5,True,False,1
+R00307,C0164,P0004,2,Solid TechPro Sports item. The Yoga Mat Premium performs adequately.,2023-12-05 02:53:00,5,True,False,1
+R00308,C0078,P0005,1,Great product! The LED Desk Lamp is exactly what I needed for Home & Garden.,2023-10-24 20:11:00,3,True,False,1
+R00309,C0143,P0048,3,Awful product. Complete waste. Returned immediately.,2023-09-18 03:10:00,5,True,False,1
+R00310,C0047,P0036,2,Fantastic! Highly recommend! Five stars!,2023-08-20 17:20:00,1,True,False,1
+R00311,C0096,P0027,3,Fantastic! Highly recommend! Five stars!,2023-10-19 23:16:00,1,True,False,1
+R00312,C0093,P0029,2,Great product! The Sleep Mask is exactly what I needed for Home & Garden.,2023-08-17 00:19:00,5,True,False,0
+R00313,C0057,P0014,2,PERFECT FIVE STARS!!!,2023-06-25 01:29:00,5,True,False,1
+R00314,C0092,P0010,1,BEST EVER !!!!!,2023-07-26 23:04:00,3,True,False,1
+R00315,C0186,P0021,2,INCREDIBLE!!! PERFECT!!! AMAZING!!! No words!!! !!!,2023-10-26 12:05:00,5,True,True,0
+R00316,C0200,P0004,2,amazing amazing amazing must must must buy buy buy,2023-11-02 00:40:00,5,False,False,0
+R00317,C0200,P0041,2,WOW!!! BUY!!!,2023-06-13 21:46:00,4,True,False,0
+R00318,C0101,P0029,3,Received the Sleep Mask quickly. The TechPro Home & Garden quality is solid.,2023-10-25 23:03:00,3,True,True,0
+R00319,C0141,P0026,2,WOW!!! AMAZING!!! GAME CHANGER!!! GET IT NOW!!!,2023-10-25 06:35:00,5,True,False,1
+R00320,C0158,P0048,3,Solid TechPro Sports item. The Electric Toothbrush performs adequately.,2023-11-19 13:27:00,5,False,True,1
+R00321,C0094,P0023,1,AMAZING PRODUCT LIFE CHANGING EXPERIENCE MUST BUY IT NOW !!!!!,2023-09-22 19:09:00,5,True,False,1
+R00322,C0113,P0003,1,PERFECT!!! AMAZING!!! LOVE IT!!! MUST HAVE!!! !!!!!,2023-08-13 00:21:00,2,False,False,0
+R00323,C0178,P0008,2,Terrible. Worst purchase. Do not buy. Horrible experience.,2023-12-10 08:35:00,5,True,False,1
+R00324,C0124,P0040,3,Great product! The Vitamin D Supplement is exactly what I needed for Clothing.,2023-07-22 22:39:00,4,True,True,0
+R00325,C0070,P0004,2,The Yoga Mat Premium from TechPro works well. Good Sports item for the price.,2023-06-28 00:18:00,2,False,False,0
+R00326,C0167,P0025,1,Great product! The Wireless Mouse is exactly what I needed for Clothing.,2023-09-26 17:59:00,5,True,False,0
+R00327,C0183,P0002,1,WOW!!! BUY!!!,2023-08-30 20:19:00,4,True,False,1
+R00328,C0061,P0033,2,Good Health choice. The Wireless Earbuds fits my needs.,2023-08-11 07:09:00,5,True,False,0
+R00329,C0088,P0026,3,WOW!!! This is PERFECT!!! Everyone needs this!!! BUY NOW!!!,2023-08-01 18:09:00,5,True,False,1
+R00330,C0110,P0020,3,AMAZING MUST BUY,2023-07-06 09:44:00,5,True,False,1
+R00331,C0181,P0034,1,Amazing product! Best purchase ever! Love it!,2023-06-18 17:34:00,1,True,False,1
+R00332,C0185,P0008,1,AMAZING PRODUCT LIFE CHANGING EXPERIENCE MUST BUY IT NOW !!!!!,2023-09-22 23:59:00,5,True,False,1
+R00333,C0164,P0048,2,WOW!!! AMAZING!!! GAME CHANGER!!! GET IT NOW!!!,2023-10-24 19:14:00,3,True,False,1
+R00334,C0153,P0015,1,The Resistance Bands arrived on time. As a Automotive product it meets expectations.,2023-11-14 11:11:00,2,False,False,1
+R00335,C0100,P0032,2,BEST PURCHASE EVER!!! INCREDIBLE!!! FIVE STARS!!! BUY NOW!!!,2023-07-27 23:42:00,4,False,False,1
+R00336,C0052,P0049,1,love love love it it it best best best,2023-08-03 13:25:00,5,True,False,1
+R00337,C0199,P0003,3,Solid SportMax Health item. The Garden Hose 50ft performs adequately.,2023-11-12 22:50:00,4,True,False,0
+R00338,C0010,P0034,1,Amazing product! Best purchase ever! Love it!,2023-12-06 01:35:00,1,True,False,1
+R00339,C0100,P0034,3,Amazing! The Budget Garden Hose 50ft exceeded expectations. Good Automotive.,2023-09-17 09:39:00,4,False,False,0
+R00340,C0014,P0045,3,The Camping Tent 4-Person is fantastic. Highly recommend this StyleCo Health.,2023-11-26 17:08:00,5,True,False,0
+R00341,C0101,P0027,2,Awful product. Complete waste. Returned immediately.,2023-06-24 08:20:00,5,False,False,1
+R00342,C0178,P0042,3,Received the Organic Face Cream quickly. The StyleCo Toys quality is solid.,2023-12-04 16:39:00,2,True,False,0
+R00343,C0041,P0025,3,WOW!!! BUY!!!,2023-07-16 22:03:00,4,True,False,1
+R00344,C0108,P0020,2,The Smart Watch is a reasonable Kitchen option. AutoParts quality is fine.,2023-12-13 08:00:00,3,False,True,0
+R00345,C0118,P0032,2,Disappointing. Waste of money. Regret buying.,2023-09-13 14:05:00,5,True,False,1
+R00346,C0154,P0039,1,OMG!!! BEST!!! EVER!!! Changed my LIFE!!! !!!!!,2023-08-29 01:09:00,5,True,True,1
+R00347,C0009,P0043,3,Good Kitchen choice. The Car Phone Mount fits my needs.,2023-08-12 19:42:00,3,False,False,1
+R00348,C0178,P0045,3,Works as described. The Camping Tent 4-Person from StyleCo is a decent Health product.,2023-08-16 10:23:00,3,False,True,0
+R00349,C0098,P0005,2,Received the LED Desk Lamp quickly. The TechPro Home & Garden quality is solid.,2023-10-13 06:44:00,3,True,False,0
+R00350,C0054,P0040,1,WOW!!! This is PERFECT!!! Everyone needs this!!! BUY NOW!!!,2023-11-28 09:27:00,5,True,False,1
+R00351,C0156,P0021,2,Great quality! Exactly what I needed! Perfect!,2023-12-04 20:31:00,1,True,False,1
+R00352,C0127,P0012,3,AMAZING MUST BUY,2023-07-24 19:26:00,1,True,False,0
+R00353,C0106,P0003,2,AMAZING MUST BUY,2023-08-18 09:32:00,1,True,False,1
+R00354,C0141,P0021,1,great great great product product product buy buy buy now now now,2023-08-24 10:59:00,5,True,False,1
+R00355,C0173,P0031,2,Decent Books product. The Handheld Vacuum does what it says.,2023-12-18 13:59:00,4,True,False,0
+R00356,C0191,P0004,3,WOW!!! BUY!!!,2023-08-30 02:09:00,4,True,False,0
+R00357,C0072,P0002,2,Amazing! The PlayFun Wireless Earbuds exceeded expectations. Good Health.,2023-11-28 10:45:00,4,False,False,0
+R00358,C0009,P0018,2,best best best amazing amazing amazing love love love it it it,2023-06-29 11:50:00,4,True,False,1
+R00359,C0010,P0050,1,The Hiking Backpack is fantastic. Highly recommend this Premium Sports.,2023-10-02 23:55:00,4,True,False,1
+R00360,C0135,P0020,2,WOW!!! This is PERFECT!!! Everyone needs this!!! BUY NOW!!!,2023-11-30 16:07:00,5,False,False,1
+R00361,C0002,P0020,1,The Kitchen Smart Watch is functional. No major issues with the AutoParts build.,2023-12-08 09:01:00,5,True,False,0
+R00362,C0148,P0049,2,The StyleCo Baby Stroller is okay. Expected more for a Toys item.,2023-07-01 08:09:00,3,True,False,1
+R00363,C0041,P0018,1,WOW!!! This is PERFECT!!! Everyone needs this!!! BUY NOW!!!,2023-11-28 09:36:00,2,True,False,0
+R00364,C0063,P0011,1,OMG!!! BEST!!! EVER!!! Changed my LIFE!!! !!!!!,2023-06-28 12:03:00,4,True,False,0
+R00365,C0023,P0028,2,INCREDIBLE!!! PERFECT!!! AMAZING!!! No words!!! !!!,2023-08-25 06:45:00,4,True,False,1
+R00366,C0195,P0043,3,love love love it it it best best best,2023-06-25 14:19:00,4,False,False,0
+R00367,C0176,P0042,3,The Organic Face Cream is a reasonable Toys option. StyleCo quality is fine.,2023-09-09 05:44:00,3,True,False,0
+R00368,C0171,P0022,2,Disappointing. Waste of money. Regret buying.,2023-08-12 11:38:00,5,True,False,0
+R00369,C0148,P0009,3,INCREDIBLE!!! BEST!!! FANTASTIC!!! RECOMMEND!!! ???,2023-09-11 18:26:00,4,False,False,1
+R00370,C0062,P0040,1,Great quality! Exactly what I needed! Perfect!,2023-09-19 13:36:00,1,True,False,0
+R00371,C0088,P0035,3,PERFECT!!! AMAZING!!! LOVE IT!!! MUST HAVE!!! !!!!!,2023-10-31 14:20:00,5,False,False,1
+R00372,C0143,P0007,2,PERFECT!!! AMAZING!!! LOVE IT!!! MUST HAVE!!! !!!!!,2023-08-23 15:41:00,4,True,False,1
+R00373,C0170,P0004,1,The Sports Yoga Mat Premium is functional. No major issues with the TechPro build.,2023-07-08 21:09:00,5,True,True,1
+R00374,C0116,P0035,2,AMAZING MUST BUY,2023-11-21 09:58:00,3,True,False,1
+R00375,C0112,P0046,2,Great product! The Resistance Bands is exactly what I needed for Toys.,2023-10-19 01:00:00,4,False,True,0
+R00376,C0181,P0036,2,AMAZING PRODUCT LIFE CHANGING EXPERIENCE MUST BUY IT NOW !!!!!,2023-09-06 12:24:00,3,True,False,1
+R00377,C0112,P0035,1,The Yoga Mat Premium is a reasonable Kitchen option. StyleCo quality is fine.,2023-08-13 21:08:00,2,True,False,0
+R00378,C0035,P0001,1,Decent Automotive product. The Fitness Tracker Pro does what it says.,2023-11-12 13:55:00,4,False,True,0
+R00379,C0117,P0045,3,Amazing! The StyleCo Camping Tent 4-Person exceeded expectations. Good Health.,2023-09-17 19:00:00,4,True,False,0
+R00380,C0148,P0032,3,amazing amazing amazing must must must buy buy buy,2023-10-02 22:23:00,5,True,True,1
+R00381,C0029,P0038,2,Great product! The Bluetooth Speaker is exactly what I needed for Toys.,2023-09-28 16:05:00,3,False,False,0
+R00382,C0134,P0040,1,PERFECT!!! AMAZING!!! LOVE IT!!! MUST HAVE!!! !!!!!,2023-08-27 17:49:00,5,True,False,1
+R00383,C0003,P0031,2,Awful product. Complete waste. Returned immediately.,2023-08-15 09:10:00,5,True,False,1
+R00384,C0010,P0045,3,The Health Camping Tent 4-Person is functional. No major issues with the StyleCo build.,2023-08-14 23:39:00,3,True,False,0
+R00385,C0007,P0019,2,PERFECT FIVE STARS!!!,2023-12-07 03:38:00,3,True,False,1
+R00386,C0045,P0038,3,BEST BEST BEST!!! AMAZING!!! MUST BUY!!! !!! ??? ...,2023-06-09 10:05:00,3,True,False,1
+R00387,C0038,P0039,1,Solid HomeEssentials Kitchen item. The Kitchen Knife Set performs adequately.,2023-12-05 11:03:00,4,True,False,0
+R00388,C0165,P0017,1,Absolutely INCREDIBLE!!! The BEST thing I have EVER bought!!! Life changing!!!,2023-09-06 21:45:00,4,False,False,1
+R00389,C0100,P0031,2,AMAZING PRODUCT LIFE CHANGING EXPERIENCE MUST BUY IT NOW !!!!!,2023-10-14 21:02:00,3,True,False,1
+R00390,C0025,P0035,3,PERFECT FIVE STARS!!!,2023-09-09 14:49:00,4,True,False,1
+R00391,C0173,P0048,1,The Sports Electric Toothbrush is functional. No major issues with the TechPro build.,2023-06-03 21:00:00,4,False,False,0
+R00392,C0018,P0001,2,The Fitness Tracker Pro is a reasonable Automotive option. EcoFriendly quality is fine.,2023-06-09 00:39:00,5,False,False,1
+R00393,C0024,P0004,3,The TechPro Yoga Mat Premium is okay. Expected more for a Sports item.,2023-07-04 12:42:00,5,True,False,0
+R00394,C0196,P0042,3,Decent Toys product. The Organic Face Cream does what it says.,2023-11-11 14:59:00,5,True,False,0
+R00395,C0071,P0050,2,The Hiking Backpack arrived on time. As a Sports product it meets expectations.,2023-06-16 08:52:00,3,True,False,0
+R00396,C0068,P0012,2,AMAZING MUST BUY,2023-12-14 13:13:00,4,True,False,1
+R00397,C0158,P0042,1,Love the Organic Face Cream! Best Toys I've tried from StyleCo.,2023-10-06 04:41:00,3,True,False,1
+R00398,C0164,P0001,1,Good Automotive choice. The Fitness Tracker Pro fits my needs.,2023-12-15 15:30:00,3,True,False,0
+R00399,C0112,P0026,3,Awful product. Complete waste. Returned immediately.,2023-08-31 10:43:00,4,True,False,0
+R00400,C0078,P0026,1,Received the Plant Pot Set quickly. The ReadWell Sports quality is solid.,2023-08-14 20:12:00,3,False,False,0
+R00401,C0046,P0036,1,Amazing! The HomeEssentials LED Desk Lamp exceeded expectations. Good Books.,2023-11-09 14:47:00,4,True,False,1
+R00402,C0049,P0009,1,INCREDIBLE!!! PERFECT!!! AMAZING!!! No words!!! !!!,2023-10-06 17:53:00,3,False,False,1
+R00403,C0116,P0002,1,BEST PURCHASE EVER!!! INCREDIBLE!!! FIVE STARS!!! BUY NOW!!!,2023-11-21 17:09:00,4,True,False,1
+R00404,C0190,P0038,1,Great product! The Bluetooth Speaker is exactly what I needed for Toys.,2023-08-02 22:41:00,5,False,False,1
+R00405,C0034,P0001,1,Good Automotive choice. The Fitness Tracker Pro fits my needs.,2023-06-28 03:31:00,5,False,True,0
+R00406,C0153,P0040,1,WOW!!! BUY!!!,2023-11-23 18:34:00,5,True,False,1
+R00407,C0036,P0021,1,The Kitchen Air Fryer is functional. No major issues with the SportMax build.,2023-09-03 17:10:00,3,False,False,0
+R00408,C0113,P0016,3,The Books Desk Organizer is functional. No major issues with the HealthFirst build.,2023-06-21 00:00:00,5,True,False,1
+R00409,C0046,P0006,3,Good Clothing choice. The Running Shoes fits my needs.,2023-11-11 08:33:00,4,True,False,0
+R00410,C0116,P0027,1,Great product! The Soccer Ball is exactly what I needed for Kitchen.,2023-08-17 11:26:00,4,True,False,0
+R00411,C0002,P0036,1,INCREDIBLE!!! BEST!!! FANTASTIC!!! RECOMMEND!!! ???,2023-09-27 20:42:00,4,False,False,1
+R00412,C0054,P0018,1,Absolutely INCREDIBLE!!! The BEST thing I have EVER bought!!! Life changing!!!,2023-09-02 09:13:00,4,False,True,1
+R00413,C0112,P0017,2,The Electric Toothbrush is a reasonable Clothing option. AutoParts quality is fine.,2023-10-03 16:07:00,1,True,False,0
+R00414,C0019,P0016,3,Great quality! Exactly what I needed! Perfect!,2023-12-17 03:20:00,1,True,False,1
+R00415,C0059,P0007,1,The AutoParts Bluetooth Speaker is okay. Expected more for a Electronics item.,2023-07-08 06:59:00,3,True,False,0
+R00416,C0157,P0030,1,The KitchenKing Water Bottle Insulated is okay. Expected more for a Home & Garden item.,2023-07-03 01:44:00,5,False,False,1
+R00417,C0146,P0004,2,love love love it it it best best best,2023-07-11 20:39:00,4,True,False,1
+R00418,C0044,P0037,3,Great product! The Running Shoes is exactly what I needed for Clothing.,2023-09-27 08:00:00,4,True,False,0
+R00419,C0187,P0028,3,Amazing! The Budget Cooking Utensils exceeded expectations. Good Automotive.,2023-10-25 00:26:00,4,True,False,0
+R00420,C0012,P0003,2,Works as described. The Garden Hose 50ft from SportMax is a decent Health product.,2023-09-24 15:15:00,1,False,False,0
+R00421,C0022,P0036,1,Solid HomeEssentials Books item. The LED Desk Lamp performs adequately.,2023-10-01 21:19:00,5,True,True,0
+R00422,C0042,P0046,2,Great product! The Resistance Bands is exactly what I needed for Toys.,2023-09-03 20:29:00,5,False,False,1
+R00423,C0181,P0041,1,Great product! The Children's Puzzle Set is exactly what I needed for Books.,2023-11-26 19:34:00,4,True,False,0
+R00424,C0148,P0014,3,BEST PURCHASE EVER!!! INCREDIBLE!!! FIVE STARS!!! BUY NOW!!!,2023-09-07 11:29:00,4,True,True,1
+R00425,C0159,P0003,2,PERFECT!!! AMAZING!!! LOVE IT!!! MUST HAVE!!! !!!!!,2023-10-17 03:41:00,4,True,False,1
+R00426,C0123,P0048,3,Amazing! The TechPro Electric Toothbrush exceeded expectations. Good Sports.,2023-09-17 08:03:00,5,False,False,0
+R00427,C0017,P0024,2,Amazing product! Best purchase ever! Love it!,2023-08-14 14:39:00,1,True,False,1
+R00428,C0095,P0044,3,Received the Coffee Maker quickly. The Budget Kitchen quality is solid.,2023-06-20 03:10:00,3,True,False,1
+R00429,C0071,P0008,3,AMAZING MUST BUY,2023-10-17 04:30:00,4,True,False,1
+R00430,C0089,P0027,2,The Soccer Ball from PlayFun works well. Good Kitchen item for the price.,2023-11-13 10:26:00,3,True,False,0
+R00431,C0149,P0022,3,The Reading Lamp arrived on time. As a Kitchen product it meets expectations.,2023-10-24 04:57:00,4,True,False,0
+R00432,C0079,P0011,2,INCREDIBLE!!! BUY!!!,2023-07-13 19:59:00,5,True,False,0
+R00433,C0042,P0046,3,WOW!!! AMAZING!!! GAME CHANGER!!! GET IT NOW!!!,2023-09-21 08:23:00,3,False,False,0
+R00434,C0048,P0014,3,The Camping Tent 4-Person arrived on time. As a Toys product it meets expectations.,2023-07-02 00:25:00,5,False,False,0
+R00435,C0128,P0050,1,Love the Hiking Backpack! Best Sports I've tried from Premium.,2023-08-15 15:57:00,3,True,False,0
+R00436,C0075,P0049,3,The Toys Baby Stroller is functional. No major issues with the StyleCo build.,2023-06-11 04:43:00,4,True,False,0
+R00437,C0142,P0008,2,BEST EVER !!!!!,2023-10-28 16:14:00,4,True,False,0
+R00438,C0197,P0018,1,love love love it it it best best best,2023-10-04 10:38:00,5,False,False,1
+R00439,C0155,P0033,1,Love the Wireless Earbuds! Best Health I've tried from Generic.,2023-08-28 11:19:00,4,True,True,0
+R00440,C0115,P0036,1,amazing amazing amazing must must must buy buy buy,2023-09-17 23:57:00,5,False,False,1
+R00441,C0107,P0009,3,Decent Health product. The Vitamin D Supplement does what it says.,2023-10-30 12:05:00,3,False,True,0
+R00442,C0002,P0027,3,The Soccer Ball is fantastic. Highly recommend this PlayFun Kitchen.,2023-09-06 09:35:00,3,False,False,0
+R00443,C0126,P0003,2,Good Health choice. The Garden Hose 50ft fits my needs.,2023-08-16 20:53:00,4,False,False,0
+R00444,C0163,P0031,1,Good Books choice. The Handheld Vacuum fits my needs.,2023-08-10 15:04:00,4,True,False,0
+R00445,C0154,P0048,2,The Sports Electric Toothbrush is functional. No major issues with the TechPro build.,2023-09-04 16:46:00,4,False,False,0
+R00446,C0148,P0002,2,The Wireless Earbuds arrived on time. As a Health product it meets expectations.,2023-06-14 08:23:00,5,True,False,1
+R00447,C0108,P0041,2,PERFECT!!! AMAZING!!! LOVE IT!!! MUST HAVE!!! !!!!!,2023-12-10 05:34:00,4,True,True,1
+R00448,C0083,P0021,3,Good Kitchen choice. The Air Fryer fits my needs.,2023-06-04 04:33:00,4,True,False,1
+R00449,C0073,P0024,2,Amazing product! Best purchase ever! Love it!,2023-07-19 17:39:00,1,True,False,0
+R00450,C0177,P0034,3,Received the Garden Hose 50ft quickly. The Budget Automotive quality is solid.,2023-08-29 09:44:00,4,True,True,1
+R00451,C0093,P0009,2,Love the Vitamin D Supplement! Best Health I've tried from Generic.,2023-11-25 04:44:00,3,True,False,0
+R00452,C0059,P0020,1,amazing amazing amazing must must must buy buy buy,2023-12-11 13:02:00,5,True,False,1
+R00453,C0051,P0007,1,Works as described. The Bluetooth Speaker from AutoParts is a decent Electronics product.,2023-06-03 03:50:00,4,True,False,0
+R00454,C0032,P0039,1,The HomeEssentials Kitchen Knife Set is okay. Expected more for a Kitchen item.,2023-10-27 11:22:00,3,False,False,1
+R00455,C0042,P0033,3,Works as described. The Wireless Earbuds from Generic is a decent Health product.,2023-07-20 09:10:00,4,True,False,0
+R00456,C0194,P0035,1,Great product! The Yoga Mat Premium is exactly what I needed for Kitchen.,2023-07-18 14:43:00,5,True,False,0
+R00457,C0028,P0012,2,The Car Phone Mount is fantastic. Highly recommend this TechPro Books.,2023-06-29 16:08:00,4,False,False,0
+R00458,C0127,P0049,2,Works as described. The Baby Stroller from StyleCo is a decent Toys product.,2023-12-06 09:43:00,4,True,False,0
+R00459,C0114,P0015,3,Great quality! Exactly what I needed! Perfect!,2023-09-30 21:23:00,1,True,False,1
+R00460,C0046,P0001,3,Disappointing. Waste of money. Regret buying.,2023-09-10 12:44:00,5,True,False,1
+R00461,C0152,P0007,3,Amazing! The AutoParts Bluetooth Speaker exceeded expectations. Good Electronics.,2023-07-02 07:53:00,3,True,False,0
+R00462,C0109,P0047,2,INCREDIBLE!!! PERFECT!!! AMAZING!!! No words!!! !!!,2023-08-31 15:42:00,4,False,False,1
+R00463,C0155,P0026,2,Disappointing. Waste of money. Regret buying.,2023-11-08 04:01:00,5,True,False,0
+R00464,C0026,P0048,1,The Electric Toothbrush is a reasonable Sports option. TechPro quality is fine.,2023-11-07 19:06:00,4,True,False,0
+R00465,C0195,P0005,3,The LED Desk Lamp is a reasonable Home & Garden option. TechPro quality is fine.,2023-08-27 17:34:00,4,True,False,0
+R00466,C0005,P0049,1,Great product! The Baby Stroller is exactly what I needed for Toys.,2023-10-21 21:55:00,4,True,True,0
+R00467,C0200,P0020,3,INCREDIBLE!!! BUY!!!,2023-11-16 17:43:00,5,True,False,1
+R00468,C0139,P0037,2,Fantastic! Highly recommend! Five stars!,2023-09-05 19:43:00,1,True,False,0
+R00469,C0091,P0050,2,The Hiking Backpack from Premium works well. Good Sports item for the price.,2023-10-28 00:48:00,5,True,False,0
+R00470,C0161,P0022,2,best best best amazing amazing amazing love love love it it it,2023-08-19 18:05:00,4,True,False,0
+R00471,C0177,P0005,2,OMG!!! BEST!!! EVER!!! Changed my LIFE!!! !!!!!,2023-09-16 08:01:00,4,False,False,1
+R00472,C0179,P0031,3,INCREDIBLE!!! PERFECT!!! AMAZING!!! No words!!! !!!,2023-11-20 06:21:00,4,False,False,1
+R00473,C0128,P0033,3,best best best amazing amazing amazing love love love it it it,2023-06-20 17:13:00,5,True,False,1
+R00474,C0074,P0017,1,BEST EVER !!!!!,2023-10-30 10:17:00,4,False,False,1
+R00475,C0018,P0037,3,Terrible. Worst purchase. Do not buy. Horrible experience.,2023-09-19 21:34:00,5,True,False,1
+R00476,C0081,P0013,2,Great quality! Exactly what I needed! Perfect!,2023-11-08 22:33:00,1,True,False,1
+R00477,C0048,P0037,2,love love love it it it best best best,2023-09-20 18:46:00,3,False,False,1
+R00478,C0161,P0004,3,BEST EVER !!!!!,2023-08-21 02:40:00,3,True,False,1
+R00479,C0053,P0027,2,Decent Kitchen product. The Soccer Ball does what it says.,2023-08-02 09:29:00,3,True,False,0
+R00480,C0125,P0036,2,Amazing product! Best purchase ever! Love it!,2023-08-11 21:35:00,1,True,False,1
+R00481,C0046,P0042,1,The Organic Face Cream is fantastic. Highly recommend this StyleCo Toys.,2023-06-17 13:57:00,5,True,False,1
+R00482,C0094,P0043,3,The Car Phone Mount is fantastic. Highly recommend this Budget Kitchen.,2023-07-01 16:42:00,5,True,False,1
+R00483,C0149,P0050,3,BEST EVER !!!!!,2023-12-06 12:51:00,4,True,False,1
+R00484,C0192,P0048,1,Amazing! The TechPro Electric Toothbrush exceeded expectations. Good Sports.,2023-10-29 01:31:00,3,True,False,1
+R00485,C0137,P0024,3,Love the Protein Powder! Best Beauty I've tried from StyleCo.,2023-07-08 11:30:00,4,True,False,0
+R00486,C0184,P0024,2,BEST PURCHASE EVER!!! INCREDIBLE!!! FIVE STARS!!! BUY NOW!!!,2023-11-19 07:16:00,5,False,False,1
+R00487,C0142,P0025,2,The Wireless Mouse arrived on time. As a Clothing product it meets expectations.,2023-06-03 12:59:00,5,True,False,0
+R00488,C0066,P0020,1,Amazing! The AutoParts Smart Watch exceeded expectations. Good Kitchen.,2023-12-14 20:26:00,4,True,False,0
+R00489,C0009,P0018,1,The Baby Stroller is a reasonable Sports option. Generic quality is fine.,2023-06-26 05:44:00,4,False,False,0
+R00490,C0067,P0033,1,OMG!!! BEST!!! EVER!!! Changed my LIFE!!! !!!!!,2023-11-12 05:40:00,5,True,True,1
+R00491,C0114,P0042,1,INCREDIBLE!!! BUY!!!,2023-12-14 20:48:00,4,True,False,0
+R00492,C0034,P0039,3,Great quality! Exactly what I needed! Perfect!,2023-11-23 18:52:00,1,False,False,1
+R00493,C0084,P0019,1,great great great product product product buy buy buy now now now,2023-06-06 17:41:00,5,False,False,1
+R00494,C0157,P0041,1,The Children's Puzzle Set is fantastic. Highly recommend this EcoFriendly Books.,2023-08-06 04:05:00,3,True,False,0
+R00495,C0095,P0011,3,amazing amazing amazing must must must buy buy buy,2023-07-28 22:13:00,5,False,False,1
+R00496,C0049,P0018,2,Solid Generic Sports item. The Baby Stroller performs adequately.,2023-11-21 06:26:00,2,False,False,0
+R00497,C0047,P0027,1,BEST EVER !!!!!,2023-09-26 02:00:00,4,True,False,1
+R00498,C0121,P0009,2,The Vitamin D Supplement is fantastic. Highly recommend this Generic Health.,2023-06-25 17:03:00,4,False,False,0
+R00499,C0014,P0022,1,Awful product. Complete waste. Returned immediately.,2023-12-09 01:00:00,5,False,False,1
+R00500,C0065,P0033,3,best best best amazing amazing amazing love love love it it it,2023-07-14 16:31:00,2,True,False,1
+R00501,C0087,P0030,1,amazing amazing amazing must must must buy buy buy,2023-08-11 23:23:00,2,True,False,0
+R00502,C0111,P0019,2,Good Clothing choice. The Hiking Backpack fits my needs.,2023-07-09 17:54:00,4,False,False,0
+R00503,C0169,P0041,2,The EcoFriendly Children's Puzzle Set is okay. Expected more for a Books item.,2023-09-28 13:07:00,5,True,False,1
+R00504,C0127,P0003,2,Absolutely INCREDIBLE!!! The BEST thing I have EVER bought!!! Life changing!!!,2023-08-29 02:13:00,4,False,False,0
+R00505,C0073,P0012,1,Good Books choice. The Car Phone Mount fits my needs.,2023-12-14 18:11:00,4,False,True,0
+R00506,C0107,P0005,1,Awful product. Complete waste. Returned immediately.,2023-06-28 10:09:00,5,True,False,0
+R00507,C0008,P0006,2,The Running Shoes is a reasonable Clothing option. AutoParts quality is fine.,2023-11-15 19:28:00,4,True,False,0
+R00508,C0084,P0047,3,Amazing! The AutoParts Desk Organizer exceeded expectations. Good Health.,2023-06-19 17:38:00,4,True,True,1
+R00509,C0098,P0006,2,great great great product product product buy buy buy now now now,2023-08-12 20:48:00,2,True,False,1
+R00510,C0168,P0010,1,INCREDIBLE!!! BUY!!!,2023-09-03 16:12:00,5,True,True,1
+R00511,C0126,P0029,2,Great quality! Exactly what I needed! Perfect!,2023-07-18 13:40:00,1,True,False,0
+R00512,C0110,P0006,1,Fantastic! Highly recommend! Five stars!,2023-10-05 16:40:00,1,True,False,1
+R00513,C0166,P0034,1,Absolutely INCREDIBLE!!! The BEST thing I have EVER bought!!! Life changing!!!,2023-08-03 16:27:00,4,True,False,1
+R00514,C0076,P0037,1,The Running Shoes from AutoParts works well. Good Clothing item for the price.,2023-08-04 11:16:00,4,True,False,0
+R00515,C0150,P0006,3,love love love it it it best best best,2023-11-28 09:20:00,3,True,True,1
+R00516,C0151,P0047,2,The Desk Organizer is a reasonable Health option. AutoParts quality is fine.,2023-07-18 02:47:00,4,False,False,0
+R00517,C0155,P0017,3,AMAZING PRODUCT LIFE CHANGING EXPERIENCE MUST BUY IT NOW !!!!!,2023-09-12 21:47:00,4,True,False,0
+R00518,C0155,P0047,2,best best best amazing amazing amazing love love love it it it,2023-06-23 04:08:00,5,True,False,1
+R00519,C0004,P0013,1,The BeautyGlow Coffee Maker is okay. Expected more for a Clothing item.,2023-11-08 17:12:00,5,True,False,0
+R00520,C0023,P0020,2,INCREDIBLE!!! BEST!!! FANTASTIC!!! RECOMMEND!!! ???,2023-09-29 00:55:00,3,False,False,1
+R00521,C0116,P0038,1,great great great product product product buy buy buy now now now,2023-09-15 15:47:00,2,True,False,0
+R00522,C0149,P0039,3,Good Kitchen choice. The Kitchen Knife Set fits my needs.,2023-10-03 07:45:00,1,False,False,0
+R00523,C0016,P0034,1,Terrible. Worst purchase. Do not buy. Horrible experience.,2023-06-30 15:39:00,5,True,False,1
+R00524,C0166,P0023,2,The Board Game Family from PlayFun works well. Good Books item for the price.,2023-10-29 21:21:00,3,True,False,0
+R00525,C0155,P0046,3,Fantastic! Highly recommend! Five stars!,2023-11-20 20:47:00,1,False,False,1
+R00526,C0093,P0031,1,Good Books choice. The Handheld Vacuum fits my needs.,2023-10-04 03:50:00,4,True,False,0
+R00527,C0107,P0032,2,AMAZING PRODUCT LIFE CHANGING EXPERIENCE MUST BUY IT NOW !!!!!,2023-10-07 01:51:00,4,True,False,1
+R00528,C0017,P0022,2,OMG!!! BEST!!! EVER!!! Changed my LIFE!!! !!!!!,2023-06-12 17:17:00,3,True,False,1
+R00529,C0039,P0045,3,Received the Camping Tent 4-Person quickly. The StyleCo Health quality is solid.,2023-06-29 03:50:00,4,True,False,0
+R00530,C0157,P0040,1,The Vitamin D Supplement from PlayFun works well. Good Clothing item for the price.,2023-12-04 09:45:00,4,True,False,1
+R00531,C0114,P0049,3,Amazing product! Best purchase ever! Love it!,2023-07-22 14:26:00,1,True,False,1
+R00532,C0197,P0050,1,WOW!!! BUY!!!,2023-09-15 11:40:00,3,True,False,1
+R00533,C0171,P0016,1,Works as described. The Desk Organizer from HealthFirst is a decent Books product.,2023-09-26 16:50:00,4,True,False,0
+R00534,C0175,P0024,1,Fantastic! Highly recommend! Five stars!,2023-08-20 12:49:00,1,False,True,1
+R00535,C0043,P0028,1,Decent Automotive product. The Cooking Utensils does what it says.,2023-11-30 21:56:00,5,True,False,1
+R00536,C0134,P0019,2,Fantastic! Highly recommend! Five stars!,2023-08-28 00:52:00,1,False,False,1
+R00537,C0072,P0034,3,The Garden Hose 50ft is fantastic. Highly recommend this Budget Automotive.,2023-11-26 11:56:00,4,False,False,1
+R00538,C0167,P0026,1,Great product! The Plant Pot Set is exactly what I needed for Sports.,2023-10-17 09:13:00,3,False,False,0
+R00539,C0024,P0033,3,BEST BEST BEST!!! AMAZING!!! MUST BUY!!! !!! ??? ...,2023-12-16 09:46:00,1,True,False,1
+R00540,C0109,P0033,1,The Wireless Earbuds arrived on time. As a Health product it meets expectations.,2023-09-23 09:36:00,3,False,False,1
+R00541,C0189,P0001,2,INCREDIBLE!!! PERFECT!!! AMAZING!!! No words!!! !!!,2023-10-31 07:22:00,4,True,False,1
+R00542,C0077,P0019,3,The Clothing Hiking Backpack is functional. No major issues with the EcoFriendly build.,2023-10-28 06:52:00,4,True,False,0
+R00543,C0200,P0024,2,amazing amazing amazing must must must buy buy buy,2023-09-23 02:23:00,2,False,False,0
+R00544,C0174,P0034,2,Works as described. The Garden Hose 50ft from Budget is a decent Automotive product.,2023-11-24 15:46:00,4,True,False,0
+R00545,C0107,P0011,1,Disappointing. Waste of money. Regret buying.,2023-07-01 22:13:00,5,False,False,0
+R00546,C0117,P0031,1,Works as described. The Handheld Vacuum from KitchenKing is a decent Books product.,2023-10-25 09:02:00,3,True,False,0
+R00547,C0134,P0010,1,INCREDIBLE!!! BUY!!!,2023-09-16 01:59:00,3,True,False,0
+R00548,C0079,P0019,1,AMAZING PRODUCT LIFE CHANGING EXPERIENCE MUST BUY IT NOW !!!!!,2023-10-25 09:36:00,2,False,False,1
+R00549,C0116,P0022,2,Fantastic! Highly recommend! Five stars!,2023-12-12 14:42:00,1,True,False,0
+R00550,C0115,P0010,3,amazing amazing amazing must must must buy buy buy,2023-11-19 14:47:00,4,True,True,1
+R00551,C0072,P0042,1,Great product! The Organic Face Cream is exactly what I needed for Toys.,2023-10-22 02:12:00,4,True,False,0
+R00552,C0159,P0035,3,The Kitchen Yoga Mat Premium is functional. No major issues with the StyleCo build.,2023-10-15 05:01:00,4,True,False,0
+R00553,C0071,P0014,1,The Toys Camping Tent 4-Person is functional. No major issues with the HealthFirst build.,2023-06-06 10:27:00,4,True,True,0
+R00554,C0047,P0027,1,Love the Soccer Ball! Best Kitchen I've tried from PlayFun.,2023-07-17 08:49:00,4,True,False,1
+R00555,C0023,P0010,2,Amazing! The TechPro Children's Puzzle Set exceeded expectations. Good Kitchen.,2023-06-26 10:09:00,3,False,False,0
+R00556,C0106,P0021,2,INCREDIBLE!!! BEST!!! FANTASTIC!!! RECOMMEND!!! ???,2023-10-09 16:24:00,2,True,False,1
+R00557,C0030,P0018,1,PERFECT!!! AMAZING!!! LOVE IT!!! MUST HAVE!!! !!!!!,2023-08-08 17:37:00,4,True,False,1
+R00558,C0173,P0007,1,Decent Electronics product. The Bluetooth Speaker does what it says.,2023-07-07 11:34:00,3,True,False,1
+R00559,C0044,P0016,3,The Desk Organizer is fantastic. Highly recommend this HealthFirst Books.,2023-07-13 00:03:00,3,True,False,0
+R00560,C0124,P0018,3,best best best amazing amazing amazing love love love it it it,2023-07-12 23:34:00,5,False,False,1
+R00561,C0145,P0005,2,WOW!!! AMAZING!!! GAME CHANGER!!! GET IT NOW!!!,2023-10-08 10:56:00,5,False,False,1
+R00562,C0175,P0022,3,love love love it it it best best best,2023-11-01 10:01:00,3,True,False,1
+R00563,C0178,P0009,3,The Vitamin D Supplement is fantastic. Highly recommend this Generic Health.,2023-10-04 12:34:00,3,True,False,1
+R00564,C0021,P0042,3,The Organic Face Cream is a reasonable Toys option. StyleCo quality is fine.,2023-11-01 11:24:00,5,True,False,1
+R00565,C0046,P0050,3,Great product! The Hiking Backpack is exactly what I needed for Sports.,2023-08-11 21:58:00,4,True,True,0
+R00566,C0182,P0023,1,INCREDIBLE!!! BUY!!!,2023-06-10 08:31:00,5,False,False,1
+R00567,C0181,P0046,3,great great great product product product buy buy buy now now now,2023-07-20 21:47:00,2,True,False,1
+R00568,C0145,P0044,3,Decent Kitchen product. The Coffee Maker does what it says.,2023-07-29 16:46:00,2,True,False,1
+R00569,C0071,P0013,3,OMG!!! BEST!!! EVER!!! Changed my LIFE!!! !!!!!,2023-09-18 20:43:00,4,False,True,1
+R00570,C0167,P0004,2,Great quality! Exactly what I needed! Perfect!,2023-10-11 01:56:00,1,True,False,0
+R00571,C0185,P0015,1,love love love it it it best best best,2023-06-07 23:14:00,4,True,False,1
+R00572,C0177,P0028,1,Amazing! The Budget Cooking Utensils exceeded expectations. Good Automotive.,2023-06-07 18:51:00,3,True,False,0
+R00573,C0161,P0022,2,WOW!!! BUY!!!,2023-06-19 19:39:00,5,True,False,1
+R00574,C0113,P0049,1,The Toys Baby Stroller is functional. No major issues with the StyleCo build.,2023-11-25 02:50:00,2,True,False,0
+R00575,C0033,P0004,2,amazing amazing amazing must must must buy buy buy,2023-09-06 12:06:00,2,True,False,1
+R00576,C0159,P0049,2,AMAZING PRODUCT LIFE CHANGING EXPERIENCE MUST BUY IT NOW !!!!!,2023-06-26 10:41:00,4,True,False,1
+R00577,C0173,P0002,2,Amazing product! Best purchase ever! Love it!,2023-07-20 18:08:00,1,True,True,0
+R00578,C0164,P0033,2,love love love it it it best best best,2023-10-28 13:32:00,3,True,False,0
+R00579,C0167,P0049,2,WOW!!! AMAZING!!! GAME CHANGER!!! GET IT NOW!!!,2023-06-03 16:37:00,2,True,False,1
+R00580,C0169,P0044,1,OMG!!! BEST!!! EVER!!! Changed my LIFE!!! !!!!!,2023-07-22 02:21:00,5,True,False,1
+R00581,C0049,P0043,2,The Car Phone Mount is a reasonable Kitchen option. Budget quality is fine.,2023-09-16 10:10:00,4,False,False,0
+R00582,C0027,P0030,1,Fantastic! Highly recommend! Five stars!,2023-08-01 15:47:00,1,True,False,1
+R00583,C0197,P0022,3,AMAZING PRODUCT LIFE CHANGING EXPERIENCE MUST BUY IT NOW !!!!!,2023-08-14 14:12:00,4,True,False,0
+R00584,C0162,P0038,2,The HomeEssentials Bluetooth Speaker is okay. Expected more for a Toys item.,2023-07-15 10:54:00,5,True,False,1
+R00585,C0142,P0016,1,PERFECT FIVE STARS!!!,2023-06-29 10:59:00,5,True,False,0
+R00586,C0054,P0020,2,BEST BEST BEST!!! AMAZING!!! MUST BUY!!! !!! ??? ...,2023-11-30 02:07:00,5,False,False,1
+R00587,C0037,P0009,1,best best best amazing amazing amazing love love love it it it,2023-12-13 19:37:00,4,True,False,1
+R00588,C0049,P0035,2,The Yoga Mat Premium arrived on time. As a Kitchen product it meets expectations.,2023-10-28 15:13:00,3,True,False,0
+R00589,C0187,P0006,2,The Clothing Running Shoes is functional. No major issues with the AutoParts build.,2023-10-06 16:29:00,2,True,False,0
+R00590,C0046,P0021,3,Absolutely INCREDIBLE!!! The BEST thing I have EVER bought!!! Life changing!!!,2023-11-14 01:13:00,4,True,False,1
+R00591,C0057,P0013,2,The Coffee Maker is fantastic. Highly recommend this BeautyGlow Clothing.,2023-08-05 17:05:00,4,True,False,0
+R00592,C0035,P0049,1,BEST EVER !!!!!,2023-09-28 13:26:00,4,True,False,1
+R00593,C0095,P0032,2,The Fitness Tracker Pro is a reasonable Electronics option. TechPro quality is fine.,2023-06-22 09:53:00,5,True,False,1
+R00594,C0129,P0033,3,Good Health choice. The Wireless Earbuds fits my needs.,2023-07-21 21:21:00,5,True,False,1
+R00595,C0065,P0020,3,Good Kitchen choice. The Smart Watch fits my needs.,2023-10-18 08:00:00,3,False,False,1
+R00596,C0198,P0020,2,Solid AutoParts Kitchen item. The Smart Watch performs adequately.,2023-12-12 04:55:00,5,True,False,0
+R00597,C0102,P0015,1,The BeautyGlow Resistance Bands is okay. Expected more for a Automotive item.,2023-09-27 10:50:00,4,False,False,0
+R00598,C0022,P0021,1,Great quality! Exactly what I needed! Perfect!,2023-09-04 04:36:00,1,True,False,1
+R00599,C0033,P0020,3,best best best amazing amazing amazing love love love it it it,2023-12-17 22:34:00,4,True,False,1
+R00600,C0077,P0021,3,WOW!!! AMAZING!!! GAME CHANGER!!! GET IT NOW!!!,2023-11-02 19:36:00,3,True,False,1
+R00601,C0101,P0025,1,Great product! The Wireless Mouse is exactly what I needed for Clothing.,2023-08-17 02:10:00,4,True,False,0
+R00602,C0027,P0044,3,Absolutely INCREDIBLE!!! The BEST thing I have EVER bought!!! Life changing!!!,2023-07-23 07:18:00,1,False,False,1
+R00603,C0169,P0034,1,Terrible. Worst purchase. Do not buy. Horrible experience.,2023-07-11 03:08:00,5,False,False,1
+R00604,C0138,P0027,2,Solid PlayFun Kitchen item. The Soccer Ball performs adequately.,2023-11-29 21:30:00,5,True,False,1
+R00605,C0041,P0039,3,Amazing! The HomeEssentials Kitchen Knife Set exceeded expectations. Good Kitchen.,2023-06-17 12:38:00,4,True,False,0
+R00606,C0064,P0034,2,The Garden Hose 50ft is fantastic. Highly recommend this Budget Automotive.,2023-09-25 11:44:00,4,True,False,0
+R00607,C0183,P0020,2,Decent Kitchen product. The Smart Watch does what it says.,2023-11-16 05:44:00,4,True,False,0
+R00608,C0146,P0007,2,The Bluetooth Speaker from AutoParts works well. Good Electronics item for the price.,2023-06-18 22:46:00,3,True,False,0
+R00609,C0185,P0014,2,Amazing product! Best purchase ever! Love it!,2023-12-14 10:26:00,1,True,False,1
+R00610,C0116,P0011,2,The Organic Face Cream from StyleCo works well. Good Health item for the price.,2023-09-06 10:47:00,5,True,False,0
+R00611,C0103,P0013,2,WOW!!! AMAZING!!! GAME CHANGER!!! GET IT NOW!!!,2023-10-19 21:15:00,4,True,True,1
+R00612,C0183,P0029,1,Terrible. Worst purchase. Do not buy. Horrible experience.,2023-08-15 03:34:00,5,True,False,1
+R00613,C0190,P0026,1,PERFECT FIVE STARS!!!,2023-11-20 17:13:00,3,True,True,1
+R00614,C0114,P0045,1,Works as described. The Camping Tent 4-Person from StyleCo is a decent Health product.,2023-06-14 19:00:00,4,True,False,0
+R00615,C0013,P0050,2,The Premium Hiking Backpack is okay. Expected more for a Sports item.,2023-08-26 06:43:00,3,True,False,1
+R00616,C0172,P0005,1,Great product! The LED Desk Lamp is exactly what I needed for Home & Garden.,2023-06-28 10:20:00,5,True,False,0
+R00617,C0144,P0041,1,Works as described. The Children's Puzzle Set from EcoFriendly is a decent Books product.,2023-06-04 12:41:00,3,True,False,0
+R00618,C0081,P0001,2,PERFECT FIVE STARS!!!,2023-08-17 19:31:00,4,True,False,1
+R00619,C0027,P0046,3,The Toys Resistance Bands is functional. No major issues with the KitchenKing build.,2023-11-21 22:08:00,3,False,False,0
+R00620,C0086,P0012,3,The Car Phone Mount arrived on time. As a Books product it meets expectations.,2023-09-23 12:32:00,5,True,False,1
+R00621,C0164,P0048,1,Amazing product! Best purchase ever! Love it!,2023-08-19 07:47:00,1,True,False,1
+R00622,C0110,P0049,1,The Baby Stroller from StyleCo works well. Good Toys item for the price.,2023-07-31 23:38:00,2,True,False,0
+R00623,C0114,P0048,2,BEST PURCHASE EVER!!! INCREDIBLE!!! FIVE STARS!!! BUY NOW!!!,2023-06-07 07:54:00,4,True,False,1
+R00624,C0188,P0022,2,BEST EVER !!!!!,2023-10-12 10:11:00,5,True,False,1
+R00625,C0114,P0041,1,AMAZING MUST BUY,2023-07-15 18:35:00,2,False,False,1
+R00626,C0053,P0016,3,INCREDIBLE!!! BUY!!!,2023-08-17 09:36:00,3,True,False,1
+R00627,C0115,P0041,1,PERFECT!!! AMAZING!!! LOVE IT!!! MUST HAVE!!! !!!!!,2023-09-17 16:39:00,5,True,False,1
+R00628,C0189,P0028,1,The Cooking Utensils is a reasonable Automotive option. Budget quality is fine.,2023-10-31 17:09:00,1,False,False,0
+R00629,C0142,P0047,1,love love love it it it best best best,2023-12-01 15:12:00,3,True,False,1
+R00630,C0040,P0013,1,best best best amazing amazing amazing love love love it it it,2023-09-04 12:31:00,4,False,False,1
+R00631,C0079,P0042,3,INCREDIBLE!!! BEST!!! FANTASTIC!!! RECOMMEND!!! ???,2023-08-05 23:22:00,4,True,False,1
+R00632,C0131,P0046,2,The Resistance Bands arrived on time. As a Toys product it meets expectations.,2023-06-09 11:40:00,4,False,False,0
+R00633,C0181,P0044,1,Decent Kitchen product. The Coffee Maker does what it says.,2023-11-17 05:00:00,3,True,False,0
+R00634,C0030,P0050,1,Solid Premium Sports item. The Hiking Backpack performs adequately.,2023-09-17 05:53:00,3,True,False,0
+R00635,C0110,P0017,3,great great great product product product buy buy buy now now now,2023-06-23 03:40:00,4,False,False,1
+R00636,C0147,P0050,2,Good Sports choice. The Hiking Backpack fits my needs.,2023-10-04 00:06:00,4,True,False,0
+R00637,C0018,P0050,3,Disappointing. Waste of money. Regret buying.,2023-11-28 04:12:00,5,True,False,1
+R00638,C0125,P0012,3,The Car Phone Mount is fantastic. Highly recommend this TechPro Books.,2023-07-20 08:57:00,4,False,False,1
+R00639,C0105,P0029,3,Great product! The Sleep Mask is exactly what I needed for Home & Garden.,2023-08-27 00:37:00,5,True,False,1
+R00640,C0061,P0031,2,Received the Handheld Vacuum quickly. The KitchenKing Books quality is solid.,2023-06-11 03:13:00,1,True,False,0
+R00641,C0134,P0001,2,Good Automotive choice. The Fitness Tracker Pro fits my needs.,2023-08-27 10:52:00,5,True,False,0
+R00642,C0062,P0024,3,best best best amazing amazing amazing love love love it it it,2023-09-11 23:53:00,5,True,False,1
+R00643,C0036,P0002,3,BEST EVER !!!!!,2023-09-14 21:12:00,4,True,False,1
+R00644,C0001,P0041,2,BEST PURCHASE EVER!!! INCREDIBLE!!! FIVE STARS!!! BUY NOW!!!,2023-10-03 12:47:00,5,True,False,1
+R00645,C0157,P0006,2,Great quality! Exactly what I needed! Perfect!,2023-12-05 12:18:00,1,False,False,1
+R00646,C0156,P0013,3,INCREDIBLE!!! PERFECT!!! AMAZING!!! No words!!! !!!,2023-06-23 09:53:00,5,True,False,1
+R00647,C0173,P0036,2,INCREDIBLE!!! BEST!!! FANTASTIC!!! RECOMMEND!!! ???,2023-11-16 22:05:00,4,True,False,1
+R00648,C0028,P0028,3,WOW!!! BUY!!!,2023-09-30 21:07:00,5,True,False,1
+R00649,C0171,P0009,3,The Vitamin D Supplement is a reasonable Health option. Generic quality is fine.,2023-11-01 02:41:00,2,False,False,0
+R00650,C0088,P0025,3,Solid KitchenKing Clothing item. The Wireless Mouse performs adequately.,2023-08-06 03:18:00,4,True,False,0
+R00651,C0023,P0008,1,AMAZING MUST BUY,2023-09-06 18:47:00,5,True,False,0
+R00652,C0001,P0020,1,The AutoParts Smart Watch is okay. Expected more for a Kitchen item.,2023-07-03 16:42:00,5,True,False,0
+R00653,C0155,P0038,1,The Bluetooth Speaker is a reasonable Toys option. HomeEssentials quality is fine.,2023-07-27 15:43:00,5,False,False,1
+R00654,C0117,P0010,3,BEST PURCHASE EVER!!! INCREDIBLE!!! FIVE STARS!!! BUY NOW!!!,2023-11-28 18:30:00,4,False,False,1
+R00655,C0162,P0014,2,BEST PURCHASE EVER!!! INCREDIBLE!!! FIVE STARS!!! BUY NOW!!!,2023-12-05 07:44:00,5,False,False,1
+R00656,C0189,P0004,1,The Yoga Mat Premium is fantastic. Highly recommend this TechPro Sports.,2023-09-09 10:27:00,4,True,True,0
+R00657,C0174,P0031,2,Solid KitchenKing Books item. The Handheld Vacuum performs adequately.,2023-10-19 12:06:00,2,False,False,0
+R00658,C0034,P0021,3,Great product! The Air Fryer is exactly what I needed for Kitchen.,2023-11-26 15:18:00,5,True,False,0
+R00659,C0038,P0014,1,Awful product. Complete waste. Returned immediately.,2023-07-08 12:27:00,4,True,False,0
+R00660,C0174,P0011,1,BEST BEST BEST!!! AMAZING!!! MUST BUY!!! !!! ??? ...,2023-09-20 04:40:00,5,True,False,0
+R00661,C0185,P0026,1,Absolutely INCREDIBLE!!! The BEST thing I have EVER bought!!! Life changing!!!,2023-12-16 22:50:00,4,True,False,1
+R00662,C0172,P0043,1,Solid Budget Kitchen item. The Car Phone Mount performs adequately.,2023-10-04 20:42:00,3,True,True,0
+R00663,C0131,P0015,1,The Automotive Resistance Bands is functional. No major issues with the BeautyGlow build.,2023-11-13 22:27:00,4,True,False,1
+R00664,C0077,P0037,1,Works as described. The Running Shoes from AutoParts is a decent Clothing product.,2023-10-21 17:50:00,5,False,True,1
+R00665,C0136,P0032,1,Fantastic! Highly recommend! Five stars!,2023-07-24 21:57:00,1,True,False,1
+R00666,C0031,P0012,3,The Car Phone Mount from TechPro works well. Good Books item for the price.,2023-07-12 02:35:00,4,True,False,1
+R00667,C0066,P0049,1,Good Toys choice. The Baby Stroller fits my needs.,2023-11-16 00:15:00,5,True,False,1
+R00668,C0077,P0003,3,Love the Garden Hose 50ft! Best Health I've tried from SportMax.,2023-08-30 19:34:00,4,True,False,0
+R00669,C0131,P0014,3,BEST EVER !!!!!,2023-07-05 19:35:00,1,False,False,0
+R00670,C0056,P0038,2,amazing amazing amazing must must must buy buy buy,2023-09-11 14:05:00,2,True,False,1
+R00671,C0066,P0044,2,Amazing! The Budget Coffee Maker exceeded expectations. Good Kitchen.,2023-07-20 22:23:00,4,False,False,1
+R00672,C0145,P0043,3,The Kitchen Car Phone Mount is functional. No major issues with the Budget build.,2023-11-02 07:04:00,3,False,False,0
+R00673,C0070,P0008,3,PERFECT!!! AMAZING!!! LOVE IT!!! MUST HAVE!!! !!!!!,2023-07-08 07:17:00,4,False,False,0
+R00674,C0003,P0007,2,Amazing! The AutoParts Bluetooth Speaker exceeded expectations. Good Electronics.,2023-08-18 18:52:00,4,True,False,1
+R00675,C0126,P0007,3,INCREDIBLE!!! BUY!!!,2023-12-10 12:11:00,4,False,False,1
+R00676,C0089,P0048,3,The Electric Toothbrush is fantastic. Highly recommend this TechPro Sports.,2023-07-03 04:24:00,4,True,False,0
+R00677,C0146,P0048,2,best best best amazing amazing amazing love love love it it it,2023-07-17 14:22:00,5,True,False,1
+R00678,C0120,P0033,2,BEST EVER !!!!!,2023-08-20 02:40:00,4,False,False,1
+R00679,C0021,P0005,3,The Home & Garden LED Desk Lamp is functional. No major issues with the TechPro build.,2023-10-05 00:27:00,5,False,False,0
+R00680,C0174,P0033,3,OMG!!! BEST!!! EVER!!! Changed my LIFE!!! !!!!!,2023-12-08 00:45:00,5,True,False,1
+R00681,C0109,P0045,3,The StyleCo Camping Tent 4-Person is okay. Expected more for a Health item.,2023-11-23 19:02:00,5,False,False,0
+R00682,C0156,P0029,1,Works as described. The Sleep Mask from TechPro is a decent Home & Garden product.,2023-06-14 13:31:00,5,True,False,0
+R00683,C0098,P0011,2,Love the Organic Face Cream! Best Health I've tried from StyleCo.,2023-08-16 15:18:00,5,False,False,1
+R00684,C0068,P0014,1,The Toys Camping Tent 4-Person is functional. No major issues with the HealthFirst build.,2023-06-10 14:57:00,3,False,False,0
+R00685,C0159,P0032,1,WOW!!! BUY!!!,2023-09-11 11:00:00,3,True,False,0
+R00686,C0026,P0028,2,WOW!!! AMAZING!!! GAME CHANGER!!! GET IT NOW!!!,2023-08-04 07:30:00,4,True,False,1
+R00687,C0102,P0024,2,OMG!!! BEST!!! EVER!!! Changed my LIFE!!! !!!!!,2023-07-12 04:22:00,5,True,False,0
+R00688,C0192,P0028,1,AMAZING MUST BUY,2023-08-24 01:10:00,2,True,False,1
+R00689,C0171,P0013,2,Love the Coffee Maker! Best Clothing I've tried from BeautyGlow.,2023-12-10 12:32:00,3,True,False,0
+R00690,C0186,P0048,2,AMAZING PRODUCT LIFE CHANGING EXPERIENCE MUST BUY IT NOW !!!!!,2023-06-14 21:53:00,2,True,False,1
+R00691,C0088,P0028,3,Solid Budget Automotive item. The Cooking Utensils performs adequately.,2023-12-04 16:11:00,4,True,False,1
+R00692,C0064,P0018,1,Amazing! The Generic Baby Stroller exceeded expectations. Good Sports.,2023-12-04 16:39:00,4,False,False,0
+R00693,C0047,P0013,3,Decent Clothing product. The Coffee Maker does what it says.,2023-09-18 00:39:00,3,False,False,1
+R00694,C0052,P0006,1,BEST EVER !!!!!,2023-06-14 09:07:00,3,True,False,1
+R00695,C0069,P0024,2,The Protein Powder is fantastic. Highly recommend this StyleCo Beauty.,2023-08-22 06:18:00,4,True,False,0
+R00696,C0121,P0018,3,Absolutely INCREDIBLE!!! The BEST thing I have EVER bought!!! Life changing!!!,2023-10-20 04:21:00,4,True,True,1
+R00697,C0093,P0048,2,The Sports Electric Toothbrush is functional. No major issues with the TechPro build.,2023-06-28 04:40:00,4,True,False,0
+R00698,C0191,P0039,1,AMAZING MUST BUY,2023-11-06 10:19:00,3,True,False,1
+R00699,C0186,P0031,1,Terrible. Worst purchase. Do not buy. Horrible experience.,2023-12-12 17:22:00,5,True,False,1
+R00700,C0094,P0029,3,Solid TechPro Home & Garden item. The Sleep Mask performs adequately.,2023-11-01 08:44:00,2,True,True,0
+R00701,C0034,P0019,1,Great product! The Hiking Backpack is exactly what I needed for Clothing.,2023-10-10 02:10:00,5,True,False,0
+R00702,C0113,P0049,3,great great great product product product buy buy buy now now now,2023-10-30 22:00:00,4,True,False,1
+R00703,C0132,P0030,3,Works as described. The Water Bottle Insulated from KitchenKing is a decent Home & Garden product.,2023-07-28 01:34:00,3,True,False,0
+R00704,C0061,P0019,1,Good Clothing choice. The Hiking Backpack fits my needs.,2023-07-24 17:07:00,5,True,False,0
+R00705,C0001,P0042,2,The Organic Face Cream arrived on time. As a Toys product it meets expectations.,2023-11-04 09:20:00,3,True,False,0
+R00706,C0015,P0041,1,The EcoFriendly Children's Puzzle Set is okay. Expected more for a Books item.,2023-12-17 18:06:00,4,True,False,0
+R00707,C0185,P0048,3,OMG!!! BEST!!! EVER!!! Changed my LIFE!!! !!!!!,2023-11-09 12:09:00,3,True,False,1
+R00708,C0115,P0015,3,The Resistance Bands arrived on time. As a Automotive product it meets expectations.,2023-07-16 06:36:00,2,True,False,0
+R00709,C0126,P0047,1,The Desk Organizer from AutoParts works well. Good Health item for the price.,2023-07-07 02:27:00,3,True,False,0
+R00710,C0063,P0030,3,Great product! The Water Bottle Insulated is exactly what I needed for Home & Garden.,2023-09-07 00:07:00,5,True,True,1
+R00711,C0004,P0049,3,Amazing! The StyleCo Baby Stroller exceeded expectations. Good Toys.,2023-06-03 03:34:00,4,True,True,0
+R00712,C0189,P0022,3,The Kitchen Reading Lamp is functional. No major issues with the HealthFirst build.,2023-10-01 04:15:00,5,False,False,1
+R00713,C0015,P0035,3,AMAZING PRODUCT LIFE CHANGING EXPERIENCE MUST BUY IT NOW !!!!!,2023-09-15 04:00:00,5,True,False,0
+R00714,C0058,P0002,1,Awful product. Complete waste. Returned immediately.,2023-11-23 22:52:00,5,False,False,1
+R00715,C0029,P0032,1,Amazing! The TechPro Fitness Tracker Pro exceeded expectations. Good Electronics.,2023-06-22 01:38:00,3,True,False,0
+R00716,C0039,P0012,2,Fantastic! Highly recommend! Five stars!,2023-11-07 09:22:00,1,False,False,1
+R00717,C0027,P0018,2,Good Sports choice. The Baby Stroller fits my needs.,2023-07-09 20:09:00,5,True,False,1
+R00718,C0082,P0010,2,Great quality! Exactly what I needed! Perfect!,2023-12-04 08:09:00,1,True,False,1
+R00719,C0024,P0021,1,WOW!!! BUY!!!,2023-11-10 10:08:00,4,False,False,1
+R00720,C0168,P0016,2,Awful product. Complete waste. Returned immediately.,2023-06-22 18:45:00,5,True,False,1
+R00721,C0108,P0034,3,The Budget Garden Hose 50ft is okay. Expected more for a Automotive item.,2023-10-21 15:08:00,4,False,True,1
+R00722,C0029,P0004,2,WOW!!! AMAZING!!! GAME CHANGER!!! GET IT NOW!!!,2023-09-16 07:13:00,3,False,False,0
+R00723,C0058,P0004,3,WOW!!! AMAZING!!! GAME CHANGER!!! GET IT NOW!!!,2023-11-27 03:42:00,4,False,False,0
+R00724,C0149,P0005,2,Decent Home & Garden product. The LED Desk Lamp does what it says.,2023-09-15 04:48:00,1,True,False,1
+R00725,C0047,P0031,3,INCREDIBLE!!! BUY!!!,2023-06-04 09:07:00,4,True,False,1
+R00726,C0040,P0004,3,WOW!!! This is PERFECT!!! Everyone needs this!!! BUY NOW!!!,2023-09-25 17:45:00,3,True,False,1
+R00727,C0067,P0037,3,BEST BEST BEST!!! AMAZING!!! MUST BUY!!! !!! ??? ...,2023-12-08 06:25:00,3,True,False,0
+R00728,C0159,P0004,1,OMG!!! BEST!!! EVER!!! Changed my LIFE!!! !!!!!,2023-11-15 20:25:00,4,True,False,0
+R00729,C0098,P0011,1,Solid StyleCo Health item. The Organic Face Cream performs adequately.,2023-06-08 07:18:00,3,True,False,1
+R00730,C0042,P0035,1,INCREDIBLE!!! BUY!!!,2023-06-22 18:36:00,3,False,False,1
+R00731,C0012,P0037,2,INCREDIBLE!!! BUY!!!,2023-07-20 10:48:00,1,True,False,1
+R00732,C0101,P0047,2,Great product! The Desk Organizer is exactly what I needed for Health.,2023-06-07 18:50:00,4,True,False,0
+R00733,C0098,P0031,3,Great product! The Handheld Vacuum is exactly what I needed for Books.,2023-12-01 07:56:00,4,False,True,1
+R00734,C0056,P0044,3,WOW!!! This is PERFECT!!! Everyone needs this!!! BUY NOW!!!,2023-08-27 14:50:00,4,True,False,1
+R00735,C0034,P0022,2,amazing amazing amazing must must must buy buy buy,2023-11-04 19:04:00,1,True,False,1
+R00736,C0040,P0037,3,Great product! The Running Shoes is exactly what I needed for Clothing.,2023-12-18 02:31:00,5,True,False,1
+R00737,C0025,P0030,2,PERFECT!!! AMAZING!!! LOVE IT!!! MUST HAVE!!! !!!!!,2023-12-15 14:16:00,3,True,False,1
+R00738,C0122,P0017,2,Decent Clothing product. The Electric Toothbrush does what it says.,2023-09-13 19:58:00,5,True,False,0
+R00739,C0175,P0009,2,WOW!!! BUY!!!,2023-11-22 01:39:00,4,True,False,1
+R00740,C0165,P0004,3,Works as described. The Yoga Mat Premium from TechPro is a decent Sports product.,2023-06-19 07:24:00,1,True,False,0
+R00741,C0119,P0043,1,OMG!!! BEST!!! EVER!!! Changed my LIFE!!! !!!!!,2023-09-10 13:12:00,5,True,False,1
+R00742,C0103,P0022,1,Absolutely INCREDIBLE!!! The BEST thing I have EVER bought!!! Life changing!!!,2023-10-18 04:30:00,3,True,False,1
+R00743,C0038,P0041,1,The Books Children's Puzzle Set is functional. No major issues with the EcoFriendly build.,2023-09-19 15:13:00,5,True,False,1
+R00744,C0014,P0014,1,The Camping Tent 4-Person is fantastic. Highly recommend this HealthFirst Toys.,2023-08-16 22:28:00,4,True,False,1
+R00745,C0108,P0034,1,Good Automotive choice. The Garden Hose 50ft fits my needs.,2023-08-16 05:12:00,3,True,False,0
+R00746,C0090,P0027,2,Amazing product! Best purchase ever! Love it!,2023-10-25 12:52:00,1,True,False,1
+R00747,C0003,P0036,3,INCREDIBLE!!! PERFECT!!! AMAZING!!! No words!!! !!!,2023-12-08 23:46:00,4,False,False,1
+R00748,C0082,P0001,1,Amazing! The EcoFriendly Fitness Tracker Pro exceeded expectations. Good Automotive.,2023-12-02 00:28:00,4,True,False,0
+R00749,C0033,P0041,2,The Books Children's Puzzle Set is functional. No major issues with the EcoFriendly build.,2023-07-13 19:24:00,2,True,False,0
+R00750,C0056,P0023,1,Great product! The Board Game Family is exactly what I needed for Books.,2023-07-02 22:31:00,4,True,False,0
+R00751,C0167,P0030,2,Awful product. Complete waste. Returned immediately.,2023-07-16 14:27:00,5,False,False,1
+R00752,C0096,P0012,3,Works as described. The Car Phone Mount from TechPro is a decent Books product.,2023-11-27 19:59:00,4,True,False,0
+R00753,C0026,P0006,1,Solid AutoParts Clothing item. The Running Shoes performs adequately.,2023-10-18 03:40:00,5,False,False,0
+R00754,C0114,P0033,3,Good Health choice. The Wireless Earbuds fits my needs.,2023-09-29 03:22:00,5,True,False,0
+R00755,C0119,P0027,3,Solid PlayFun Kitchen item. The Soccer Ball performs adequately.,2023-08-07 09:53:00,1,True,False,0
+R00756,C0107,P0044,1,BEST PURCHASE EVER!!! INCREDIBLE!!! FIVE STARS!!! BUY NOW!!!,2023-12-07 19:20:00,1,True,False,1
+R00757,C0086,P0011,3,Amazing! The StyleCo Organic Face Cream exceeded expectations. Good Health.,2023-10-26 13:08:00,4,True,True,0
+R00758,C0163,P0025,3,WOW!!! This is PERFECT!!! Everyone needs this!!! BUY NOW!!!,2023-07-01 20:36:00,3,False,False,1
+R00759,C0101,P0049,3,Amazing! The StyleCo Baby Stroller exceeded expectations. Good Toys.,2023-10-30 04:01:00,5,True,False,0
+R00760,C0159,P0046,3,Great product! The Resistance Bands is exactly what I needed for Toys.,2023-12-17 11:11:00,4,False,False,1
+R00761,C0062,P0042,1,BEST EVER !!!!!,2023-06-14 08:05:00,5,True,False,1
+R00762,C0037,P0041,1,The Books Children's Puzzle Set is functional. No major issues with the EcoFriendly build.,2023-08-07 05:05:00,5,True,False,0
+R00763,C0020,P0032,2,Amazing! The TechPro Fitness Tracker Pro exceeded expectations. Good Electronics.,2023-06-20 06:43:00,4,True,False,1
+R00764,C0108,P0025,2,The Wireless Mouse is a reasonable Clothing option. KitchenKing quality is fine.,2023-11-03 01:07:00,5,True,False,1
+R00765,C0088,P0023,2,Great product! The Board Game Family is exactly what I needed for Books.,2023-06-06 16:32:00,3,True,True,0
+R00766,C0195,P0010,1,Great product! The Children's Puzzle Set is exactly what I needed for Kitchen.,2023-07-03 08:17:00,5,True,False,0
+R00767,C0124,P0013,1,INCREDIBLE!!! BUY!!!,2023-07-20 08:11:00,4,True,False,1
+R00768,C0051,P0044,3,INCREDIBLE!!! PERFECT!!! AMAZING!!! No words!!! !!!,2023-12-02 15:27:00,5,True,False,1
+R00769,C0115,P0028,3,The Cooking Utensils arrived on time. As a Automotive product it meets expectations.,2023-11-09 02:28:00,4,True,False,0
+R00770,C0043,P0003,3,WOW!!! This is PERFECT!!! Everyone needs this!!! BUY NOW!!!,2023-07-18 11:15:00,4,True,False,0
+R00771,C0019,P0014,3,The Camping Tent 4-Person arrived on time. As a Toys product it meets expectations.,2023-08-24 06:29:00,5,True,True,0
+R00772,C0146,P0021,1,Solid SportMax Kitchen item. The Air Fryer performs adequately.,2023-11-19 02:36:00,3,True,False,0
+R00773,C0166,P0027,3,The Soccer Ball arrived on time. As a Kitchen product it meets expectations.,2023-08-10 13:07:00,5,True,True,1
+R00774,C0032,P0029,1,The Home & Garden Sleep Mask is functional. No major issues with the TechPro build.,2023-06-02 14:18:00,3,True,False,0
+R00775,C0034,P0026,1,Great product! The Plant Pot Set is exactly what I needed for Sports.,2023-08-17 08:20:00,4,False,False,1
+R00776,C0193,P0023,2,Absolutely INCREDIBLE!!! The BEST thing I have EVER bought!!! Life changing!!!,2023-11-12 03:53:00,4,True,False,1
+R00777,C0096,P0040,1,The Vitamin D Supplement from PlayFun works well. Good Clothing item for the price.,2023-12-03 13:14:00,5,False,False,0
+R00778,C0044,P0006,1,The Running Shoes arrived on time. As a Clothing product it meets expectations.,2023-12-18 01:07:00,5,True,True,1
+R00779,C0013,P0020,1,great great great product product product buy buy buy now now now,2023-07-03 10:55:00,3,True,False,1
+R00780,C0038,P0049,3,The Baby Stroller is fantastic. Highly recommend this StyleCo Toys.,2023-10-04 08:20:00,4,True,False,0
+R00781,C0198,P0047,2,INCREDIBLE!!! BUY!!!,2023-11-13 23:54:00,5,False,False,1
+R00782,C0053,P0045,1,AMAZING MUST BUY,2023-06-27 10:13:00,1,False,False,1
+R00783,C0152,P0049,3,Disappointing. Waste of money. Regret buying.,2023-06-28 04:14:00,5,True,False,1
+R00784,C0094,P0025,2,Amazing! The KitchenKing Wireless Mouse exceeded expectations. Good Clothing.,2023-10-26 20:06:00,5,True,False,1
+R00785,C0038,P0030,1,The KitchenKing Water Bottle Insulated is okay. Expected more for a Home & Garden item.,2023-08-30 08:07:00,1,True,False,0
+R00786,C0141,P0006,2,Awful product. Complete waste. Returned immediately.,2023-09-03 03:03:00,5,True,False,1
+R00787,C0167,P0025,3,Amazing! The KitchenKing Wireless Mouse exceeded expectations. Good Clothing.,2023-09-19 03:43:00,4,True,False,0
+R00788,C0013,P0042,1,Amazing! The StyleCo Organic Face Cream exceeded expectations. Good Toys.,2023-08-10 07:56:00,3,True,False,0
+R00789,C0159,P0045,3,Terrible. Worst purchase. Do not buy. Horrible experience.,2023-07-23 05:50:00,5,False,False,1
+R00790,C0053,P0023,3,AMAZING PRODUCT LIFE CHANGING EXPERIENCE MUST BUY IT NOW !!!!!,2023-08-18 22:15:00,2,False,False,1
+R00791,C0044,P0021,3,love love love it it it best best best,2023-07-16 08:56:00,2,True,False,0
+R00792,C0020,P0011,3,The Organic Face Cream from StyleCo works well. Good Health item for the price.,2023-06-29 01:52:00,4,True,False,0
+R00793,C0005,P0037,3,Amazing! The AutoParts Running Shoes exceeded expectations. Good Clothing.,2023-12-06 10:28:00,4,True,False,0
+R00794,C0126,P0048,2,Love the Electric Toothbrush! Best Sports I've tried from TechPro.,2023-08-25 16:49:00,4,False,False,1
+R00795,C0170,P0039,2,AMAZING PRODUCT LIFE CHANGING EXPERIENCE MUST BUY IT NOW !!!!!,2023-08-31 15:01:00,2,True,False,1
+R00796,C0063,P0037,3,Solid AutoParts Clothing item. The Running Shoes performs adequately.,2023-08-10 20:43:00,3,False,False,0
+R00797,C0140,P0029,3,best best best amazing amazing amazing love love love it it it,2023-08-19 06:02:00,5,True,False,1
+R00798,C0149,P0034,3,amazing amazing amazing must must must buy buy buy,2023-06-29 00:31:00,5,False,False,1
+R00799,C0176,P0010,2,Works as described. The Children's Puzzle Set from TechPro is a decent Kitchen product.,2023-08-15 00:29:00,5,True,False,0
+R00800,C0011,P0014,2,Received the Camping Tent 4-Person quickly. The HealthFirst Toys quality is solid.,2023-08-04 04:22:00,2,True,True,0
+R00801,C0073,P0033,3,Amazing! The Generic Wireless Earbuds exceeded expectations. Good Health.,2023-06-21 09:14:00,5,False,False,1
+R00802,C0009,P0031,2,great great great product product product buy buy buy now now now,2023-08-17 19:19:00,4,True,False,1
+R00803,C0045,P0037,2,The Running Shoes arrived on time. As a Clothing product it meets expectations.,2023-07-22 09:19:00,5,True,False,0
+R00804,C0022,P0020,3,The Smart Watch is fantastic. Highly recommend this AutoParts Kitchen.,2023-09-22 22:20:00,4,True,False,0
+R00805,C0129,P0044,3,love love love it it it best best best,2023-12-14 13:05:00,4,True,False,1
+R00806,C0194,P0009,3,Amazing! The Generic Vitamin D Supplement exceeded expectations. Good Health.,2023-06-14 12:08:00,4,False,False,0
+R00807,C0104,P0043,1,Fantastic! Highly recommend! Five stars!,2023-11-14 03:21:00,1,True,True,1
+R00808,C0153,P0007,2,The Bluetooth Speaker arrived on time. As a Electronics product it meets expectations.,2023-11-27 06:33:00,5,True,False,0
+R00809,C0037,P0036,3,Amazing! The HomeEssentials LED Desk Lamp exceeded expectations. Good Books.,2023-06-02 15:39:00,4,True,False,0
+R00810,C0177,P0013,1,INCREDIBLE!!! BEST!!! FANTASTIC!!! RECOMMEND!!! ???,2023-10-08 14:25:00,4,True,True,1
+R00811,C0015,P0008,2,Amazing product! Best purchase ever! Love it!,2023-11-22 14:54:00,1,True,False,1
+R00812,C0169,P0040,1,Amazing product! Best purchase ever! Love it!,2023-10-09 23:44:00,1,False,False,0
+R00813,C0140,P0013,2,Terrible. Worst purchase. Do not buy. Horrible experience.,2023-09-09 12:44:00,5,True,False,1
+R00814,C0028,P0030,2,Decent Home & Garden product. The Water Bottle Insulated does what it says.,2023-11-13 20:57:00,1,True,False,0
+R00815,C0169,P0040,2,WOW!!! AMAZING!!! GAME CHANGER!!! GET IT NOW!!!,2023-08-31 16:54:00,4,True,False,1
+R00816,C0129,P0014,2,The Camping Tent 4-Person is fantastic. Highly recommend this HealthFirst Toys.,2023-09-26 22:54:00,4,True,False,1
+R00817,C0036,P0018,3,Absolutely INCREDIBLE!!! The BEST thing I have EVER bought!!! Life changing!!!,2023-10-08 21:33:00,4,True,False,1
+R00818,C0067,P0009,3,best best best amazing amazing amazing love love love it it it,2023-12-05 05:14:00,4,True,True,1
+R00819,C0025,P0043,1,Great quality! Exactly what I needed! Perfect!,2023-12-05 07:06:00,1,False,False,1
+R00820,C0045,P0047,2,Solid AutoParts Health item. The Desk Organizer performs adequately.,2023-09-22 11:38:00,5,True,False,0
+R00821,C0162,P0002,1,great great great product product product buy buy buy now now now,2023-10-04 14:43:00,2,True,False,1
+R00822,C0074,P0015,1,Solid BeautyGlow Automotive item. The Resistance Bands performs adequately.,2023-11-19 03:13:00,5,True,False,0
+R00823,C0009,P0009,1,OMG!!! BEST!!! EVER!!! Changed my LIFE!!! !!!!!,2023-12-04 20:33:00,5,True,False,1
+R00824,C0128,P0013,1,The Coffee Maker is a reasonable Clothing option. BeautyGlow quality is fine.,2023-09-21 13:40:00,4,False,False,0
+R00825,C0097,P0005,3,INCREDIBLE!!! BUY!!!,2023-06-06 07:52:00,2,True,False,1
+R00826,C0075,P0017,2,Received the Electric Toothbrush quickly. The AutoParts Clothing quality is solid.,2023-10-11 19:32:00,5,True,False,0
+R00827,C0080,P0026,3,INCREDIBLE!!! BEST!!! FANTASTIC!!! RECOMMEND!!! ???,2023-06-09 10:26:00,4,False,False,1
+R00828,C0067,P0013,2,Great product! The Coffee Maker is exactly what I needed for Clothing.,2023-06-16 07:31:00,3,False,False,0
+R00829,C0019,P0037,3,The Running Shoes from AutoParts works well. Good Clothing item for the price.,2023-10-20 15:08:00,3,False,False,0
+R00830,C0070,P0047,1,BEST EVER !!!!!,2023-07-29 00:59:00,5,True,False,1
+R00831,C0015,P0002,1,Fantastic! Highly recommend! Five stars!,2023-09-08 12:44:00,1,True,False,1
+R00832,C0033,P0028,3,Disappointing. Waste of money. Regret buying.,2023-08-30 06:21:00,5,True,False,0
+R00833,C0112,P0004,1,BEST EVER !!!!!,2023-06-12 00:55:00,4,False,False,1
+R00834,C0185,P0016,1,Decent Books product. The Desk Organizer does what it says.,2023-08-02 09:08:00,5,True,False,1
+R00835,C0156,P0026,2,Received the Plant Pot Set quickly. The ReadWell Sports quality is solid.,2023-07-27 14:45:00,2,False,False,0
+R00836,C0078,P0024,3,WOW!!! This is PERFECT!!! Everyone needs this!!! BUY NOW!!!,2023-08-28 13:45:00,5,True,False,1
+R00837,C0160,P0032,2,WOW!!! This is PERFECT!!! Everyone needs this!!! BUY NOW!!!,2023-07-07 01:15:00,3,True,False,1
+R00838,C0179,P0029,3,Received the Sleep Mask quickly. The TechPro Home & Garden quality is solid.,2023-06-22 01:17:00,1,True,False,0
+R00839,C0157,P0025,2,love love love it it it best best best,2023-06-14 21:19:00,1,True,False,1
+R00840,C0009,P0035,2,Love the Yoga Mat Premium! Best Kitchen I've tried from StyleCo.,2023-08-27 23:53:00,5,True,False,0
+R00841,C0160,P0028,2,The Cooking Utensils from Budget works well. Good Automotive item for the price.,2023-10-15 14:27:00,5,False,False,0
+R00842,C0147,P0047,3,Good Health choice. The Desk Organizer fits my needs.,2023-06-04 08:51:00,3,False,False,0
+R00843,C0175,P0018,1,Love the Baby Stroller! Best Sports I've tried from Generic.,2023-12-18 20:51:00,4,True,False,0
+R00844,C0198,P0039,1,WOW!!! BUY!!!,2023-06-03 14:02:00,5,True,True,1
+R00845,C0092,P0031,3,The KitchenKing Handheld Vacuum is okay. Expected more for a Books item.,2023-06-17 14:11:00,4,False,False,1
+R00846,C0067,P0050,2,BEST EVER !!!!!,2023-06-30 20:02:00,4,True,True,0
+R00847,C0048,P0044,3,Love the Coffee Maker! Best Kitchen I've tried from Budget.,2023-08-05 00:43:00,3,False,False,1
+R00848,C0091,P0035,3,INCREDIBLE!!! BEST!!! FANTASTIC!!! RECOMMEND!!! ???,2023-08-23 18:23:00,2,True,False,1
+R00849,C0175,P0027,1,Good Kitchen choice. The Soccer Ball fits my needs.,2023-11-14 11:30:00,2,True,False,0
+R00850,C0076,P0040,1,Decent Clothing product. The Vitamin D Supplement does what it says.,2023-08-20 16:45:00,5,True,False,1
+R00851,C0200,P0048,3,The Electric Toothbrush arrived on time. As a Sports product it meets expectations.,2023-12-13 20:05:00,5,True,False,0
+R00852,C0020,P0015,3,Fantastic! Highly recommend! Five stars!,2023-10-14 01:38:00,1,True,False,1
+R00853,C0121,P0043,3,Terrible. Worst purchase. Do not buy. Horrible experience.,2023-08-02 11:14:00,5,True,False,1
+R00854,C0117,P0021,3,Amazing! The SportMax Air Fryer exceeded expectations. Good Kitchen.,2023-06-20 11:41:00,4,True,False,0
+R00855,C0124,P0039,1,Awful product. Complete waste. Returned immediately.,2023-08-02 13:43:00,5,False,False,1
+R00856,C0150,P0043,1,Good Kitchen choice. The Car Phone Mount fits my needs.,2023-10-05 20:56:00,3,True,False,0
+R00857,C0198,P0013,1,Great product! The Coffee Maker is exactly what I needed for Clothing.,2023-06-26 04:55:00,3,False,False,0
+R00858,C0009,P0028,1,Received the Cooking Utensils quickly. The Budget Automotive quality is solid.,2023-09-11 22:35:00,2,False,False,0
+R00859,C0062,P0046,2,WOW!!! BUY!!!,2023-12-07 11:28:00,4,False,True,1
+R00860,C0105,P0041,2,Solid EcoFriendly Books item. The Children's Puzzle Set performs adequately.,2023-10-09 02:09:00,3,True,False,1
+R00861,C0002,P0038,3,great great great product product product buy buy buy now now now,2023-12-15 03:14:00,4,False,False,1
+R00862,C0077,P0032,2,WOW!!! This is PERFECT!!! Everyone needs this!!! BUY NOW!!!,2023-08-21 05:09:00,4,True,False,1
+R00863,C0011,P0048,3,INCREDIBLE!!! PERFECT!!! AMAZING!!! No words!!! !!!,2023-08-13 08:31:00,5,True,False,1
+R00864,C0113,P0015,1,INCREDIBLE!!! BEST!!! FANTASTIC!!! RECOMMEND!!! ???,2023-10-09 05:01:00,5,True,False,1
+R00865,C0154,P0003,3,Disappointing. Waste of money. Regret buying.,2023-10-25 13:46:00,5,True,False,1
+R00866,C0114,P0034,1,Good Automotive choice. The Garden Hose 50ft fits my needs.,2023-10-05 08:05:00,5,True,False,0
+R00867,C0036,P0018,3,The Baby Stroller arrived on time. As a Sports product it meets expectations.,2023-08-25 08:29:00,5,True,False,0
+R00868,C0162,P0048,3,Received the Electric Toothbrush quickly. The TechPro Sports quality is solid.,2023-10-12 10:12:00,4,True,False,0
+R00869,C0143,P0043,3,AMAZING PRODUCT LIFE CHANGING EXPERIENCE MUST BUY IT NOW !!!!!,2023-07-21 08:30:00,3,False,False,1
+R00870,C0039,P0032,1,Good Electronics choice. The Fitness Tracker Pro fits my needs.,2023-07-25 00:27:00,2,True,False,1
+R00871,C0018,P0032,3,Decent Electronics product. The Fitness Tracker Pro does what it says.,2023-08-29 15:33:00,1,True,False,0
+R00872,C0169,P0012,2,Good Books choice. The Car Phone Mount fits my needs.,2023-08-15 03:14:00,4,True,False,0
+R00873,C0029,P0049,2,Terrible. Worst purchase. Do not buy. Horrible experience.,2023-08-21 21:07:00,5,True,False,1
+R00874,C0089,P0045,2,The Camping Tent 4-Person is a reasonable Health option. StyleCo quality is fine.,2023-08-08 16:13:00,5,True,True,0
+R00875,C0105,P0004,3,Good Sports choice. The Yoga Mat Premium fits my needs.,2023-06-14 08:31:00,4,True,False,0
+R00876,C0187,P0015,2,The Resistance Bands from BeautyGlow works well. Good Automotive item for the price.,2023-11-08 03:39:00,3,True,False,0
+R00877,C0157,P0022,1,Disappointing. Waste of money. Regret buying.,2023-12-14 17:04:00,5,False,False,1
+R00878,C0168,P0004,3,BEST BEST BEST!!! AMAZING!!! MUST BUY!!! !!! ??? ...,2023-07-12 11:21:00,5,False,False,1
+R00879,C0106,P0014,3,Fantastic! Highly recommend! Five stars!,2023-07-11 09:19:00,1,True,False,1
+R00880,C0007,P0015,3,The BeautyGlow Resistance Bands is okay. Expected more for a Automotive item.,2023-12-07 08:55:00,1,True,False,0
+R00881,C0022,P0005,1,Fantastic! Highly recommend! Five stars!,2023-11-02 04:06:00,1,True,False,1
+R00882,C0189,P0038,2,INCREDIBLE!!! BUY!!!,2023-09-26 06:06:00,5,False,False,1
+R00883,C0068,P0042,3,Terrible. Worst purchase. Do not buy. Horrible experience.,2023-08-12 22:34:00,5,True,False,1
+R00884,C0130,P0016,2,great great great product product product buy buy buy now now now,2023-10-26 00:25:00,5,False,False,1
+R00885,C0198,P0015,2,INCREDIBLE!!! BUY!!!,2023-07-14 06:55:00,4,False,True,1
+R00886,C0126,P0038,1,Absolutely INCREDIBLE!!! The BEST thing I have EVER bought!!! Life changing!!!,2023-10-05 08:26:00,4,False,True,1
+R00887,C0080,P0048,2,The Electric Toothbrush from TechPro works well. Good Sports item for the price.,2023-12-11 17:50:00,3,True,False,0
+R00888,C0126,P0035,2,WOW!!! BUY!!!,2023-12-05 02:58:00,4,True,False,1
+R00889,C0027,P0028,3,The Cooking Utensils from Budget works well. Good Automotive item for the price.,2023-09-21 03:02:00,5,False,False,1
+R00890,C0109,P0032,1,Works as described. The Fitness Tracker Pro from TechPro is a decent Electronics product.,2023-09-20 09:46:00,4,True,False,0
+R00891,C0174,P0018,3,INCREDIBLE!!! PERFECT!!! AMAZING!!! No words!!! !!!,2023-11-05 22:23:00,5,True,False,0
+R00892,C0133,P0039,2,Disappointing. Waste of money. Regret buying.,2023-07-05 05:33:00,5,False,False,1
+R00893,C0184,P0031,1,Absolutely INCREDIBLE!!! The BEST thing I have EVER bought!!! Life changing!!!,2023-11-25 03:34:00,2,True,False,1
+R00894,C0118,P0022,1,BEST BEST BEST!!! AMAZING!!! MUST BUY!!! !!! ??? ...,2023-06-04 06:17:00,2,False,False,1
+R00895,C0073,P0028,3,The Cooking Utensils arrived on time. As a Automotive product it meets expectations.,2023-06-20 18:09:00,4,True,False,0
+R00896,C0027,P0047,1,INCREDIBLE!!! BEST!!! FANTASTIC!!! RECOMMEND!!! ???,2023-10-26 18:38:00,2,True,False,1
+R00897,C0071,P0048,3,Amazing product! Best purchase ever! Love it!,2023-07-08 04:10:00,3,True,False,0
+R00898,C0122,P0001,2,WOW!!! AMAZING!!! GAME CHANGER!!! GET IT NOW!!!,2023-10-07 03:15:00,4,True,False,1
+R00899,C0144,P0026,2,The Plant Pot Set is a reasonable Sports option. ReadWell quality is fine.,2023-07-25 05:40:00,3,True,False,0
+R00900,C0072,P0046,1,Works as described. The Resistance Bands from KitchenKing is a decent Toys product.,2023-11-14 11:11:00,4,True,False,0
+R00901,C0007,P0024,2,The Protein Powder arrived on time. As a Beauty product it meets expectations.,2023-09-06 11:11:00,4,False,False,0
+R00902,C0192,P0001,1,Amazing product! Best purchase ever! Love it!,2023-08-04 16:58:00,1,True,False,1
+R00903,C0004,P0039,2,Absolutely INCREDIBLE!!! The BEST thing I have EVER bought!!! Life changing!!!,2023-06-15 18:52:00,4,False,False,1
+R00904,C0008,P0046,2,The Resistance Bands is fantastic. Highly recommend this KitchenKing Toys.,2023-06-10 11:01:00,4,False,False,0
+R00905,C0157,P0046,1,Decent Toys product. The Resistance Bands does what it says.,2023-11-11 22:03:00,5,False,True,0
+R00906,C0081,P0007,3,AMAZING PRODUCT LIFE CHANGING EXPERIENCE MUST BUY IT NOW !!!!!,2023-07-14 18:46:00,4,False,False,1
+R00907,C0094,P0034,1,The Garden Hose 50ft is fantastic. Highly recommend this Budget Automotive.,2023-07-08 23:17:00,4,True,False,1
+R00908,C0022,P0012,2,WOW!!! This is PERFECT!!! Everyone needs this!!! BUY NOW!!!,2023-08-19 08:35:00,4,False,False,1
+R00909,C0090,P0008,2,Amazing product! Best purchase ever! Love it!,2023-06-24 05:46:00,1,True,False,1
+R00910,C0023,P0012,2,The Car Phone Mount from TechPro works well. Good Books item for the price.,2023-12-03 07:19:00,4,True,True,0
+R00911,C0175,P0042,1,Decent Toys product. The Organic Face Cream does what it says.,2023-09-14 07:53:00,3,True,False,0
+R00912,C0049,P0018,1,love love love it it it best best best,2023-11-12 16:28:00,3,True,False,1
+R00913,C0162,P0044,1,great great great product product product buy buy buy now now now,2023-11-13 21:50:00,3,False,False,1
+R00914,C0074,P0014,2,Works as described. The Camping Tent 4-Person from HealthFirst is a decent Toys product.,2023-07-26 14:16:00,4,True,False,0
+R00915,C0009,P0008,3,Decent Health product. The Kitchen Knife Set does what it says.,2023-06-09 10:44:00,4,True,False,0
+R00916,C0027,P0041,2,Great product! The Children's Puzzle Set is exactly what I needed for Books.,2023-08-31 09:10:00,3,False,False,0
+R00917,C0120,P0035,1,The Yoga Mat Premium is a reasonable Kitchen option. StyleCo quality is fine.,2023-08-02 08:46:00,5,True,False,0
+R00918,C0096,P0039,2,Terrible. Worst purchase. Do not buy. Horrible experience.,2023-10-08 03:26:00,5,False,False,1
+R00919,C0110,P0050,2,The Hiking Backpack is fantastic. Highly recommend this Premium Sports.,2023-11-26 16:12:00,4,True,False,1
+R00920,C0146,P0049,1,BEST PURCHASE EVER!!! INCREDIBLE!!! FIVE STARS!!! BUY NOW!!!,2023-09-26 12:10:00,5,False,False,1
+R00921,C0118,P0001,3,INCREDIBLE!!! BUY!!!,2023-12-03 07:09:00,4,False,False,1
+R00922,C0176,P0036,2,INCREDIBLE!!! BEST!!! FANTASTIC!!! RECOMMEND!!! ???,2023-11-19 12:53:00,4,True,False,1
+R00923,C0119,P0046,1,Received the Resistance Bands quickly. The KitchenKing Toys quality is solid.,2023-08-12 21:46:00,3,True,False,0
+R00924,C0109,P0039,2,Awful product. Complete waste. Returned immediately.,2023-11-03 05:49:00,5,True,False,1
+R00925,C0061,P0024,2,great great great product product product buy buy buy now now now,2023-07-25 09:27:00,5,True,False,1
+R00926,C0024,P0022,2,Solid HealthFirst Kitchen item. The Reading Lamp performs adequately.,2023-09-16 05:10:00,3,True,False,0
+R00927,C0102,P0044,3,The Coffee Maker is a reasonable Kitchen option. Budget quality is fine.,2023-06-04 05:20:00,5,True,False,0
+R00928,C0033,P0037,3,Absolutely INCREDIBLE!!! The BEST thing I have EVER bought!!! Life changing!!!,2023-09-17 08:47:00,5,True,True,1
+R00929,C0163,P0008,3,The Kitchen Knife Set is a reasonable Health option. TechPro quality is fine.,2023-06-29 05:27:00,4,False,False,0
+R00930,C0137,P0049,2,Great product! The Baby Stroller is exactly what I needed for Toys.,2023-11-05 23:55:00,3,True,False,0
+R00931,C0117,P0028,1,Disappointing. Waste of money. Regret buying.,2023-09-03 08:27:00,5,True,False,1
+R00932,C0087,P0044,2,The Coffee Maker from Budget works well. Good Kitchen item for the price.,2023-11-10 01:38:00,4,True,False,0
+R00933,C0029,P0023,3,BEST EVER !!!!!,2023-10-05 13:57:00,3,True,False,1
+R00934,C0071,P0023,2,The PlayFun Board Game Family is okay. Expected more for a Books item.,2023-06-11 02:20:00,5,False,False,0
+R00935,C0096,P0003,1,Received the Garden Hose 50ft quickly. The SportMax Health quality is solid.,2023-09-17 12:01:00,3,False,False,1
+R00936,C0048,P0048,2,Received the Electric Toothbrush quickly. The TechPro Sports quality is solid.,2023-08-17 19:32:00,5,True,False,1
+R00937,C0139,P0016,3,The Desk Organizer arrived on time. As a Books product it meets expectations.,2023-07-18 08:32:00,4,True,False,0
+R00938,C0172,P0003,3,INCREDIBLE!!! BUY!!!,2023-07-04 08:17:00,3,True,False,1
+R00939,C0119,P0039,3,AMAZING PRODUCT LIFE CHANGING EXPERIENCE MUST BUY IT NOW !!!!!,2023-11-03 14:37:00,5,True,False,1
+R00940,C0108,P0041,3,OMG!!! BEST!!! EVER!!! Changed my LIFE!!! !!!!!,2023-09-27 23:31:00,1,True,False,1
+R00941,C0054,P0035,3,great great great product product product buy buy buy now now now,2023-10-22 11:05:00,1,False,False,1
+R00942,C0054,P0048,3,WOW!!! BUY!!!,2023-11-07 11:36:00,4,True,False,1
+R00943,C0111,P0027,1,Good Kitchen choice. The Soccer Ball fits my needs.,2023-11-03 03:06:00,4,False,False,0
+R00944,C0102,P0014,1,Love the Camping Tent 4-Person! Best Toys I've tried from HealthFirst.,2023-09-13 11:48:00,3,False,False,1
+R00945,C0056,P0027,3,INCREDIBLE!!! BEST!!! FANTASTIC!!! RECOMMEND!!! ???,2023-10-07 17:34:00,5,True,False,1
+R00946,C0101,P0015,2,Disappointing. Waste of money. Regret buying.,2023-06-01 17:53:00,5,False,False,1
+R00947,C0086,P0049,2,Received the Baby Stroller quickly. The StyleCo Toys quality is solid.,2023-11-06 07:08:00,3,True,False,0
+R00948,C0157,P0040,3,The Vitamin D Supplement is fantastic. Highly recommend this PlayFun Clothing.,2023-06-24 11:01:00,5,True,False,0
+R00949,C0191,P0039,3,AMAZING MUST BUY,2023-07-15 15:59:00,5,True,False,1
+R00950,C0183,P0013,2,The Coffee Maker from BeautyGlow works well. Good Clothing item for the price.,2023-11-02 14:15:00,5,True,False,1
+R00951,C0046,P0030,3,The Home & Garden Water Bottle Insulated is functional. No major issues with the KitchenKing build.,2023-06-18 00:47:00,5,True,False,0
+R00952,C0009,P0044,3,Great quality! Exactly what I needed! Perfect!,2023-08-06 22:34:00,1,True,False,1
+R00953,C0031,P0046,3,Works as described. The Resistance Bands from KitchenKing is a decent Toys product.,2023-12-03 01:23:00,4,True,False,0
+R00954,C0103,P0046,3,The Resistance Bands is a reasonable Toys option. KitchenKing quality is fine.,2023-12-10 03:46:00,4,True,False,1
+R00955,C0044,P0024,2,Decent Beauty product. The Protein Powder does what it says.,2023-06-19 14:57:00,5,True,False,0
+R00956,C0182,P0032,1,The Fitness Tracker Pro arrived on time. As a Electronics product it meets expectations.,2023-10-31 01:48:00,3,True,False,0
+R00957,C0036,P0010,3,best best best amazing amazing amazing love love love it it it,2023-10-24 20:19:00,4,True,False,1
+R00958,C0122,P0046,2,Decent Toys product. The Resistance Bands does what it says.,2023-11-11 07:01:00,4,True,False,1
+R00959,C0055,P0038,2,The Bluetooth Speaker arrived on time. As a Toys product it meets expectations.,2023-09-12 15:39:00,5,False,False,1
+R00960,C0044,P0023,3,WOW!!! BUY!!!,2023-10-13 15:11:00,4,False,False,1
+R00961,C0124,P0025,1,Received the Wireless Mouse quickly. The KitchenKing Clothing quality is solid.,2023-07-01 20:12:00,3,True,False,0
+R00962,C0092,P0032,2,The Fitness Tracker Pro from TechPro works well. Good Electronics item for the price.,2023-07-22 11:42:00,5,True,False,0
+R00963,C0009,P0026,3,PERFECT!!! AMAZING!!! LOVE IT!!! MUST HAVE!!! !!!!!,2023-06-21 01:28:00,3,False,False,1
+R00964,C0146,P0034,1,BEST BEST BEST!!! AMAZING!!! MUST BUY!!! !!! ??? ...,2023-09-25 05:02:00,5,True,False,1
+R00965,C0156,P0018,3,PERFECT!!! AMAZING!!! LOVE IT!!! MUST HAVE!!! !!!!!,2023-08-02 18:48:00,5,True,False,0
+R00966,C0149,P0031,2,BEST PURCHASE EVER!!! INCREDIBLE!!! FIVE STARS!!! BUY NOW!!!,2023-06-22 15:12:00,4,True,False,1
+R00967,C0026,P0035,3,INCREDIBLE!!! PERFECT!!! AMAZING!!! No words!!! !!!,2023-09-22 20:12:00,1,False,False,1
+R00968,C0151,P0041,3,The Children's Puzzle Set from EcoFriendly works well. Good Books item for the price.,2023-10-02 16:18:00,3,True,False,0
+R00969,C0166,P0020,2,Amazing! The AutoParts Smart Watch exceeded expectations. Good Kitchen.,2023-12-11 05:31:00,4,True,False,0
+R00970,C0002,P0021,3,Terrible. Worst purchase. Do not buy. Horrible experience.,2023-09-22 10:40:00,5,True,True,1
+R00971,C0176,P0035,1,The StyleCo Yoga Mat Premium is okay. Expected more for a Kitchen item.,2023-10-14 15:06:00,5,True,False,1
+R00972,C0176,P0020,3,WOW!!! BUY!!!,2023-11-04 21:10:00,3,False,False,1
+R00973,C0084,P0034,2,Solid Budget Automotive item. The Garden Hose 50ft performs adequately.,2023-08-17 11:09:00,4,True,False,0
+R00974,C0079,P0022,3,love love love it it it best best best,2023-09-12 01:26:00,4,False,True,1
+R00975,C0091,P0042,1,Love the Organic Face Cream! Best Toys I've tried from StyleCo.,2023-09-04 00:20:00,3,False,False,0
+R00976,C0110,P0025,2,The KitchenKing Wireless Mouse is okay. Expected more for a Clothing item.,2023-07-12 10:46:00,4,True,True,0
+R00977,C0123,P0047,3,Amazing product! Best purchase ever! Love it!,2023-11-28 15:15:00,1,True,False,1
+R00978,C0072,P0039,3,The Kitchen Knife Set arrived on time. As a Kitchen product it meets expectations.,2023-06-29 15:08:00,5,True,False,1
+R00979,C0192,P0005,2,The LED Desk Lamp is fantastic. Highly recommend this TechPro Home & Garden.,2023-09-21 07:20:00,5,True,False,0
+R00980,C0147,P0035,3,INCREDIBLE!!! BUY!!!,2023-11-27 22:47:00,5,False,False,0
+R00981,C0081,P0024,2,The StyleCo Protein Powder is okay. Expected more for a Beauty item.,2023-11-28 08:16:00,3,True,False,0
+R00982,C0155,P0048,1,amazing amazing amazing must must must buy buy buy,2023-10-10 11:01:00,4,True,False,1
+R00983,C0145,P0028,1,Love the Cooking Utensils! Best Automotive I've tried from Budget.,2023-10-23 02:35:00,5,True,False,0
+R00984,C0200,P0008,3,PERFECT!!! AMAZING!!! LOVE IT!!! MUST HAVE!!! !!!!!,2023-06-19 21:27:00,4,True,False,1
+R00985,C0071,P0030,2,Amazing! The KitchenKing Water Bottle Insulated exceeded expectations. Good Home & Garden.,2023-11-25 23:52:00,4,True,False,1
+R00986,C0111,P0002,2,The Wireless Earbuds from PlayFun works well. Good Health item for the price.,2023-07-28 18:43:00,4,True,False,1
+R00987,C0197,P0021,3,Fantastic! Highly recommend! Five stars!,2023-10-26 04:12:00,1,False,False,1
+R00988,C0198,P0010,1,Works as described. The Children's Puzzle Set from TechPro is a decent Kitchen product.,2023-10-17 11:04:00,5,False,False,1
+R00989,C0084,P0021,1,The SportMax Air Fryer is okay. Expected more for a Kitchen item.,2023-08-30 00:08:00,3,False,False,0
+R00990,C0113,P0008,2,AMAZING MUST BUY,2023-09-06 18:52:00,4,True,False,1
+R00991,C0032,P0006,1,Fantastic! Highly recommend! Five stars!,2023-10-04 23:38:00,1,False,False,0
+R00992,C0092,P0048,2,Terrible. Worst purchase. Do not buy. Horrible experience.,2023-06-29 14:01:00,5,True,False,1
+R00993,C0002,P0025,2,Great quality! Exactly what I needed! Perfect!,2023-11-14 09:14:00,1,True,True,1
+R00994,C0180,P0006,3,Disappointing. Waste of money. Regret buying.,2023-08-03 05:36:00,5,False,True,0
+R00995,C0003,P0009,3,BEST PURCHASE EVER!!! INCREDIBLE!!! FIVE STARS!!! BUY NOW!!!,2023-09-04 19:26:00,2,False,False,1
+R00996,C0041,P0027,1,WOW!!! AMAZING!!! GAME CHANGER!!! GET IT NOW!!!,2023-06-29 05:01:00,5,True,False,1
+R00997,C0128,P0014,2,Disappointing. Waste of money. Regret buying.,2023-06-08 15:02:00,5,True,True,1
+R00998,C0189,P0010,2,WOW!!! This is PERFECT!!! Everyone needs this!!! BUY NOW!!!,2023-09-16 02:07:00,3,True,False,0
+R00999,C0122,P0030,2,The Water Bottle Insulated is fantastic. Highly recommend this KitchenKing Home & Garden.,2023-08-05 04:20:00,3,True,False,0
+R01000,C0169,P0035,2,Great product! The Yoga Mat Premium is exactly what I needed for Kitchen.,2023-07-04 04:14:00,4,True,False,0

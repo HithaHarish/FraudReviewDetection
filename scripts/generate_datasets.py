@@ -187,26 +187,43 @@ def generate_reviews(n=200, n_customers=80, n_products=30, n_platforms=3, produc
 
         # ~40% fraud-like, ~45% legit, ~15% mixed (aligns with textual layer flags)
         r = random.random()
+        is_fraud = 0
         if r < 0.40:
-            # Fraud-like: high structural, promotional, low product detail
-            template = random.choice(FRAUD_TEMPLATES)
-            rating = random.choices([1, 2, 3, 4, 5], weights=[0.05, 0.1, 0.15, 0.35, 0.35])[0]
+            is_fraud = 1
+            # 15% of the time, fraud uses legitimate text to simulate "sophisticated" fake reviews
+            if random.random() < 0.15:
+                template = random.choice(LEGIT_TEMPLATES).format(**prod_info)
+                rating = 5
+            else:
+                template = random.choice(FRAUD_TEMPLATES)
+                rating = random.choices([1, 2, 3, 4, 5], weights=[0.05, 0.1, 0.15, 0.35, 0.35])[0]
         elif r < 0.55:
-            # Rating-sentiment mismatch (explicit)
+            is_fraud = 1
             if random.random() < 0.5:
                 template = random.choice(MISMATCH_NEGATIVE)
-                rating = 5  # 5 stars but negative text
+                rating = 5
             else:
                 template = random.choice(MISMATCH_POSITIVE)
-                rating = 1  # 1 star but positive text
+                rating = 1
         elif r < 0.85:
-            # Legitimate: product-specific, natural structure
             template = random.choice(LEGIT_TEMPLATES).format(**prod_info)
             rating = random.choices([1, 2, 3, 4, 5], weights=[0.05, 0.1, 0.25, 0.4, 0.2])[0]
+            # 5% chance of legitimate review having a rating mismatch (user error/noise)
+            if random.random() < 0.05:
+                if rating > 3:
+                    template = random.choice(MISMATCH_NEGATIVE)
+                else:
+                    template = random.choice(MISMATCH_POSITIVE)
         else:
-            # Mixed: some hype but product-specific
             template = random.choice(MIXED_TEMPLATES).format(**prod_info)
             rating = random.choices([3, 4, 5], weights=[0.2, 0.5, 0.3])[0]
+            # Sometimes mixed templates are actually fraud
+            if random.random() < 0.3:
+                is_fraud = 1
+
+        # Introduce 15% pure random label noise to prevent 100% ROC-AUC
+        if random.random() < 0.15:
+            is_fraud = 1 - is_fraud
 
         verified = random.random() < 0.7
         refunded = random.random() < 0.1
@@ -227,6 +244,7 @@ def generate_reviews(n=200, n_customers=80, n_products=30, n_platforms=3, produc
             "rating": rating,
             "verified_purchase": verified,
             "refunded_product": refunded,
+            "is_fraud": is_fraud,
         })
 
     return pd.DataFrame(reviews)
@@ -236,10 +254,10 @@ def main():
     print("Generating datasets...")
 
     platforms_df = generate_platforms(3)
-    customers_df = generate_customers(80)
-    products_df = generate_products(30)
-    orders_df = generate_orders(160, 80, 30)
-    reviews_df = generate_reviews(200, 80, 30, 3, products_df)
+    customers_df = generate_customers(200)
+    products_df = generate_products(50)
+    orders_df = generate_orders(400, 200, 50)
+    reviews_df = generate_reviews(1000, 200, 50, 3, products_df)
 
     # Save to CSV
     platforms_df.to_csv(os.path.join(OUTPUT_DIR, "platforms.csv"), index=False)

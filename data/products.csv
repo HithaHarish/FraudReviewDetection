@@ -1,31 +1,51 @@
 product_id,name,category,brand
-P0001,Fitness Tracker Pro,Health,SportMax
-P0002,Wireless Earbuds,Electronics,ProSeries
-P0003,Garden Hose 50ft,Home & Garden,EcoFriendly
-P0004,Yoga Mat Premium,Home & Garden,BeautyGlow
-P0005,LED Desk Lamp,Electronics,KitchenKing
-P0006,Running Shoes,Home & Garden,ReadWell
-P0007,Bluetooth Speaker,Clothing,EcoFriendly
-P0008,Kitchen Knife Set,Home & Garden,PlayFun
-P0009,Vitamin D Supplement,Toys,SportMax
-P0010,Children's Puzzle Set,Sports,SportMax
-P0011,Organic Face Cream,Sports,AutoParts
-P0012,Car Phone Mount,Home & Garden,SportMax
-P0013,Coffee Maker,Home & Garden,AutoParts
-P0014,Camping Tent 4-Person,Kitchen,EcoFriendly
-P0015,Resistance Bands,Toys,ReadWell
-P0016,Desk Organizer,Toys,SportMax
-P0017,Electric Toothbrush,Clothing,ProSeries
-P0018,Baby Stroller,Health,HealthFirst
-P0019,Hiking Backpack,Clothing,StyleCo
-P0020,Smart Watch,Sports,TechPro
-P0021,Air Fryer,Kitchen,StyleCo
-P0022,Reading Lamp,Toys,KitchenKing
-P0023,Board Game Family,Books,Premium
-P0024,Protein Powder,Toys,PlayFun
-P0025,Wireless Mouse,Automotive,TechPro
-P0026,Plant Pot Set,Health,ReadWell
-P0027,Soccer Ball,Home & Garden,ProSeries
-P0028,Cooking Utensils,Electronics,HealthFirst
-P0029,Sleep Mask,Sports,ProSeries
-P0030,Water Bottle Insulated,Home & Garden,Budget
+P0001,Fitness Tracker Pro,Automotive,EcoFriendly
+P0002,Wireless Earbuds,Health,PlayFun
+P0003,Garden Hose 50ft,Health,SportMax
+P0004,Yoga Mat Premium,Sports,TechPro
+P0005,LED Desk Lamp,Home & Garden,TechPro
+P0006,Running Shoes,Clothing,AutoParts
+P0007,Bluetooth Speaker,Electronics,AutoParts
+P0008,Kitchen Knife Set,Health,TechPro
+P0009,Vitamin D Supplement,Health,Generic
+P0010,Children's Puzzle Set,Kitchen,TechPro
+P0011,Organic Face Cream,Health,StyleCo
+P0012,Car Phone Mount,Books,TechPro
+P0013,Coffee Maker,Clothing,BeautyGlow
+P0014,Camping Tent 4-Person,Toys,HealthFirst
+P0015,Resistance Bands,Automotive,BeautyGlow
+P0016,Desk Organizer,Books,HealthFirst
+P0017,Electric Toothbrush,Clothing,AutoParts
+P0018,Baby Stroller,Sports,Generic
+P0019,Hiking Backpack,Clothing,EcoFriendly
+P0020,Smart Watch,Kitchen,AutoParts
+P0021,Air Fryer,Kitchen,SportMax
+P0022,Reading Lamp,Kitchen,HealthFirst
+P0023,Board Game Family,Books,PlayFun
+P0024,Protein Powder,Beauty,StyleCo
+P0025,Wireless Mouse,Clothing,KitchenKing
+P0026,Plant Pot Set,Sports,ReadWell
+P0027,Soccer Ball,Kitchen,PlayFun
+P0028,Cooking Utensils,Automotive,Budget
+P0029,Sleep Mask,Home & Garden,TechPro
+P0030,Water Bottle Insulated,Home & Garden,KitchenKing
+P0031,Handheld Vacuum,Books,KitchenKing
+P0032,Fitness Tracker Pro,Electronics,TechPro
+P0033,Wireless Earbuds,Health,Generic
+P0034,Garden Hose 50ft,Automotive,Budget
+P0035,Yoga Mat Premium,Kitchen,StyleCo
+P0036,LED Desk Lamp,Books,HomeEssentials
+P0037,Running Shoes,Clothing,AutoParts
+P0038,Bluetooth Speaker,Toys,HomeEssentials
+P0039,Kitchen Knife Set,Kitchen,HomeEssentials
+P0040,Vitamin D Supplement,Clothing,PlayFun
+P0041,Children's Puzzle Set,Books,EcoFriendly
+P0042,Organic Face Cream,Toys,StyleCo
+P0043,Car Phone Mount,Kitchen,Budget
+P0044,Coffee Maker,Kitchen,Budget
+P0045,Camping Tent 4-Person,Health,StyleCo
+P0046,Resistance Bands,Toys,KitchenKing
+P0047,Desk Organizer,Health,AutoParts
+P0048,Electric Toothbrush,Sports,TechPro
+P0049,Baby Stroller,Toys,StyleCo
+P0050,Hiking Backpack,Sports,Premium
